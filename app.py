@@ -162,7 +162,7 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 # Titel mit Custom Styling
-st.markdown('<h1 class="main-title">Dashboard: IK Konjunkturstatistik Kunststoffverpackungen und -folienindustrie</h1>',
+st.markdown('<h1 class="main-title">Dashboard: IK Wirtschaftsstatistik Kunststoffverpackungen und -folienindustrie</h1>',
             unsafe_allow_html=True)
 
 # Add custom CSS for the banner
