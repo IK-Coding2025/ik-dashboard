@@ -123,7 +123,7 @@ st.set_page_config(
 # Logo und Styling hinzufügen
 col1, col2, col3 = st.columns([2, 1, 2])
 with col2:
-    st.image("F:/Team Ordner/IK_Server/Verwaltung/Logos/Logo IKneu/IK Logo.jpg", width=200)
+    st.image("C:\Users\l.mueller\Documents\FileCloud\Team Folders\IK_Server\Wirtschaft\statistische Daten\ik-dashboard\assets", width=200)
 
 # Custom CSS für Corporate Design
 st.markdown("""
