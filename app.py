@@ -107,10 +107,10 @@ def create_dashboard_plot(dashboard_name, selected_indicators, filtered_df):
             """)
 
         # Statistiken als ausklappbares Element
-        with st.expander(f"Statistiken ({dashboard_name})"):
-            for indicator in selected_indicators:
-                st.write(f"Kennzahlen für {indicator}:")
-                st.write(filtered_df[indicator].describe())
+        #with st.expander(f"Statistiken ({dashboard_name})"):
+            #for indicator in selected_indicators:
+                #st.write(f"Kennzahlen für {indicator}:")
+                #st.write(filtered_df[indicator].describe())
     else:
         st.info(f"Bitte Indikatoren für {dashboard_name} auswählen")
 
