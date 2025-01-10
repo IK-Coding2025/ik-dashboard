@@ -123,7 +123,7 @@ st.set_page_config(
 # Logo und Styling hinzufügen
 col1, col2, col3 = st.columns([2, 1, 2])
 with col2:
-    st.image("C:/Users/l.mueller/Documents/FileCloud/Team Folders/IK_Server/Wirtschaft/statistische Daten/ik-dashboard/assets/IK Logo.jpg", width=200)
+    st.image("assets/IK Logo.jpg", width=200)
 
 # Custom CSS für Corporate Design
 st.markdown("""
@@ -187,7 +187,7 @@ st.markdown("""
 try:
     # Daten einlesen
     df = pd.read_excel(
-        r'C:\Users\l.mueller\Documents\FileCloud\Team Folders\IK_Server\Wirtschaft\statistische Daten\ik-dashboard\data\IK_Konj+Destatis_HWWI.xlsx')
+        r'data\IK_Konj+Destatis_HWWI.xlsx')
 
     # Dashboard-Definitionen
     dashboards = {
