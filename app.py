@@ -187,7 +187,7 @@ st.markdown("""
 try:
     # Daten einlesen
     df = pd.read_excel(
-        r'data\IK_Konj+Destatis_HWWI.xlsx')
+        r'data/IK_Konj+Destatis_HWWI.xlsx')
 
     # Dashboard-Definitionen
     dashboards = {
