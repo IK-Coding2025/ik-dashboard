@@ -237,11 +237,13 @@ try:
             Dieses Dashboard zeigt zwei Arten von Daten für die deutsche Kunststoffverpackungs- und Folienindustrie:
 
             **1. Offizielle Statistiken (Destatis):**
+            - Umsatz
             - Auslandsumsatz (gesamt)
             - Auslandsumsatz mit der Eurozone
             - Auslandsumsatz mit dem sonstigen Ausland
 
             **2. IK-Konjunkturumfrage (Quartalsdaten):**
+            - Index_Umsatz
             - Index_Ertrag
             - Index_Exporte
             - Index_Verkaufspreise
