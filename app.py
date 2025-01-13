@@ -76,7 +76,7 @@ def create_dashboard_plot(dashboard_name, selected_indicators, filtered_df):
             Die linke Y-Achse (blau) zeigt die Umsatzwerte in Euro, während die rechte Y-Achse (orange) die Indexwerte anzeigt. Nicht alle Indikatoren können historisch über den kompletten Zeitverlauf abgebildet werden.
 
             **Was ist ein Indexwert?**
-            Ein Indexwert zeigt die Einschätzung der befragten Unternehmen im Vergleich zum Vorquartal. Positive Werte bedeuten eine Verbesserung, negative Werte eine Verschlechterung der Situation. Je höher der Wert, desto positiver die Einschätzung.
+            Ein Indexwert zeigt Veränderungen im Vergleich zu einem Basiszeitraum an. Bei den HWWI-Indizes (Energierohstoffe, Rohöl, Kohle, Erdgas) zeigt ein höherer Wert steigende Preise an. Bei den IK-Indizes zeigt ein positiver Wert eine Verbesserung, ein negativer Wert eine Verschlechterung der Situation im Vergleich zum Vorquartal an. Die IK-Indizes basieren auf den Einschätzungen der befragten Unternehmen und können Werte zwischen -100 und +100 annehmen. Je höher der absolute Wert, desto stärker ist der Konsens unter den Befragten. Beispielsweise würde ein IK-Index von +50 bedeuten, dass deutlich mehr Unternehmen eine Verbesserung als eine Verschlechterung erwarten, während ein Wert von -50 auf eine überwiegend negative Einschätzung hindeuten würde.
 
             **Interpretation der aktuellen Werte:**
             Im vierten Quartal 2023 lag der Gesamtumsatz bei 5,8 Mio. Euro, wovon 2,7 Mio. Euro auf den Auslandsumsatz entfielen. Der Index für Exporte erreichte einen Wert von -43 Punkten, was auf eine deutlich pessimistischere Einschätzung der Exportentwicklung durch die befragten Unternehmen im Vergleich zum Vorquartal hindeutet. Diese negative Einschätzung hat sich in den Daten bestätigt: Die Exportzahlen zeigen einen Rückgang vom zweiten zum dritten Quartal 2023.
@@ -88,7 +88,7 @@ def create_dashboard_plot(dashboard_name, selected_indicators, filtered_df):
             Die linke Y-Achse (blau) zeigt die absoluten Werte der Beschäftigten und Betriebe, während die rechte Y-Achse (orange) die Indexwerte anzeigt. Nicht alle Indikatoren können historisch über den kompletten Zeitverlauf abgebildet werden.
 
             **Was ist ein Indexwert?**
-            Ein Indexwert zeigt die Einschätzung der befragten Unternehmen im Vergleich zum Vorquartal. Positive Werte bedeuten eine Verbesserung, negative Werte eine Verschlechterung der Situation. Je höher der Wert, desto positiver die Einschätzung.
+            Ein Indexwert zeigt Veränderungen im Vergleich zu einem Basiszeitraum an. Bei den HWWI-Indizes (Energierohstoffe, Rohöl, Kohle, Erdgas) zeigt ein höherer Wert steigende Preise an. Bei den IK-Indizes zeigt ein positiver Wert eine Verbesserung, ein negativer Wert eine Verschlechterung der Situation im Vergleich zum Vorquartal an. Die IK-Indizes basieren auf den Einschätzungen der befragten Unternehmen und können Werte zwischen -100 und +100 annehmen. Je höher der absolute Wert, desto stärker ist der Konsens unter den Befragten. Beispielsweise würde ein IK-Index von +50 bedeuten, dass deutlich mehr Unternehmen eine Verbesserung als eine Verschlechterung erwarten, während ein Wert von -50 auf eine überwiegend negative Einschätzung hindeuten würde.
 
             **Interpretation der aktuellen Werte:**
             Im vierten Quartal 2023 lag die Anzahl der Beschäftigten bei 91.700 Personen. Der Index für die Beschäftigtenzahl liegt bei -32,6 Punkten, während der Index für die Wirtschaftslage bei -62,9 Punkten liegt. Dies deutet auf eine deutlich pessimistische Einschätzung sowohl der Beschäftigungsentwicklung als auch der allgemeinen Wirtschaftslage hin.
@@ -100,7 +100,7 @@ def create_dashboard_plot(dashboard_name, selected_indicators, filtered_df):
             Die Y-Achse zeigt die verschiedenen Indexwerte an. Da es sich ausschließlich um Indizes handelt, wird nur eine Y-Achse benötigt. Nicht alle Indikatoren können historisch über den kompletten Zeitverlauf abgebildet werden.
 
             **Was ist ein Indexwert?**
-            Ein Indexwert zeigt Veränderungen im Vergleich zu einem Basiszeitraum an. Bei den HWWI-Indizes (Energy raw materials, Coal, Crude oil, Natural gas) zeigt ein höherer Wert steigende Preise an. Bei den IK-Indizes zeigt ein positiver Wert eine Verbesserung, ein negativer Wert eine Verschlechterung der Situation im Vergleich zum Vorquartal an.
+            Ein Indexwert zeigt Veränderungen im Vergleich zu einem Basiszeitraum an. Bei den HWWI-Indizes (Energierohstoffe, Rohöl, Kohle, Erdgas) zeigt ein höherer Wert steigende Preise an. Bei den IK-Indizes zeigt ein positiver Wert eine Verbesserung, ein negativer Wert eine Verschlechterung der Situation im Vergleich zum Vorquartal an. Die IK-Indizes basieren auf den Einschätzungen der befragten Unternehmen und können Werte zwischen -100 und +100 annehmen. Je höher der absolute Wert, desto stärker ist der Konsens unter den Befragten. Beispielsweise würde ein IK-Index von +50 bedeuten, dass deutlich mehr Unternehmen eine Verbesserung als eine Verschlechterung erwarten, während ein Wert von -50 auf eine überwiegend negative Einschätzung hindeuten würde.
 
             **Interpretation der aktuellen Werte:**
             Im dritten Quartal 2022 erreichte der Energy raw materials Index mit 718 Punkten einen historischen Höchststand. Diese extreme Preisentwicklung bei den Energierohstoffen spiegelt sich deutlich in den Einschätzungen der Unternehmen wider: Der Index für die Rohstoffverfügbarkeit liegt bei -17,4 Punkten, was auf Schwierigkeiten bei der Beschaffung hinweist. Besonders gravierend wirkt sich dies auf die Ertragslage aus, die mit einem Index von -76 Punkten einen sehr niedrigen Stand erreicht. Die außergewöhnlich hohen Energiepreise belasten die Unternehmen stark, da diese Kostensteigerungen nicht vollständig an die Kunden weitergegeben werden können.
@@ -162,7 +162,7 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 # Titel mit Custom Styling
-st.markdown('<h1 class="main-title">Dashboard: IK Wirtschaftsstatistik Kunststoffverpackungen und -folienindustrie</h1>',
+st.markdown('<h1 class="main-title">IK Wirtschaftsstatistik Kunststoffverpackungen und -folienindustrie</h1>',
             unsafe_allow_html=True)
 
 # Add custom CSS for the banner
@@ -197,8 +197,8 @@ try:
                        "Index_Wirtschaftslage"],
         "Arbeitsmarkt": ["Betriebe", "Beschäftigte", "Index_Beschäftigtenzahl",
                          "Index_Wirtschaftslage"],
-        "Rohstoffe": ["Index_Rohstoffverfügbarkeit", "Index_Preisentwicklung Energy raw materials",
-                      "Index_Preisentwicklung Coal", "Index_Preisentwicklung Crude oil", "Index_Preisentwicklung Natural gas",
+        "Rohstoffe": ["Index_Rohstoffverfügbarkeit", "Index_Preisentwicklung Energierohstoffe",
+                      "Index_Preisentwicklung Kohle", "Index_Preisentwicklung Rohöl", "Index_Preisentwicklung Erdgas",
                       "Index_Ertrag", "Index_Verkaufspreise (Branchenprodukte)"]
     }
 
@@ -250,9 +250,10 @@ try:
             ➡️ Alle Daten beziehen sich ausschließlich auf die Kunststoffverpackungs- und Folienindustrie in Deutschland.
             """)
 
-    selected_indicators_konj = st.multiselect(
+ selected_indicators_konj = st.multiselect(
         "Indikatoren für Konjunktur:",
         options=dashboards["Konjunktur"],
+        default=["Umsatz", "Auslandsumsatz", "Index_Exporte"],
         max_selections=3
     )
     create_dashboard_plot("Konjunktur", selected_indicators_konj, filtered_df)
@@ -277,6 +278,7 @@ try:
     selected_indicators_arb = st.multiselect(
         "Indikatoren für Arbeitsmarkt:",
         options=dashboards["Arbeitsmarkt"],
+        default=["Beschäftigte", "Index_Beschäftigtenzahl", "Index_Wirtschaftslage"],
         max_selections=3
     )
     create_dashboard_plot("Arbeitsmarkt", selected_indicators_arb, filtered_df)
@@ -289,20 +291,22 @@ try:
             Dieses Dashboard zeigt zwei Arten von Daten:
 
             **1. Offizielle Statistiken (HWWI):**
-            - Index_Preisentwicklung Energy raw materials
-            - Index_Preisentwicklung Coal
-            - Index_Preisentwicklung Crude oil
-            - Index_Preisentwicklung Natural gas
+            - Index_Preisentwicklung Energierohstoffe
+            - Index_Preisentwicklung Kohle
+            - Index_Preisentwicklung Rohöl
+            - Index_Preisentwicklung Erdgas
 
             **2. IK-Konjunkturumfrage (Quartalsdaten):**
             - Index_Verkaufspreise
             - Index_Ertrag
+            - Index_Rohstoffverfügbarkeit
 
             ➡️ Alle Daten des HWWI beziehen sich auf Deutschland insgesamt, Daten der IK-Konjunkturumfrage beziehen sich auf die Branche der Kunststoffverpackungs- und Folienindustrie in Deutschland.
             """)
     selected_indicators_roh = st.multiselect(
         "Indikatoren für Rohstoffe:",
         options=dashboards["Rohstoffe"],
+        default=["Index_Preisentwicklung Energierohstoffe", "Index_Ertrag", "Index_Rohstoffverfügbarkeit"],
         max_selections=3
     )
     create_dashboard_plot("Rohstoffe", selected_indicators_roh, filtered_df)
