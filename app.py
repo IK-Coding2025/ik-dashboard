@@ -261,35 +261,6 @@ try:
     create_dashboard_plot("Konjunktur", selected_indicators_konj, filtered_df)
     st.markdown("---")
 
-    # Konjunktur Dashboard
-    st.header("Konjunktur")
-    with st.expander("ℹ️ Über dieses Dashboard"):
-        st.markdown("""
-            Dieses Dashboard zeigt zwei Arten von Daten für die deutsche Kunststoffverpackungs- und Folienindustrie:
-
-            **1. Offizielle Statistiken (Destatis):**
-            - Auslandsumsatz (gesamt)
-            - Auslandsumsatz mit der Eurozone
-            - Auslandsumsatz mit dem sonstigen Ausland
-
-            **2. IK-Konjunkturumfrage (Quartalsdaten):**
-            - Index_Ertrag
-            - Index_Exporte
-            - Index_Verkaufspreise
-            - Index_Wirtschaftslage
-
-            ➡️ Alle Daten beziehen sich ausschließlich auf die Kunststoffverpackungs- und Folienindustrie in Deutschland.
-            """)
-
-    selected_indicators_konj = st.multiselect(
-        "Indikatoren für Konjunktur:",
-        options=dashboards["Konjunktur"],
-        default=["Umsatz", "Auslandsumsatz", "Index_Exporte"],
-        max_selections=3
-    )
-    create_dashboard_plot("Konjunktur", selected_indicators_konj, filtered_df)
-    st.markdown("---")
-
     # Arbeitsmarkt Dashboard
     st.header("Arbeitsmarkt")
     with st.expander("ℹ️ Über dieses Dashboard"):
