@@ -230,7 +230,7 @@ try:
     filtered_df = filtered_df.sort_values(by=['Jahr', 'Quartal_Sortierung'])
     filtered_df['Zeitachse'] = filtered_df['Jahr'].astype(str) + '-' + filtered_df['Monat']
 
-    # Konjunktur Dashboard
+   # Konjunktur Dashboard
     st.header("Konjunktur")
     with st.expander("ℹ️ Über dieses Dashboard"):
         st.markdown("""
@@ -252,7 +252,7 @@ try:
             ➡️ Alle Daten beziehen sich ausschließlich auf die Kunststoffverpackungs- und Folienindustrie in Deutschland.
             """)
 
-     selected_indicators_konj = st.multiselect(
+    selected_indicators_konj = st.multiselect(
         "Indikatoren für Konjunktur:",
         options=dashboards["Konjunktur"],
         default=["Umsatz", "Auslandsumsatz", "Index_Exporte"],
