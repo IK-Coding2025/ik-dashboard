@@ -275,6 +275,7 @@ try:
 
             ➡️ Alle Daten beziehen sich ausschließlich auf die Kunststoffverpackungs- und Folienindustrie in Deutschland.
             """)
+        
     selected_indicators_arb = st.multiselect(
         "Indikatoren für Arbeitsmarkt:",
         options=dashboards["Arbeitsmarkt"],
@@ -303,6 +304,7 @@ try:
 
             ➡️ Alle Daten des HWWI beziehen sich auf Deutschland insgesamt, Daten der IK-Konjunkturumfrage beziehen sich auf die Branche der Kunststoffverpackungs- und Folienindustrie in Deutschland.
             """)
+        
     selected_indicators_roh = st.multiselect(
         "Indikatoren für Rohstoffe:",
         options=dashboards["Rohstoffe"],
