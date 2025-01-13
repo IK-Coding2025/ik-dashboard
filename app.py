@@ -136,6 +136,15 @@ st.markdown("""
         text-align: center;
     }
 
+    /* Subtitle styling */
+    .subtitle {
+        color: #004996;
+        font-family: 'Arial', sans-serif;
+        text-align: center;
+        font-size: 1.5rem;  /* Optional: Set a smaller font size for subtitle */
+        margin-top: 0.5rem;  /* Optional: Adjust space between title and subtitle */
+    }
+
     /* Dashboard headers styling */
     h1, h2, h3 {
         color: #004996;
@@ -162,8 +171,10 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 # Titel mit Custom Styling
-st.markdown('<h1 class="main-title">IK Wirtschaftsstatistik Kunststoffverpackungen und -folienindustrie</h1>',
-            unsafe_allow_html=True)
+st.markdown('''
+    <h1 class="main-title">IK Wirtschaftsstatistik</h1>
+    <h2 class="subtitle">Kunststoffverpackungen und -folienindustrie</h2>
+''', unsafe_allow_html=True)
 
 # Add custom CSS for the banner
 st.markdown("""
