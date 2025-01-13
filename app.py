@@ -250,7 +250,7 @@ try:
             ➡️ Alle Daten beziehen sich ausschließlich auf die Kunststoffverpackungs- und Folienindustrie in Deutschland.
             """)
 
- selected_indicators_konj = st.multiselect(
+     selected_indicators_konj = st.multiselect(
         "Indikatoren für Konjunktur:",
         options=dashboards["Konjunktur"],
         default=["Umsatz", "Auslandsumsatz", "Index_Exporte"],
