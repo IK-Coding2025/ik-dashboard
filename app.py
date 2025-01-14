@@ -132,22 +132,15 @@ st.markdown("""
         padding: 2rem 0;
     }
 
-    .logo-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        margin-bottom: 2rem;
-    }
-
     [data-testid=stImage] {
         display: block;
-        margin: 0 auto;
-        max-width: 200px;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: 200px !important;
     }
 
     .main-title {
-        color: #004996;
+        color: #004996 !important;
         font-family: 'Arial', sans-serif;
         font-size: 2.5rem;
         text-align: center;
@@ -157,7 +150,7 @@ st.markdown("""
     }
 
     .subtitle {
-        color: #004996;
+        color: #004996 !important;
         font-family: 'Arial', sans-serif;
         font-size: 1.5rem;
         text-align: center;
@@ -168,14 +161,13 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# Gesamtcontainer für Header
 st.markdown('<div class="header-container">', unsafe_allow_html=True)
-
-# Logo-Container
-st.markdown('<div class="logo-container">', unsafe_allow_html=True)
-#st.image("C:/Users/l.mueller/Documents/FileCloud/Team Folders/IK_Server/Wirtschaft/statistische Daten/ik-dashboard/assets/IK Logo.jpg", width=200)
 st.image("assets/IK Logo.jpg", width=200)
-st.markdown('</div>', unsafe_allow_html=True)
+st.markdown('''
+    <h1 class="main-title">IK Wirtschaftsstatistik</h1>
+    <h2 class="subtitle">Kunststoffverpackungen und -folienindustrie</h2>
+</div>
+''', unsafe_allow_html=True)
 
 # Titel und Untertitel
 st.markdown('''
