@@ -1,4 +1,4 @@
-import streamlit as st
+mport streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
 
@@ -101,7 +101,7 @@ def create_dashboard_plot(dashboard_name, selected_indicators, filtered_df):
 
             **Was ist ein Indexwert?**
             Ein Indexwert zeigt Veränderungen im Vergleich zu einem Basiszeitraum an. Bei den HWWI-Indizes (Energierohstoffe, Rohöl, Kohle, Erdgas) zeigt ein höherer Wert steigende Preise an. Bei den IK-Indizes zeigt ein positiver Wert eine Verbesserung, ein negativer Wert eine Verschlechterung der Situation im Vergleich zum Vorquartal an. Die IK-Indizes basieren auf den Einschätzungen der befragten Unternehmen und können Werte zwischen -100 und +100 annehmen. Je höher der absolute Wert, desto stärker ist der Konsens unter den Befragten. Beispielsweise würde ein IK-Index von +50 bedeuten, dass deutlich mehr Unternehmen eine Verbesserung als eine Verschlechterung erwarten, während ein Wert von -50 auf eine überwiegend negative Einschätzung hindeuten würde.
-
+            
             **Interpretation der aktuellen Werte:**
             Im dritten Quartal 2022 erreichte der Energy raw materials Index mit 718 Punkten einen historischen Höchststand. Diese extreme Preisentwicklung bei den Energierohstoffen spiegelt sich deutlich in den Einschätzungen der Unternehmen wider: Der Index für die Rohstoffverfügbarkeit liegt bei -17,4 Punkten, was auf Schwierigkeiten bei der Beschaffung hinweist. Besonders gravierend wirkt sich dies auf die Ertragslage aus, die mit einem Index von -76 Punkten einen sehr niedrigen Stand erreicht. Die außergewöhnlich hohen Energiepreise belasten die Unternehmen stark, da diese Kostensteigerungen nicht vollständig an die Kunden weitergegeben werden können.
             """)
@@ -119,11 +119,6 @@ st.set_page_config(
     page_title="Dashboard: IK Wirtschaftsstatistik",
     layout="wide"
 )
-
-# Logo und Styling hinzufügen
-#col1, col2, col3 = st.columns([2, 1, 2])
-#with col2:
-    #st.image("assets/IK Logo.jpg", width=200)
 
 # Logo und Styling hinzufügen
 st.markdown("""
@@ -178,6 +173,7 @@ st.markdown('<div class="header-container">', unsafe_allow_html=True)
 
 # Logo-Container
 st.markdown('<div class="logo-container">', unsafe_allow_html=True)
+#st.image("C:/Users/l.mueller/Documents/FileCloud/Team Folders/IK_Server/Wirtschaft/statistische Daten/ik-dashboard/assets/IK Logo.jpg", width=200)
 st.image("assets/IK Logo.jpg", width=200)
 st.markdown('</div>', unsafe_allow_html=True)
 
@@ -187,6 +183,7 @@ st.markdown('''
     <h2 class="subtitle">Kunststoffverpackungen und -folienindustrie</h2>
 </div>
 ''', unsafe_allow_html=True)
+
 
 
 # Add custom CSS for the banner
@@ -210,8 +207,10 @@ st.markdown("""
 """, unsafe_allow_html=True)
 try:
     # Daten einlesen
+    #df = pd.read_excel(
+        #r'C:\Users\l.mueller\Documents\FileCloud\Team Folders\IK_Server\Wirtschaft\statistische Daten\ik-dashboard\data\IK_Konj+Destatis_HWWI.xlsx')
     df = pd.read_excel(
-        r'data/IK_Konj+Destatis_HWWI.xlsx')
+             r'data/IK_Konj+Destatis_HWWI.xlsx')
 
     # Dashboard-Definitionen
     dashboards = {
@@ -226,7 +225,7 @@ try:
                       "Index_Ertrag", "Index_Verkaufspreise (Branchenprodukte)"]
     }
 
-# Zeitraum-Filter als ausklappbares Element im Hauptbereich
+    # Zeitraum-Filter als ausklappbares Element im Hauptbereich
     with st.expander("Zeitraum-Filter", expanded=False):  # Der Zeitraum-Filter ist zu Beginn eingeklappt
         st.header("Zeitraum-Filter")
 
@@ -257,7 +256,7 @@ try:
     filtered_df = filtered_df.sort_values(by=['Jahr', 'Quartal_Sortierung'])
     filtered_df['Zeitachse'] = filtered_df['Jahr'].astype(str) + '-' + filtered_df['Monat']
 
-   # Konjunktur Dashboard
+    # Konjunktur Dashboard
     st.header("Konjunktur")
     with st.expander("ℹ️ Über dieses Dashboard"):
         st.markdown("""
@@ -347,9 +346,8 @@ try:
     st.markdown("""
     ### Externe Quellen:
     - **Destatis**: [Genesis-Online Datenbank](https://www-genesis.destatis.de/datenbank/online/)  
-      *insb. Konjunkturstatistik, Datenmodifikation anhand eigener Berechnungen*
+      *insb. Konjunkturstatistik (Tabellencode 42111), Datenmodifikation (insb. der Wirtschaftszweige 2221 und 2222 zur Branchenabgrenzung) anhand eigener Berechnungen*
     - **HWWI**: [Rohstoffpreisindex](https://www.hwwi.org/datenangebote/rohstoffpreisindex/)  
-      *Modifikation der Indikatorenbezeichnung*
 
     ### Kontakt bei Fragen:
     **Referat für Wirtschaft**  
