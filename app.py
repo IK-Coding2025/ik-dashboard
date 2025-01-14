@@ -191,10 +191,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 try:
     # Daten einlesen
-    #df = pd.read_excel(
-        #r'C:\Users\l.mueller\Documents\FileCloud\Team Folders\IK_Server\Wirtschaft\statistische Daten\ik-dashboard\data\IK_Konj+Destatis_HWWI.xlsx')
-         df = pd.read_excel(
-             r'data/IK_Konj+Destatis_HWWI.xlsx')
+    df = pd.read_excel(r'data/IK_Konj+Destatis_HWWI.xlsx')
 
     # Dashboard-Definitionen
     dashboards = {
