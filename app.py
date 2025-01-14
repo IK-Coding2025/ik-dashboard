@@ -115,28 +115,28 @@ def create_dashboard_plot(dashboard_name, selected_indicators, filtered_df):
         st.info(f"Bitte Indikatoren für {dashboard_name} auswählen")
 
 # Seitenkonfiguration
-st.set_page_config(
-    page_title="Dashboard: IK Wirtschaftsstatistik",
-    layout="wide"
-)
-
-# Logo und Styling hinzufügen
 st.markdown("""
     <style>
-    .header-container {
+    .header-section {
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
         width: 100%;
         padding: 2rem 0;
     }
 
-    [data-testid=stImage] {
-        display: block;
-        margin-left: auto !important;
-        margin-right: auto !important;
-        width: 200px !important;
+    .image-container {
+        position: relative;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    [data-testid="stImage"] {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        display: inline-block !important;
     }
 
     .main-title {
@@ -161,14 +161,16 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.markdown('<div class="header-container">', unsafe_allow_html=True)
-#st.image("C:/Users/l.mueller/Documents/FileCloud/Team Folders/IK_Server/Wirtschaft/statistische Daten/ik-dashboard/assets/IK Logo.jpg", width=200)
+st.markdown('<div class="header-section">', unsafe_allow_html=True)
+st.markdown('<div class="image-container">', unsafe_allow_html=True)
 st.image("assets/IK Logo.jpg", width=200)
+st.markdown('</div>', unsafe_allow_html=True)
 st.markdown('''
     <h1 class="main-title">IK Wirtschaftsstatistik</h1>
     <h2 class="subtitle">Kunststoffverpackungen und -folienindustrie</h2>
 </div>
 ''', unsafe_allow_html=True)
+
 
 # Add custom CSS for the banner
 st.markdown("""
