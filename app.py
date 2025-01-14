@@ -123,20 +123,27 @@ st.set_page_config(
 # Logo und Styling hinzufügen
 st.markdown("""
     <style>
-    .header-container {
+    .header-section {
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
         width: 100%;
         padding: 2rem 0;
     }
 
-    [data-testid=stImage] {
+    [data-testid="stImage"] > img {
         display: block;
-        margin-left: auto !important;
-        margin-right: auto !important;
-        width: 200px !important;
+        margin: 0 auto;
+    }
+
+    [data-testid="stImage"] {
+        width: 100%;
+        text-align: center;
+    }
+
+    [data-testid="element-container"] {
+        display: flex;
+        justify-content: center;
     }
 
     .main-title {
@@ -161,7 +168,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.markdown('<div class="header-container">', unsafe_allow_html=True)
+st.markdown('<div class="header-section">', unsafe_allow_html=True)
 st.image("assets/IK Logo.jpg", width=200)
 st.markdown('''
     <h1 class="main-title">IK Wirtschaftsstatistik</h1>
