@@ -121,61 +121,72 @@ st.set_page_config(
 )
 
 # Logo und Styling hinzufügen
-col1, col2, col3 = st.columns([2, 1, 2])
-with col2:
-    st.image("assets/IK Logo.jpg", width=200)
+#col1, col2, col3 = st.columns([2, 1, 2])
+#with col2:
+    #st.image("assets/IK Logo.jpg", width=200)
 
-# Custom CSS für Corporate Design
+# Logo und Styling hinzufügen
 st.markdown("""
     <style>
-    /* Main title styling */
+    .header-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 2rem 0;
+    }
+
+    .logo-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    [data-testid=stImage] {
+        display: block;
+        margin: 0 auto;
+        max-width: 200px;
+    }
+
     .main-title {
         color: #004996;
         font-family: 'Arial', sans-serif;
-        padding: 1rem 0;
+        font-size: 2.5rem;
         text-align: center;
+        margin: 1rem 0;
+        padding: 0;
+        width: 100%;
     }
 
-    /* Subtitle styling */
     .subtitle {
         color: #004996;
         font-family: 'Arial', sans-serif;
+        font-size: 1.5rem;
         text-align: center;
-        font-size: 1.5rem;  /* Optional: Set a smaller font size for subtitle */
-        margin-top: 0.5rem;  /* Optional: Adjust space between title and subtitle */
-    }
-
-    /* Dashboard headers styling */
-    h1, h2, h3 {
-        color: #004996;
-        font-family: 'Arial', sans-serif;
-    }
-
-    /* Expander styling */
-    .streamlit-expanderHeader {
-        background-color: #f8f9fa;
-        border: 1px solid #e9ecef;
-    }
-
-    /* Button styling */
-    .stButton>button {
-        background-color: #004996;
-        color: white;
-    }
-
-    /* Sidebar styling */
-    .css-1d391kg {
-        background-color: #f8f9fa;
+        margin: 0 0 1rem 0;
+        padding: 0;
+        width: 100%;
     }
     </style>
-    """, unsafe_allow_html=True)
+""", unsafe_allow_html=True)
 
-# Titel mit Custom Styling
+# Gesamtcontainer für Header
+st.markdown('<div class="header-container">', unsafe_allow_html=True)
+
+# Logo-Container
+st.markdown('<div class="logo-container">', unsafe_allow_html=True)
+st.image("assets/IK Logo.jpg", width=200)
+st.markdown('</div>', unsafe_allow_html=True)
+
+# Titel und Untertitel
 st.markdown('''
     <h1 class="main-title">IK Wirtschaftsstatistik</h1>
     <h2 class="subtitle">Kunststoffverpackungen und -folienindustrie</h2>
+</div>
 ''', unsafe_allow_html=True)
-
 # Add custom CSS for the banner
 st.markdown("""
     <style>
@@ -213,21 +224,24 @@ try:
                       "Index_Ertrag", "Index_Verkaufspreise (Branchenprodukte)"]
     }
 
-    # Gemeinsame Filter in der Sidebar
-    st.sidebar.header("Zeitraum-Filter")
-    years = sorted(df['Jahr'].unique().tolist())
-    selected_years = st.sidebar.multiselect(
-        "Jahre auswählen:",
-        options=years,
-        default=years
-    )
+# Zeitraum-Filter als ausklappbares Element im Hauptbereich
+    with st.expander("Zeitraum-Filter", expanded=False):  # Der Zeitraum-Filter ist zu Beginn eingeklappt
+        st.header("Zeitraum-Filter")
 
-    quarters = ['Q1', 'Q2', 'Q3', 'Q4']
-    selected_quarters = st.sidebar.multiselect(
-        "Quartale auswählen:",
-        options=quarters,
-        default=quarters
-    )
+        # Filteroptionen im Hauptbereich, nicht in der Sidebar
+        years = sorted(df['Jahr'].unique().tolist())
+        selected_years = st.multiselect(
+            "Jahre auswählen:",
+            options=years,
+            default=years
+        )
+
+        quarters = ['Q1', 'Q2', 'Q3', 'Q4']
+        selected_quarters = st.multiselect(
+            "Quartale auswählen:",
+            options=quarters,
+            default=quarters
+        )
 
     # Daten filtern
     filtered_df = df[
