@@ -188,6 +188,7 @@ st.markdown('''
 </div>
 ''', unsafe_allow_html=True)
 
+
 # Add custom CSS for the banner
 st.markdown("""
     <style>
