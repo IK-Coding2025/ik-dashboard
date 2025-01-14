@@ -169,15 +169,6 @@ st.markdown('''
 </div>
 ''', unsafe_allow_html=True)
 
-# Titel und Untertitel
-st.markdown('''
-    <h1 class="main-title">IK Wirtschaftsstatistik</h1>
-    <h2 class="subtitle">Kunststoffverpackungen und -folienindustrie</h2>
-</div>
-''', unsafe_allow_html=True)
-
-
-
 # Add custom CSS for the banner
 st.markdown("""
     <style>
