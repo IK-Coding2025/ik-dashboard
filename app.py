@@ -132,12 +132,17 @@ st.markdown("""
         padding: 2rem 0;
     }
 
-    [data-testid=stImage] {
-        display: block;
-        margin-left: auto !important;
-        margin-right: auto !important;
-        width: 200px !important;
-    }
+    #[data-testid=stImage] {
+        #display: block;
+        #margin-left: auto !important;
+        #margin-right: auto !important;
+        #width: 200px !important;
+    #}
+
+    # Logo und Styling hinzufügen
+col1, col2, col3 = st.columns([2, 1, 2])
+with col2:
+    st.image("assets/IK Logo.jpg", width=200)
 
     .main-title {
         color: #004996 !important;
@@ -163,7 +168,7 @@ st.markdown("""
 
 st.markdown('<div class="header-container">', unsafe_allow_html=True)
 #st.image("C:/Users/l.mueller/Documents/FileCloud/Team Folders/IK_Server/Wirtschaft/statistische Daten/ik-dashboard/assets/IK Logo.jpg", width=200)
-st.image("assets/IK Logo.jpg", width=200)
+#st.image("assets/IK Logo.jpg", width=200)
 st.markdown('''
     <h1 class="main-title">IK Wirtschaftsstatistik</h1>
     <h2 class="subtitle">Kunststoffverpackungen und -folienindustrie</h2>
