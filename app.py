@@ -132,11 +132,17 @@ st.markdown("""
         padding: 2rem 0;
     }
 
-    [data-testid=stImage] {
+    [data-testid=stImage] img {
         display: block;
         margin-left: auto !important;
         margin-right: auto !important;
         width: 200px !important;
+    }
+
+    [data-testid=stImage] {
+        display: flex !important;
+        justify-content: center !important;
+        width: 100% !important;
     }
 
     .main-title {
