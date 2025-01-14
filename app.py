@@ -1,3 +1,4 @@
+
 import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
@@ -114,6 +115,12 @@ def create_dashboard_plot(dashboard_name, selected_indicators, filtered_df):
     else:
         st.info(f"Bitte Indikatoren für {dashboard_name} auswählen")
 
+# Seitenkonfiguration
+st.set_page_config(
+    page_title="Dashboard: IK Wirtschaftsstatistik",
+    layout="wide"
+)
+
 # Logo und Styling hinzufügen
 st.markdown("""
     <style>
@@ -164,7 +171,6 @@ st.markdown('''
 </div>
 ''', unsafe_allow_html=True)
 
-
 # Add custom CSS for the banner
 st.markdown("""
     <style>
@@ -188,7 +194,7 @@ try:
     # Daten einlesen
     #df = pd.read_excel(
         #r'C:\Users\l.mueller\Documents\FileCloud\Team Folders\IK_Server\Wirtschaft\statistische Daten\ik-dashboard\data\IK_Konj+Destatis_HWWI.xlsx')
-    df = pd.read_excel(
+         df = pd.read_excel(
              r'data/IK_Konj+Destatis_HWWI.xlsx')
 
     # Dashboard-Definitionen
