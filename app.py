@@ -132,17 +132,11 @@ st.markdown("""
         padding: 2rem 0;
     }
 
-    .logo-container {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        margin-bottom: 1rem;
-    }
-
-    .logo {
-        width: 200px;
-        max-width: 100%;
-        height: auto;
+    [data-testid=stImage] {
+        display: block;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: 200px !important;
     }
 
     .main-title {
@@ -167,14 +161,19 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.image("assets/IK Logo.jpg", width=200)
-st.markdown('''
-    <div class="header-container">
-        <h1 class="main-title">IK Wirtschaftsstatistik</h1>
-        <h2 class="subtitle">Kunststoffverpackungen und -folienindustrie</h2>
-    </div>
-''', unsafe_allow_html=True)
+# Logo und Styling hinzufügen
+col1, col2, col3 = st.columns([2, 1, 2])
+with col2:
+    st.image("assets/IK Logo.jpg", width=200)
+
+st.markdown('<div class="header-container">', unsafe_allow_html=True)
 #st.image("C:/Users/l.mueller/Documents/FileCloud/Team Folders/IK_Server/Wirtschaft/statistische Daten/ik-dashboard/assets/IK Logo.jpg", width=200)
+#st.image("assets/IK Logo.jpg", width=200)
+st.markdown('''
+    <h1 class="main-title">IK Wirtschaftsstatistik</h1>
+    <h2 class="subtitle">Kunststoffverpackungen und -folienindustrie</h2>
+</div>
+''', unsafe_allow_html=True)
 
 # Add custom CSS for the banner
 st.markdown("""
