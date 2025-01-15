@@ -121,6 +121,7 @@ st.set_page_config(
 )
 
 # Logo und Styling hinzufügen
+st.markdown("""
 <style>
 .header-container {
     display: flex;
