@@ -167,13 +167,12 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
+st.image("assets/IK Logo.jpg", width=200)
 st.markdown('''
-<div class="header-container">
-    <st.image("assets/IK Logo.jpg", width=200)
     <div class="header-container">
-    <h1 class="main-title">IK Wirtschaftsstatistik</h1>
-    <h2 class="subtitle">Kunststoffverpackungen und -folienindustrie</h2>
-</div>
+        <h1 class="main-title">IK Wirtschaftsstatistik</h1>
+        <h2 class="subtitle">Kunststoffverpackungen und -folienindustrie</h2>
+    </div>
 ''', unsafe_allow_html=True)
 #st.image("C:/Users/l.mueller/Documents/FileCloud/Team Folders/IK_Server/Wirtschaft/statistische Daten/ik-dashboard/assets/IK Logo.jpg", width=200)
 
