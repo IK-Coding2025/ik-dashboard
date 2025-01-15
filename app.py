@@ -169,9 +169,8 @@ st.markdown("""
 
 st.markdown('''
 <div class="header-container">
-    <div class="logo-container">
-        <img src="assets/IK Logo.jpg" alt="IK Logo" class="logo">
-    </div>
+    <st.image("assets/IK Logo.jpg", width=200)
+    <div class="header-container">
     <h1 class="main-title">IK Wirtschaftsstatistik</h1>
     <h2 class="subtitle">Kunststoffverpackungen und -folienindustrie</h2>
 </div>
