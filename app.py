@@ -122,51 +122,51 @@ st.set_page_config(
 
 # Logo und Styling hinzufügen
 st.markdown("""
-<style>
-.header-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    padding: 2rem 0;
-}
+    <style>
+    .header-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 2rem 0;
+    }
 
-.logo-container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 1rem;
-}
+    .logo-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
 
-.logo {
-    width: 200px;
-    max-width: 100%;
-    height: auto;
-}
+    .logo {
+        width: 200px;
+        max-width: 100%;
+        height: auto;
+    }
 
-.main-title {
-    color: #004996 !important;
-    font-family: 'Arial', sans-serif;
-    font-size: 2.5rem;
-    text-align: center;
-    margin: 1rem 0;
-    padding: 0;
-    width: 100%;
-}
+    .main-title {
+        color: #004996 !important;
+        font-family: 'Arial', sans-serif;
+        font-size: 2.5rem;
+        text-align: center;
+        margin: 1rem 0;
+        padding: 0;
+        width: 100%;
+    }
 
-.subtitle {
-    color: #004996 !important;
-    font-family: 'Arial', sans-serif;
-    font-size: 1.5rem;
-    text-align: center;
-    margin: 0 0 1rem 0;
-    padding: 0;
-    width: 100%;
-}
-</style>
+    .subtitle {
+        color: #004996 !important;
+        font-family: 'Arial', sans-serif;
+        font-size: 1.5rem;
+        text-align: center;
+        margin: 0 0 1rem 0;
+        padding: 0;
+        width: 100%;
+    }
+    </style>
+""", unsafe_allow_html=True)
 
-#st.image("C:/Users/l.mueller/Documents/FileCloud/Team Folders/IK_Server/Wirtschaft/statistische Daten/ik-dashboard/assets/IK Logo.jpg", width=200)
 st.markdown('''
 <div class="header-container">
     <div class="logo-container">
@@ -176,6 +176,7 @@ st.markdown('''
     <h2 class="subtitle">Kunststoffverpackungen und -folienindustrie</h2>
 </div>
 ''', unsafe_allow_html=True)
+#st.image("C:/Users/l.mueller/Documents/FileCloud/Team Folders/IK_Server/Wirtschaft/statistische Daten/ik-dashboard/assets/IK Logo.jpg", width=200)
 
 # Add custom CSS for the banner
 st.markdown("""
