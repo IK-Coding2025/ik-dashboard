@@ -207,54 +207,22 @@ st.set_page_config(
 )
 
 # Logo und Styling hinzufügen
-st.markdown("""
-    <style>
-    .header-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        padding: 2rem 0;
-    }
-
-    [data-testid=stImage] {
-        display: block;
-        margin-left: auto !important;
-        margin-right: auto !important;
-        width: 200px !important;
-    }
-
-    .main-title {
-        color: #004996 !important;
-        font-family: 'Arial', sans-serif;
-        font-size: 2.5rem;
-        text-align: center;
-        margin: 1rem 0;
-        padding: 0;
-        width: 100%;
-    }
-
-    .subtitle {
-        color: #004996 !important;
-        font-family: 'Arial', sans-serif;
-        font-size: 1.5rem;
-        text-align: center;
-        margin: 0 0 1rem 0;
-        padding: 0;
-        width: 100%;
-    }
-    </style>
-""", unsafe_allow_html=True)
-
+col1, col2, col3 = st.columns([2, 1, 2])
+with col2:
+    st.image("assets/IK Logo.jpg", width=200)
 st.markdown('<div class="header-container">', unsafe_allow_html=True)
 #st.image("C:/Users/l.mueller/Documents/FileCloud/Team Folders/IK_Server/Wirtschaft/statistische Daten/ik-dashboard/assets/IK Logo.jpg", width=200)
-st.image("assets/IK Logo.jpg", width=200)
+#st.image("assets/IK Logo.jpg", width=200)
 st.markdown('''
+    <div class="header-container">
+        <h1 class="main-title">IK Wirtschaftsstatistik</h1>
+        <h2 class="subtitle">Kunststoffverpackungen und -folienindustrie</h2>
+    </div>
     <h1 class="main-title">IK Wirtschaftsstatistik</h1>
     <h2 class="subtitle">Kunststoffverpackungen und -folienindustrie</h2>
 </div>
 ''', unsafe_allow_html=True)
+#st.image("C:/Users/l.mueller/Documents/FileCloud/Team Folders/IK_Server/Wirtschaft/statistische Daten/ik-dashboard/assets/IK Logo.jpg", width=200)
 
 # Add custom CSS for the banner
 st.markdown("""
