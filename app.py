@@ -246,10 +246,10 @@ st.markdown("""
     }
     </style>
 """, unsafe_allow_html=True)
-# Logo und Styling hinzufügen
-# col1, col2, col3 = st.columns([2, 1, 2])
-# with col2:
-    #st.image("assets/IK Logo.jpg", width=200)
+ # Logo und Styling hinzufügen
+ col1, col2, col3 = st.columns([2, 1, 2])
+ with col2:
+    st.image("assets/IK Logo.jpg", width=200)
 
 st.markdown('<div class="header-container">', unsafe_allow_html=True)
 #st.image("C:/Users/l.mueller/Documents/FileCloud/Team Folders/IK_Server/Wirtschaft/statistische Daten/ik-dashboard/assets/IK Logo.jpg", width=200)
