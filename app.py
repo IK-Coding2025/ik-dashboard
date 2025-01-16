@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
 
-# Function definition first
 def create_dashboard_plot(dashboard_name, selected_indicators, filtered_df):
     if selected_indicators:
         fig = go.Figure()
@@ -12,60 +11,147 @@ def create_dashboard_plot(dashboard_name, selected_indicators, filtered_df):
         selected_normal = [ind for ind in selected_indicators if 'Index_' not in ind]
         selected_index = [ind for ind in selected_indicators if 'Index_' in ind]
 
-        # Normale Indikatoren auf linker Y-Achse
-        for i, indicator in enumerate(selected_normal):
-            fig.add_trace(go.Scatter(
-                x=filtered_df['Zeitachse'],
-                y=filtered_df[indicator],
-                name=indicator,
-                yaxis='y1',
-                mode='lines+markers',
-                line=dict(color=colors[i])
-            ))
+        # Normale Indikatoren auf der linken Y-Achse (nur für Konjunktur/Arbeitsmarkt)
+        if dashboard_name == "Rohstoffe":
+            # Nur die Index-Indikatoren für das Rohstoffe-Dashboard anzeigen
+            for i, indicator in enumerate(selected_index):
+                fig.add_trace(go.Scatter(
+                    x=filtered_df['Zeitachse'],
+                    y=filtered_df[indicator],
+                    name=indicator,
+                    yaxis='y1',  # Alle Indikatoren auf der linken Y-Achse
+                    mode='lines+markers',
+                    line=dict(color=colors[i])
+                ))
 
-        # Index-Indikatoren auf rechter Y-Achse
-        for i, indicator in enumerate(selected_index):
-            fig.add_trace(go.Scatter(
-                x=filtered_df['Zeitachse'],
-                y=filtered_df[indicator],
-                name=indicator,
-                yaxis='y2',
-                mode='lines+markers',
-                line=dict(color=colors[i + len(selected_normal)])
-            ))
+            # Layout für Rohstoffe (nur eine Y-Achse auf der linken Seite)
+            fig.update_layout(
+                title=f"Entwicklung ({dashboard_name})",
+                xaxis=dict(
+                    title="Zeitraum",
+                    titlefont=dict(color="#000000"),
+                    tickfont=dict(color="#000000"),
+                    tickangle=45
+                ),
+                yaxis=dict(
+                    title="Index-Werte",  # Beschriftung der linken Y-Achse
+                    titlefont=dict(color="#000000"),
+                    tickfont=dict(color="#000000"),
+                    tickformat=',',
+                    separatethousands=True,
+                    rangemode='tozero'
+                ),
+                height=400,
+                template="plotly_white",
+                showlegend=True,
+                margin=dict(l=40, r=40, t=40, b=80)
+            )
 
-        # Layout anpassen
-        fig.update_layout(
-            title=f"Entwicklung ({dashboard_name})",
-            xaxis=dict(
-                title="Zeitraum",
-                tickangle=45
-            ),
-            yaxis=dict(
-                title="Wert (Nicht-Index Indikatoren)" if selected_normal else None,
-                titlefont=dict(color="#1f77b4"),
-                tickfont=dict(color="#1f77b4"),
-                type='linear',
-                tickformat=',',
-                separatethousands=True,
-                rangemode='tozero'
-            ),
-            yaxis2=dict(
-                title="Index-Wert" if selected_index else None,
-                titlefont=dict(color="#ff7f0e"),
-                tickfont=dict(color="#ff7f0e"),
-                overlaying="y",
-                side="right",
-                type='linear',
-                tickformat=',',
-                separatethousands=True,
-                rangemode='tozero'
-            ) if (dashboard_name in ["Konjunktur", "Arbeitsmarkt"] and selected_index) else None,
-            height=400,
-            template="plotly_white",
-            showlegend=True,
-            margin=dict(l=40, r=40, t=40, b=80)
-        )
+        # Für das Dashboard "Index": Nur die Index-Indikatoren auf der rechten Y-Achse
+        elif dashboard_name == "Index":
+            for i, indicator in enumerate(selected_index):
+                fig.add_trace(go.Scatter(
+                    x=filtered_df['Zeitachse'],
+                    y=filtered_df[indicator],
+                    name=indicator,
+                    yaxis='y2',  # Index-Indikatoren auf der rechten Y-Achse
+                    mode='lines+markers',
+                    line=dict(color=colors[i])
+                ))
+
+            # Layout für Index-Dashboard (mit rechter Y-Achse)
+            fig.update_layout(
+                title=f"Entwicklung ({dashboard_name})",
+                xaxis=dict(
+                    title="Zeitraum",
+                    titlefont=dict(color="#000000"),
+                    tickfont=dict(color="#000000"),
+                    tickangle=45
+                ),
+                yaxis=dict(
+                    title=None,  # Keine Beschriftung auf der linken Achse für Index-Dashboard
+                    titlefont=dict(color="#000000"),
+                    tickfont=dict(color="#000000"),
+                    tickformat=',',
+                    separatethousands=True,
+                    rangemode='tozero'
+                ),
+                yaxis2=dict(
+                    title="Index-Wert",  # Index-Wert für die rechte Y-Achse
+                    titlefont=dict(color="#000000"),
+                    tickfont=dict(color="#000000"),
+                    overlaying="y",
+                    side="right",
+                    type='linear',
+                    tickformat=',',
+                    separatethousands=True,
+                    rangemode='tozero'
+                ),
+                height=400,
+                template="plotly_white",
+                showlegend=True,
+                margin=dict(l=40, r=40, t=40, b=80)
+            )
+
+        # Für andere Dashboards (z.B. Konjunktur, Arbeitsmarkt)
+        else:
+            # Normale Indikatoren auf der linken Y-Achse
+            for i, indicator in enumerate(selected_normal):
+                fig.add_trace(go.Scatter(
+                    x=filtered_df['Zeitachse'],
+                    y=filtered_df[indicator],
+                    name=indicator,
+                    yaxis='y1',
+                    mode='lines+markers',
+                    line=dict(color=colors[i])
+                ))
+
+            # Index-Indikatoren auf der rechten Y-Achse (nur für Dashboards mit Index-Indikatoren)
+            for i, indicator in enumerate(selected_index):
+                fig.add_trace(go.Scatter(
+                    x=filtered_df['Zeitachse'],
+                    y=filtered_df[indicator],
+                    name=indicator,
+                    yaxis='y2',
+                    mode='lines+markers',
+                    line=dict(color=colors[i + len(selected_normal)])
+                ))
+
+            # Layout anpassen für alle anderen Dashboards
+            fig.update_layout(
+                title=f"Entwicklung ({dashboard_name})",
+                xaxis=dict(
+                    title="Zeitraum",
+                    titlefont=dict(color="#000000"),
+                    tickfont=dict(color="#000000"),
+                    tickangle=45
+                ),
+                yaxis=dict(
+                    title="Absolute Werte (Nicht-Index Indikatoren)" if selected_normal else None,
+                    titlefont=dict(color="#000000"),
+                    tickfont=dict(color="#000000"),
+                    tickformat=',',
+                    separatethousands=True,
+                    rangemode='tozero'
+                ),
+                yaxis2=dict(
+                    title="Index-Wert" if selected_index else None,
+                    titlefont=dict(color="#000000"),
+                    tickfont=dict(color="#000000"),
+                    overlaying="y",
+                    side="right",
+                    type='linear',
+                    tickformat=',',
+                    separatethousands=True,
+                    rangemode='tozero'
+                ) if selected_index else None,
+                height=400,
+                template="plotly_white",
+                showlegend=True,
+                margin=dict(l=40, r=40, t=40, b=80)
+            )
+
+        # Plot anzeigen
         st.plotly_chart(fig, use_container_width=True)
 
         # Lesebeispiel einfügen
@@ -73,7 +159,7 @@ def create_dashboard_plot(dashboard_name, selected_indicators, filtered_df):
             st.markdown("""
             ### Lesebeispiel:
 
-            Die linke Y-Achse (blau) zeigt die Umsatzwerte in Euro, während die rechte Y-Achse (orange) die Indexwerte anzeigt. Nicht alle Indikatoren können historisch über den kompletten Zeitverlauf abgebildet werden.
+            Die linke Y-Achse zeigt die Umsatzwerte in Euro, während die rechte Y-Achse die Indexwerte anzeigt. Nicht alle Indikatoren können historisch über den kompletten Zeitverlauf abgebildet werden.
 
             **Was ist ein Indexwert?**
             Ein Indexwert zeigt Veränderungen im Vergleich zu einem Basiszeitraum an. Bei den HWWI-Indizes (Energierohstoffe, Rohöl, Kohle, Erdgas) zeigt ein höherer Wert steigende Preise an. Bei den IK-Indizes zeigt ein positiver Wert eine Verbesserung, ein negativer Wert eine Verschlechterung der Situation im Vergleich zum Vorquartal an. Die IK-Indizes basieren auf den Einschätzungen der befragten Unternehmen und können Werte zwischen -100 und +100 annehmen. Je höher der absolute Wert, desto stärker ist der Konsens unter den Befragten. Beispielsweise würde ein IK-Index von +50 bedeuten, dass deutlich mehr Unternehmen eine Verbesserung als eine Verschlechterung erwarten, während ein Wert von -50 auf eine überwiegend negative Einschätzung hindeuten würde.
@@ -85,7 +171,7 @@ def create_dashboard_plot(dashboard_name, selected_indicators, filtered_df):
             st.markdown("""
             ### Lesebeispiel:
 
-            Die linke Y-Achse (blau) zeigt die absoluten Werte der Beschäftigten und Betriebe, während die rechte Y-Achse (orange) die Indexwerte anzeigt. Nicht alle Indikatoren können historisch über den kompletten Zeitverlauf abgebildet werden.
+            Die linke Y-Achse zeigt die absoluten Werte der Beschäftigten und Betriebe, während die rechte Y-Achse die Indexwerte anzeigt. Nicht alle Indikatoren können historisch über den kompletten Zeitverlauf abgebildet werden.
 
             **Was ist ein Indexwert?**
             Ein Indexwert zeigt Veränderungen im Vergleich zu einem Basiszeitraum an. Bei den HWWI-Indizes (Energierohstoffe, Rohöl, Kohle, Erdgas) zeigt ein höherer Wert steigende Preise an. Bei den IK-Indizes zeigt ein positiver Wert eine Verbesserung, ein negativer Wert eine Verschlechterung der Situation im Vergleich zum Vorquartal an. Die IK-Indizes basieren auf den Einschätzungen der befragten Unternehmen und können Werte zwischen -100 und +100 annehmen. Je höher der absolute Wert, desto stärker ist der Konsens unter den Befragten. Beispielsweise würde ein IK-Index von +50 bedeuten, dass deutlich mehr Unternehmen eine Verbesserung als eine Verschlechterung erwarten, während ein Wert von -50 auf eine überwiegend negative Einschätzung hindeuten würde.
@@ -103,7 +189,7 @@ def create_dashboard_plot(dashboard_name, selected_indicators, filtered_df):
             Ein Indexwert zeigt Veränderungen im Vergleich zu einem Basiszeitraum an. Bei den HWWI-Indizes (Energierohstoffe, Rohöl, Kohle, Erdgas) zeigt ein höherer Wert steigende Preise an. Bei den IK-Indizes zeigt ein positiver Wert eine Verbesserung, ein negativer Wert eine Verschlechterung der Situation im Vergleich zum Vorquartal an. Die IK-Indizes basieren auf den Einschätzungen der befragten Unternehmen und können Werte zwischen -100 und +100 annehmen. Je höher der absolute Wert, desto stärker ist der Konsens unter den Befragten. Beispielsweise würde ein IK-Index von +50 bedeuten, dass deutlich mehr Unternehmen eine Verbesserung als eine Verschlechterung erwarten, während ein Wert von -50 auf eine überwiegend negative Einschätzung hindeuten würde.
             
             **Interpretation der aktuellen Werte:**
-            Im dritten Quartal 2022 erreichte der Energy raw materials Index mit 718 Punkten einen historischen Höchststand. Diese extreme Preisentwicklung bei den Energierohstoffen spiegelt sich deutlich in den Einschätzungen der Unternehmen wider: Der Index für die Rohstoffverfügbarkeit liegt bei -17,4 Punkten, was auf Schwierigkeiten bei der Beschaffung hinweist. Besonders gravierend wirkt sich dies auf die Ertragslage aus, die mit einem Index von -76 Punkten einen sehr niedrigen Stand erreicht. Die außergewöhnlich hohen Energiepreise belasten die Unternehmen stark, da diese Kostensteigerungen nicht vollständig an die Kunden weitergegeben werden können.
+            Im dritten Quartal 2022 erreichte der Index zur Preisentiwcklung der Energierohstoffe mit 718 Punkten einen historischen Höchststand. Diese extreme Preisentwicklung bei den Energierohstoffen spiegelt sich deutlich in den Einschätzungen der Unternehmen wider: Der Index für die Rohstoffverfügbarkeit liegt bei -17,4 Punkten, was auf Schwierigkeiten bei der Beschaffung hinweist. Besonders gravierend wirkt sich dies auf die Ertragslage aus, die mit einem Index von -76 Punkten einen sehr niedrigen Stand erreicht. Die außergewöhnlich hohen Energiepreise belasten die Unternehmen stark, da diese Kostensteigerungen nicht vollständig an die Kunden weitergegeben werden können.
             """)
 
         # Statistiken als ausklappbares Element
@@ -160,11 +246,10 @@ st.markdown("""
     }
     </style>
 """, unsafe_allow_html=True)
-
 # Logo und Styling hinzufügen
-col1, col2, col3 = st.columns([2, 1, 2])
-with col2:
-    st.image("assets/IK Logo.jpg", width=200)
+# col1, col2, col3 = st.columns([2, 1, 2])
+# with col2:
+    #st.image("assets/IK Logo.jpg", width=200)
 
 st.markdown('<div class="header-container">', unsafe_allow_html=True)
 #st.image("C:/Users/l.mueller/Documents/FileCloud/Team Folders/IK_Server/Wirtschaft/statistische Daten/ik-dashboard/assets/IK Logo.jpg", width=200)
@@ -249,12 +334,12 @@ try:
             Dieses Dashboard zeigt zwei Arten von Daten für die deutsche Kunststoffverpackungs- und Folienindustrie:
 
             **1. Offizielle Statistiken (Destatis):**
-            - Umsatz
-            - Auslandsumsatz (gesamt)
-            - Auslandsumsatz mit der Eurozone
-            - Auslandsumsatz mit dem sonstigen Ausland
+            - Umsatz (in Euro)
+            - Auslandsumsatz gesamt (in Euro)
+            - Auslandsumsatz mit der Eurozone (in Euro)
+            - Auslandsumsatz mit dem sonstigen Ausland (in Euro)
 
-            **2. IK-Konjunkturumfrage (Quartalsdaten):**
+            **2. IK-Konjunkturumfrage (Quartalsdaten), berichtet über die Geschäftserwartungen:**
             - Index_Umsatz
             - Index_Ertrag
             - Index_Exporte
@@ -280,10 +365,10 @@ try:
             Dieses Dashboard zeigt zwei Arten von Daten für die deutsche Kunststoffverpackungs- und Folienindustrie:
 
             **1. Offizielle Statistiken (Destatis):**
-            - Betriebe
-            - Beschäftigte
+            - Betriebe (Anzahl)
+            - Beschäftigte (Anzahl)
 
-            **2. IK-Konjunkturumfrage (Quartalsdaten):**
+            **2. IK-Konjunkturumfrage (Quartalsdaten), berichtet über die Geschäftserwartungen:**
             - Index_Beschäftigtenzahl
             - Index_Wirtschaftslage
 
@@ -310,7 +395,7 @@ try:
             - Index_Preisentwicklung Rohöl
             - Index_Preisentwicklung Erdgas
 
-            **2. IK-Konjunkturumfrage (Quartalsdaten):**
+            **2. IK-Konjunkturumfrage (Quartalsdaten), berichtet über die Geschäftserwartungen:**
             - Index_Verkaufspreise
             - Index_Ertrag
             - Index_Rohstoffverfügbarkeit
@@ -338,7 +423,7 @@ try:
     ### Kontakt bei Fragen:
     **Referat für Wirtschaft**  
     IK Industrieverband e.V.  
-    Laura Müller  
+    Laura C. Müller  
     L.Mueller@Kunststoffverpackungen.de
     """)
 
