@@ -253,7 +253,7 @@ st.image("assets/IK Logo.jpg", width=200)
 
 st.markdown('<div class="header-container">', unsafe_allow_html=True)
 #st.image("C:/Users/l.mueller/Documents/FileCloud/Team Folders/IK_Server/Wirtschaft/statistische Daten/ik-dashboard/assets/IK Logo.jpg", width=200)
-#st.image("assets/IK Logo.jpg", width=200)
+st.image("assets/IK Logo.jpg", width=200)
 st.markdown('''
     <h1 class="main-title">IK Wirtschaftsstatistik</h1>
     <h2 class="subtitle">Kunststoffverpackungen und -folienindustrie</h2>
