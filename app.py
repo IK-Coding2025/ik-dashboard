@@ -248,12 +248,25 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Logo und Styling hinzufügen
-col1, col2, col3 = st.columns([2, 1, 2])
-with col2:
-    #st.image("assets/IK Logo.jpg", width=200)
+st.markdown('''
+    <style>
+        .header-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .main-title {
+            font-size: 36px;
+            font-weight: bold;
+        }
+        .subtitle {
+            font-size: 24px;
+            color: #555;
+        }
+    </style>
+''', unsafe_allow_html=True)
 
+# Das Logo wird hier einmal mittig angezeigt
 st.markdown('<div class="header-container">', unsafe_allow_html=True)
-#st.image("C:/Users/l.mueller/Documents/FileCloud/Team Folders/IK_Server/Wirtschaft/statistische Daten/ik-dashboard/assets/IK Logo.jpg", width=200)
 st.image("assets/IK Logo.jpg", width=200)
 st.markdown('''
     <h1 class="main-title">IK Wirtschaftsstatistik</h1>
