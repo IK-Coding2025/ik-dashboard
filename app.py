@@ -175,6 +175,7 @@ def create_dashboard_plot(dashboard_name, selected_indicators, filtered_df):
 
             **Was ist ein Indexwert?**
             Ein Indexwert zeigt Veränderungen im Vergleich zu einem Basiszeitraum an. Bei den IK-Indizes zeigt ein positiver Wert eine Verbesserung, ein negativer Wert eine Verschlechterung der Situation im Vergleich zum Vorquartal an. Die IK-Indizes basieren auf den Einschätzungen der befragten Unternehmen und können Werte zwischen -100 und +100 annehmen. Je höher der absolute Wert, desto stärker ist der Konsens unter den Befragten. Beispielsweise würde ein IK-Index von +50 bedeuten, dass deutlich mehr Unternehmen eine Verbesserung als eine Verschlechterung erwarten, während ein Wert von -50 auf eine überwiegend negative Einschätzung hindeuten würde. Die Salden basieren auf folgender Rechnung: Anteil der Positivmeldungen minus Anteil der Negativmeldungen.
+            
             **Interpretation der aktuellen Werte:**
             Im vierten Quartal 2023 lag die Anzahl der Beschäftigten bei 91.700 Personen. Der Index für die Beschäftigtenzahl liegt bei -32,6 Punkten, während der Index für die Wirtschaftslage bei -62,9 Punkten liegt. Dies deutet auf eine deutlich pessimistische Einschätzung sowohl der Beschäftigungsentwicklung als auch der allgemeinen Wirtschaftslage hin.
             """)
