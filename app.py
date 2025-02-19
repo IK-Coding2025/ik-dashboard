@@ -29,13 +29,13 @@ def create_dashboard_plot(dashboard_name, selected_indicators, filtered_df):
                 title=f"Entwicklung ({dashboard_name})",
                 xaxis=dict(
                     title="Zeitraum",
-                    titlefont=dict(color="#000000"),
+                    #titlefont=dict(color="#000000"),
                     tickfont=dict(color="#000000"),
                     tickangle=45
                 ),
                 yaxis=dict(
                     title="Index-Werte",  # Beschriftung der linken Y-Achse
-                    titlefont=dict(color="#000000"),
+                    #titlefont=dict(color="#000000"),
                     tickfont=dict(color="#000000"),
                     tickformat=',',
                     separatethousands=True,
@@ -64,13 +64,13 @@ def create_dashboard_plot(dashboard_name, selected_indicators, filtered_df):
                 title=f"Entwicklung ({dashboard_name})",
                 xaxis=dict(
                     title="Zeitraum",
-                    titlefont=dict(color="#000000"),
+                    #titlefont=dict(color="#000000"),
                     tickfont=dict(color="#000000"),
                     tickangle=45
                 ),
                 yaxis=dict(
                     title=None,  # Keine Beschriftung auf der linken Achse für Index-Dashboard
-                    titlefont=dict(color="#000000"),
+                    #titlefont=dict(color="#000000"),
                     tickfont=dict(color="#000000"),
                     tickformat=',',
                     separatethousands=True,
@@ -78,7 +78,7 @@ def create_dashboard_plot(dashboard_name, selected_indicators, filtered_df):
                 ),
                 yaxis2=dict(
                     title="Index-Wert",  # Index-Wert für die rechte Y-Achse
-                    titlefont=dict(color="#000000"),
+                    #titlefont=dict(color="#000000"),
                     tickfont=dict(color="#000000"),
                     overlaying="y",
                     side="right",
@@ -122,13 +122,13 @@ def create_dashboard_plot(dashboard_name, selected_indicators, filtered_df):
                 title=f"Entwicklung ({dashboard_name})",
                 xaxis=dict(
                     title="Zeitraum",
-                    titlefont=dict(color="#000000"),
+                    #titlefont=dict(color="#000000"),
                     tickfont=dict(color="#000000"),
                     tickangle=45
                 ),
                 yaxis=dict(
                     title="Absolute Werte (Nicht-Index Indikatoren)" if selected_normal else None,
-                    titlefont=dict(color="#000000"),
+                    #titlefont=dict(color="#000000"),
                     tickfont=dict(color="#000000"),
                     tickformat=',',
                     separatethousands=True,
@@ -136,7 +136,7 @@ def create_dashboard_plot(dashboard_name, selected_indicators, filtered_df):
                 ),
                 yaxis2=dict(
                     title="Index-Wert" if selected_index else None,
-                    titlefont=dict(color="#000000"),
+                    #titlefont=dict(color="#000000"),
                     tickfont=dict(color="#000000"),
                     overlaying="y",
                     side="right",
