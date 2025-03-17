@@ -422,7 +422,7 @@ try:
     ### Kontakt bei Fragen:
     **Referat für Wirtschaft**  
     IK Industrieverband e.V.  
-    Laura C. Müller  
+    Dr. Laura C. Müller  
     L.Mueller@Kunststoffverpackungen.de
     """)
 
