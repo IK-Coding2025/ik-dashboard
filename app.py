@@ -286,8 +286,8 @@ try:
     dashboards = {
         "Konjunktur": ["Umsatz", "Auslandsumsatz", "Auslandsumsatz mit der Eurozone",
                        "Auslandsumsatz mit dem sonstigen Ausland", "Index_Ertrag",
-                       "Index_Exporte", "Index_Umsatz", "Index_Verkaufspreise (Branchenprodukte)",
-                       "Index_Wirtschaftslage"],
+                       "Index_Exporte",  "Index_Verkaufspreise (Branchenprodukte)",
+                       "Index_Wirtschaftslage"], #"Index_Umsatz"
         "Arbeitsmarkt": ["Betriebe", "Beschäftigte", "Index_Beschäftigtenzahl",
                          "Index_Wirtschaftslage"],
         "Rohstoffe": ["Index_Rohstoffverfügbarkeit", "Index_Preisentwicklung Energierohstoffe",
@@ -339,12 +339,11 @@ try:
             - Auslandsumsatz mit dem sonstigen Ausland (in Euro)
 
             **2. IK-Konjunkturumfrage (Quartalsdaten), berichtet über die Geschäftserwartungen:**
-            - Index_Umsatz
             - Index_Ertrag
             - Index_Exporte
             - Index_Verkaufspreise
             - Index_Wirtschaftslage
-
+            #- Index_Umsatz
             ➡️ Alle Daten beziehen sich ausschließlich auf die Kunststoffverpackungs- und Folienindustrie in Deutschland.
             """)
 
