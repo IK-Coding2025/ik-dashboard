@@ -343,7 +343,7 @@ try:
             - Index_Exporte
             - Index_Verkaufspreise
             - Index_Wirtschaftslage
-            #- Index_Umsatz
+    
             ➡️ Alle Daten beziehen sich ausschließlich auf die Kunststoffverpackungs- und Folienindustrie in Deutschland.
             """)
 
