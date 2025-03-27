@@ -286,13 +286,12 @@ try:
     dashboards = {
         "Konjunktur": ["Umsatz", "Auslandsumsatz", "Auslandsumsatz mit der Eurozone",
                        "Auslandsumsatz mit dem sonstigen Ausland", "Index_Ertrag",
-                       "Index_Exporte",  "Index_Verkaufspreise (Branchenprodukte)",
-                       "Index_Wirtschaftslage"], #"Index_Umsatz"
+                       "Index_Exporte", "Index_Wirtschaftslage"], #"Index_Umsatz", "Index_Verkaufspreise (Branchenprodukte)"
         "Arbeitsmarkt": ["Betriebe", "Beschäftigte", "Index_Beschäftigtenzahl",
                          "Index_Wirtschaftslage"],
         "Rohstoffe": ["Index_Rohstoffverfügbarkeit", "Index_Preisentwicklung Energierohstoffe",
                       "Index_Preisentwicklung Kohle", "Index_Preisentwicklung Rohöl", "Index_Preisentwicklung Erdgas",
-                      "Index_Ertrag", "Index_Verkaufspreise (Branchenprodukte)"]
+                      "Index_Ertrag"] #"Index_Verkaufspreise (Branchenprodukte)"
     }
 
     # Zeitraum-Filter als ausklappbares Element im Hauptbereich
@@ -341,7 +340,6 @@ try:
             **2. IK-Konjunkturumfrage (Quartalsdaten), berichtet über die Geschäftserwartungen:**
             - Index_Ertrag
             - Index_Exporte
-            - Index_Verkaufspreise
             - Index_Wirtschaftslage
     
             ➡️ Alle Daten beziehen sich ausschließlich auf die Kunststoffverpackungs- und Folienindustrie in Deutschland.
@@ -394,7 +392,6 @@ try:
             - Index_Preisentwicklung Erdgas
 
             **2. IK-Konjunkturumfrage (Quartalsdaten), berichtet über die Geschäftserwartungen:**
-            - Index_Verkaufspreise
             - Index_Ertrag
             - Index_Rohstoffverfügbarkeit
 
