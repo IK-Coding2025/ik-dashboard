@@ -437,7 +437,7 @@ with st.expander("ℹ️ Über dieses Dashboard"):
 #csv_path = pd.read_csv(r'data/Destatis_Außenhandelsstatstik_Monate_Quartale_Jahre.csv')
 csv_path = pd.read_csv(
     r'data/Destatis_Außenhandelsstatstik_Monate_Quartale_Jahre.csv',
-    encoding='latin1'  # oder encoding='ISO-8859-1'
+    encoding='ISO-8859-1'  # oder encoding='latin1'
 )
 
 @st.cache_data
