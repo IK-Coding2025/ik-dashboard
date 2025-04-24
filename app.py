@@ -434,7 +434,11 @@ with st.expander("ℹ️ Über dieses Dashboard"):
 
 # Lade CSV-Datei
 #csv_path = r"C:\Users\l.mueller\Documents\FileCloud\Team Folders\IK_Server\Wirtschaft\statistische Daten\ik-dashboard\data\Destatis_Außenhandelsstatstik_Monate_Quartale_Jahre.csv"
-csv_path = pd.read_csv(r'data/Destatis_Außenhandelsstatstik_Monate_Quartale_Jahre.csv')
+#csv_path = pd.read_csv(r'data/Destatis_Außenhandelsstatstik_Monate_Quartale_Jahre.csv')
+csv_path = pd.read_csv(
+    r'data/Destatis_Außenhandelsstatstik_Monate_Quartale_Jahre.csv',
+    encoding='latin1'  # oder encoding='ISO-8859-1'
+)
 
 @st.cache_data
 def load_data(path):
