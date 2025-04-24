@@ -432,18 +432,18 @@ with st.expander("ℹ️ Über dieses Dashboard"):
 
 # Lade CSV-Datei
 #csv_path = r"C:\Users\l.mueller\Documents\FileCloud\Team Folders\IK_Server\Wirtschaft\statistische Daten\ik-dashboard\data\Destatis_Außenhandelsstatstik_Monate_Quartale_Jahre.csv"
-excel_path = r'data/Destatis_Außenhandelsstatstik_Monate_Quartale_Jahre.xlsx'
+csv_path = r'data/Destatis_Außenhandelsstatstik_Monate_Quartale_Jahre.csv'
 
 @st.cache_data
 def load_data(path):
-    df = pd.read_excel(path)
+    df = pd.read_csv(path, sep=';', encoding='latin1', decimal=',')
     return df
 
 # Daten laden und Fehlerbehandlung
 try:
-    df = load_data(excel_path)
+    df = load_data(csv_path)
 except FileNotFoundError:
-    st.error("Excel-Datei wurde nicht gefunden. Bitte überprüfe den Pfad.")
+    st.error("CSV-Datei wurde nicht gefunden. Bitte überprüfe den Pfad.")
     st.stop()
 
 # Filter auf Quartalsdaten mit Format "YYYY-Qx"
