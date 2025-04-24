@@ -416,12 +416,204 @@ try:
     # Add after the last dashboard section but before the except statement
     st.markdown("---")
 
-    # External sources section
+except Exception as e:
+    st.error(f"Fehler beim Laden der Daten: {str(e)}")
+
+
+
+
+# Außenhandel Dashboard
+st.title("Außenhandel")
+with st.expander("ℹ️ Über dieses Dashboard"):
     st.markdown("""
-    ### Externe Quellen:
-    - **Destatis**: [Genesis-Online Datenbank](https://www-genesis.destatis.de/datenbank/online/)  
-      *insb. Konjunkturstatistik (Tabellencode 42111), Datenmodifikation (insb. der Wirtschaftszweige 2221 und 2222 zur Branchenabgrenzung) anhand eigener Berechnungen*
-    - **HWWI**: [Rohstoffpreisindex](https://www.hwwi.org/datenangebote/rohstoffpreisindex/)  
+        Dieses Dashboard zeigt die Import- und Exportentwicklungen für die deutsche Kunststoffverpackungs- und Folienindustrie im Zeitverlauf.
+        Datenbasis ist Destatis. Aus den in Destatis vorliegenden Daten wurden Aggregate für die verschiedenen branchenrelevanten Polymere und Packmittel gebildet.
+        Wählen Sie unten die Handelsrichtung und Polymerart/Packmittel aus, um die entsprechenden Daten zu visualisieren. Dabei können Sie wählen zwischen der Anzeige absoluter Import- bzw-. Exportzahlen in Tsd. Euro pro Quartal und der prozentualen Veränderung im Vergleich zum Vorjahresquartal. 
+    """)
+
+
+# Lade CSV-Datei
+#csv_path = r"C:\Users\l.mueller\Documents\FileCloud\Team Folders\IK_Server\Wirtschaft\statistische Daten\ik-dashboard\data\Destatis_Außenhandelsstatstik_Monate_Quartale_Jahre.csv"
+csv_path = pd.read_csv(r'data/IK_Konj+Destatis_HWWI.csv')
+
+@st.cache_data
+def load_data(path):
+    # Einlesen der CSV-Datei mit Berücksichtigung des deutschen Dezimaltrennzeichens
+    df = pd.read_csv(path, sep=';', encoding='latin1', decimal=',')  # 'decimal' für deutsches Komma
+    return df
+
+
+# Daten laden und Fehlerbehandlung
+try:
+    df = load_data(csv_path)
+except FileNotFoundError:
+    st.error("CSV-Datei wurde nicht gefunden. Bitte überprüfe den Pfad.")
+    st.stop()
+
+# Filter auf Quartalsdaten mit Format "YYYY-Qx"
+df = df[df["Jahr-Monat"].str.contains(r"\d{4}-Q\d", na=False)]
+
+# Nur Maßeinheit "Tsd. EUR"
+df = df[df["Maßeinheit"] == "Tsd. EUR"]
+
+# Umbenennung der Spalte für bessere Lesbarkeit
+df = df.rename(columns={
+    "relative Veränderung zum Vorjahr/Vorjahresmonat/Vorjahresquartal": "prozentuale Veränderung zum Vorjahresquartal"
+})
+
+df = df.rename(columns={
+    "Kennzahl": "Tsd. EUR"
+})
+
+df = df.drop(columns=["Maßeinheit"])
+
+
+# Konvertiere die Spalten in numerische Werte (falls noch nicht automatisch geschehen)
+df["prozentuale Veränderung zum Vorjahresquartal"] = pd.to_numeric(df["prozentuale Veränderung zum Vorjahresquartal"], errors='coerce')
+df["Tsd. EUR"] = pd.to_numeric(df["Tsd. EUR"], errors='coerce')
+
+# Filter: Nur Jahre 2015 bis 2024
+df = df[df["Jahr-Monat"].str[:4].astype(int).between(2016, 2024)] #anpassen wenn neue Daten für 2025 vorliegen
+
+# Dropdown-Menü zur Auswahl der Anzeigeart
+anzeigeart = st.radio(
+    "Wähle die Anzeigeart:",
+    options=["Prozentuale Veränderung zum Vorjahresquartal", "Absolute Quartalsentwicklung (Tsd. EUR)"],
+    index=1  # Standardmäßig ist die asolute Quartalsentwicklung ausgewählt
+)
+
+def calculate_dynamic_y_range(max_value):
+    # Dynamische Schrittweiten und Obergrenzen für verschiedene Größenordnungen
+    if max_value <= 1000:
+        y_max = int(np.ceil(max_value / 100.0)) * 100  # Schritte zu 100
+        y_max = max(y_max, 1000)  # Mindest-y_max für Sichtbarkeit
+    elif max_value <= 10000:
+        y_max = int(np.ceil(max_value / 1000.0)) * 1000  # Schritte zu 1.000
+    elif max_value <= 100000:
+        y_max = int(np.ceil(max_value / 10000.0)) * 10000  # Schritte zu 10.000
+    else:
+        y_max = int(np.ceil(max_value / 100000.0)) * 100000  # Schritte zu 100.000
+    return y_max
+
+# User-Filter: Handelsrichtung (Einfuhr/Ausfuhr)
+richtung = st.selectbox(
+    "Auswahl Handelsrichtung:",
+    options=df["Import/Export"].dropna().unique(),
+    key="direction_filter"  # Eindeutiger Schlüssel
+)
+
+# User-Filter: Polymerart / Packmittel
+packmittel = st.selectbox(
+    "Auswahl Polymerart / Packmittel:",
+    options=df["Polymerart/Packmittel"].dropna().unique(),
+    key="polymer_filter"  # Eindeutiger Schlüssel
+)
+
+# Alle verfügbaren Zeiträume (z.B. '2016-Q1', ..., '2025-Q4')
+zeitraeume = sorted(df["Jahr-Monat"].unique().tolist())
+
+# Default: alle Zeiträume ab 2019 vorauswählen
+default_zeitraeume = [z for z in zeitraeume if int(z[:4]) >= 2019]
+
+# Multiselect-Dropdown für Zeiträume in einem eingeklappten Expander
+with st.expander("Zeiträume auswählen", expanded=False):
+    selected_zeitraeume = st.multiselect(
+        "Zeiträume auswählen:",
+        options=zeitraeume,
+        default=default_zeitraeume,
+        key="zeitraeume_dropdown"
+    )
+
+# Daten nach Auswahl filtern
+df_filtered = df[
+    (df["Import/Export"] == richtung) &
+    (df["Polymerart/Packmittel"] == packmittel) &
+    (df["Jahr-Monat"].isin(selected_zeitraeume))
+]
+
+# Sortieren nach Zeit (Jahr-Monat)
+df_filtered = df_filtered.sort_values("Jahr-Monat")
+
+if anzeigeart == "Prozentuale Veränderung zum Vorjahresquartal":
+    y_spalte = "prozentuale Veränderung zum Vorjahresquartal"
+    y_range = [-100, 100]
+    y_label = "in Prozent"
+else:
+    y_spalte = "Tsd. EUR"
+    if not df_filtered.empty:
+        max_wert = df_filtered[y_spalte].max()
+        y_max = calculate_dynamic_y_range(max_wert)
+    else:
+        y_max = 1000
+    y_range = [0, y_max]
+    y_label = "in Tsd. EUR"
+
+fig = px.bar(
+    df_filtered,
+    x="Jahr-Monat",
+    y=y_spalte,
+    color="Import/Export",
+    labels={
+        "Jahr-Monat": "Zeitraum",
+        y_spalte: y_label,
+        "Import/Export": "Handelsrichtung"
+    },
+    title=f"Entwicklung des Außenhandels ({anzeigeart})"
+)
+
+fig.update_yaxes(range=y_range)
+
+# Layout-Anpassungen für bessere Darstellung
+(fig.update_layout
+    (xaxis=dict(
+        title="Zeitraum",
+        tickangle=45,  # Drehrichtung der X-Achsen-Beschriftung anpassen
+        tickfont=dict(color="black")  # Achsenbeschriftung in Schwarz
+    ),
+    yaxis=dict(
+        title=y_label,
+        range=y_range,
+        tickformat=",",  # Keine Abkürzungen wie M oder K auf der Y-Achse, sondern absolute Zahlen
+        tickfont=dict(color="black")  # Achsenbeschriftung in Schwarz
+    ),
+    legend_title="Handelsrichtung",
+    bargap=0.2,  # Abstand zwischen Balken
+))
+
+# Diagramm anzeigen
+st.plotly_chart(fig, use_container_width=True)
+
+
+# Beispieltext für das Lesebeispiel
+lesebeispiel_text = """
+**Lesebeispiel:**
+
+Die X-Achse zeigt die Entwicklung des Außenhandels im Zeitverlauf an. Auf der Y-Achse wird die Entwicklung des Außenhandels in Euro oder im Verhältnis zum Vorjahresquartal abgebildet - abhängig davon welche Filter für die Anzeigeart ausgewählt wurden.
+
+**Auswahl der Polymerart / Packmittel:** Gesamt_Packmittel bzw. Gesamt_Polymere stellen ein Aggregat aus allen im Filter hinterlegten Packmitteln bzw. Polymeren dar. 
+
+**Interpretation der aktuellen Werte:** Im Zeitverlauf sind deutliche Schwankungen der deutschen Exportwerte erkennbar. Besonders auffällig ist der Anstieg in 2022, mit Höchstwerten von über 1,3 Milliarden Euro. Nach dem Höhepunkt 2022 folgte ein leichter Rückgang, wobei die Werte in 2023 und 2024 weiterhin über dem Niveau von vor 2021 liegen.
+"""
+
+def add_lesebeispiel():
+    st.markdown("---")  # Trennlinie
+    st.subheader("Lesebeispiel")
+    st.markdown(lesebeispiel_text)
+
+# ... dein Dashboard-Code ...
+
+# Lesebeispiel unter dem Dashboard einfügen
+add_lesebeispiel()
+
+
+
+# Quellen und Kontaktinformationen hinzufügen
+st.markdown("---")
+st.markdown("""
+### Externe Quellen:
+- **Destatis**: [Genesis-Online Datenbank](https://www-genesis.destatis.de/datenbank/online/)  
+  * Konjunkturstatistik (Tabellencode 42111), Datenmodifikation (insb. der Wirtschaftszweige 2221 und 2222 zur Branchenabgrenzung) anhand eigener Berechnungen
+  * Außenhandelsstatistik (Tabellencode 51000), Datenmodifikation anhand eigener Berechnungen
 
     ### Kontakt bei Fragen:
     **Referat für Wirtschaft**  
@@ -429,6 +621,3 @@ try:
     Dr. Laura C. Müller  
     L.Mueller@Kunststoffverpackungen.de
     """)
-
-except Exception as e:
-    st.error(f"Fehler beim Laden der Daten: {str(e)}")
