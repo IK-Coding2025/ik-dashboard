@@ -298,12 +298,19 @@ try:
     with st.expander("Zeitraum-Filter", expanded=False):  # Der Zeitraum-Filter ist zu Beginn eingeklappt
         st.header("Zeitraum-Filter")
 
-        # Filteroptionen im Hauptbereich, nicht in der Sidebar
+        # Stelle sicher, dass alle Jahre den gleichen Datentyp haben (int)
+        df['Jahr'] = df['Jahr'].astype(int)
+
+        # Alle verfügbaren Jahre
         years = sorted(df['Jahr'].unique().tolist())
+
+        # Standardmäßig nur Jahre ab 2019 vorauswählen
+        default_years = [year for year in years if year >= 2019]
+
         selected_years = st.multiselect(
             "Jahre auswählen:",
             options=years,
-            default=years
+            default=default_years  # Nur Jahre ab 2019 vorausgewählt
         )
 
         quarters = ['Q1', 'Q2', 'Q3', 'Q4']
@@ -324,6 +331,7 @@ try:
     filtered_df['Quartal_Sortierung'] = filtered_df['Monat'].map(quartal_order)
     filtered_df = filtered_df.sort_values(by=['Jahr', 'Quartal_Sortierung'])
     filtered_df['Zeitachse'] = filtered_df['Jahr'].astype(str) + '-' + filtered_df['Monat']
+    #filtered_df = filtered_df[filtered_df['Jahr'] >= 2019]
 
     # Konjunktur Dashboard
     st.header("Konjunktur")
