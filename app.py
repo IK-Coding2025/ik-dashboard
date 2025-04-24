@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
+import numpy as np
 
 def create_dashboard_plot(dashboard_name, selected_indicators, filtered_df):
     if selected_indicators:
