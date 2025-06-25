@@ -100,7 +100,7 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2022;Ausfuhr;Tsd. EUR;2222;1370398;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;Q1;17,7768133;2022-Q1
 2023;Ausfuhr;Tsd. EUR;2222;1386544;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;Q1;1,178197867;2023-Q1
 2024;Ausfuhr;Tsd. EUR;2222;1295070;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;Q1;-6,597266297;2024-Q1
-2025;Ausfuhr;Tsd. EUR;2222;1301417;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;Q1;0,490089339;2025-Q1
+2025;Ausfuhr;Tsd. EUR;2221;975;Regen. Cellulose;WA39207100 Folien, Platten u.a. aus regenerierter Cellulose;39207100;Q1;37,51763047;2025-Q1
 2015;Ausfuhr;Tsd. US $;2222;805029;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;Q1;;2015-Q1
 2016;Ausfuhr;Tsd. US $;2222;842270;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;Q1;4,626044528;2016-Q1
 2017;Ausfuhr;Tsd. US $;2222;1109496;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;Q1;31,72688093;2017-Q1
@@ -177,7 +177,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2022;Ausfuhr;Anzahl;2222;872205796;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;Q2;-11,37407458;2022-Q2
 2023;Ausfuhr;Anzahl;2222;865744377;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;Q2;-0,740813582;2023-Q2
 2024;Ausfuhr;Anzahl;2222;903836730;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;Q2;4,399953845;2024-Q2
-2025;Ausfuhr;Anzahl;2222;;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;;;
 2015;Ausfuhr;Tsd. EUR;2222;727008;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;Q2;;2015-Q2
 2016;Ausfuhr;Tsd. EUR;2222;761272;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;Q2;4,713015538;2016-Q2
 2017;Ausfuhr;Tsd. EUR;2222;1058228;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;Q2;39,00787104;2017-Q2
@@ -188,7 +187,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2022;Ausfuhr;Tsd. EUR;2222;1369468;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;Q2;12,94329941;2022-Q2
 2023;Ausfuhr;Tsd. EUR;2222;1289787;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;Q2;-5,818390791;2023-Q2
 2024;Ausfuhr;Tsd. EUR;2222;1291141;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;Q2;0,104978574;2024-Q2
-2025;Ausfuhr;Tsd. EUR;2222;;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;;;
 2015;Ausfuhr;Tsd. US $;2222;803134;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;Q2;;2015-Q2
 2016;Ausfuhr;Tsd. US $;2222;859572;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;Q2;7,027220862;2016-Q2
 2017;Ausfuhr;Tsd. US $;2222;1165462;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;Q2;35,58631505;2017-Q2
@@ -199,7 +197,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2022;Ausfuhr;Tsd. US $;2222;1458331;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;Q2;-0,254164196;2022-Q2
 2023;Ausfuhr;Tsd. US $;2222;1404457;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;Q2;-3,694223054;2023-Q2
 2024;Ausfuhr;Tsd. US $;2222;1389954;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;Q2;-1,032641085;2024-Q2
-2025;Ausfuhr;Tsd. US $;2222;;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;;;
 2015;Ausfuhr;t;2222;187161,8;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;Q2;;2015-Q2
 2016;Ausfuhr;t;2222;201584,2;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;Q2;7,705845958;2016-Q2
 2017;Ausfuhr;t;2222;288854,5;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;Q2;43,29223223;2017-Q2
@@ -210,7 +207,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2022;Ausfuhr;t;2222;284937;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;Q2;-2,362627252;2022-Q2
 2023;Ausfuhr;t;2222;252604,9;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;Q2;-11,3471048;2023-Q2
 2024;Ausfuhr;t;2222;256654,5;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;Q2;1,603135965;2024-Q2
-2025;Ausfuhr;t;2222;;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;;;
 2015;Einfuhr;Anzahl;2222;1667967370;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;Q2;;2015-Q2
 2016;Einfuhr;Anzahl;2222;1623560262;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;Q2;-2,662348724;2016-Q2
 2017;Einfuhr;Anzahl;2222;1885215060;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;Q2;16,11611248;2017-Q2
@@ -221,7 +217,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2022;Einfuhr;Anzahl;2222;1771275362;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;Q2;13,349634;2022-Q2
 2023;Einfuhr;Anzahl;2222;1592385712;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;Q2;-10,09948277;2023-Q2
 2024;Einfuhr;Anzahl;2222;1555595237;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;Q2;-2,310399718;2024-Q2
-2025;Einfuhr;Anzahl;2222;;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;;;
 2015;Einfuhr;Tsd. EUR;2222;586881;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;Q2;;2015-Q2
 2016;Einfuhr;Tsd. EUR;2222;603378;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;Q2;2,810961677;2016-Q2
 2017;Einfuhr;Tsd. EUR;2222;783286;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;Q2;29,81679809;2017-Q2
@@ -232,7 +227,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2022;Einfuhr;Tsd. EUR;2222;1081264;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;Q2;15,60970029;2022-Q2
 2023;Einfuhr;Tsd. EUR;2222;969048;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;Q2;-10,378224;2023-Q2
 2024;Einfuhr;Tsd. EUR;2222;978097;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;Q2;0,933803073;2024-Q2
-2025;Einfuhr;Tsd. EUR;2222;;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;;;
 2015;Einfuhr;Tsd. US $;2222;648574;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;Q2;;2015-Q2
 2016;Einfuhr;Tsd. US $;2222;681308;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;Q2;5,047072501;2016-Q2
 2017;Einfuhr;Tsd. US $;2222;862394;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;Q2;26,57916831;2017-Q2
@@ -243,7 +237,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2022;Einfuhr;Tsd. US $;2222;1151718;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;Q2;2,132448205;2022-Q2
 2023;Einfuhr;Tsd. US $;2222;1055227;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;Q2;-8,378005727;2023-Q2
 2024;Einfuhr;Tsd. US $;2222;1053054;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;Q2;-0,205927255;2024-Q2
-2025;Einfuhr;Tsd. US $;2222;;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;;;
 2015;Einfuhr;t;2222;212154,9;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;Q2;;2015-Q2
 2016;Einfuhr;t;2222;226809,3;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;Q2;6,907405862;2016-Q2
 2017;Einfuhr;t;2222;281107,3;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;Q2;23,93993544;2017-Q2
@@ -254,7 +247,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2022;Einfuhr;t;2222;312628,8;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;Q2;-3,709313926;2022-Q2
 2023;Einfuhr;t;2222;275564;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;Q2;-11,85584949;2023-Q2
 2024;Einfuhr;t;2222;291160,3;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;Q2;5,659774136;2024-Q2
-2025;Einfuhr;t;2222;;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;;;
 2015;Ausfuhr;Anzahl;2222;1037473191;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;Q3;;2015-Q3
 2016;Ausfuhr;Anzahl;2222;1025326095;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;Q3;-1,170834688;2016-Q3
 2017;Ausfuhr;Anzahl;2222;1009692805;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;Q3;-1,52471395;2017-Q3
@@ -485,7 +477,7 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2022;Ausfuhr;Tsd. EUR;2221;1397296;Gesamt_Polymere;Gesamt_Polymere;Gesamt_Polymere;Q1;25,34781809;2022-Q1
 2023;Ausfuhr;Tsd. EUR;2221;1202540;Gesamt_Polymere;Gesamt_Polymere;Gesamt_Polymere;Q1;-13,93806323;2023-Q1
 2024;Ausfuhr;Tsd. EUR;2221;1128075;Gesamt_Polymere;Gesamt_Polymere;Gesamt_Polymere;Q1;-6,192309611;2024-Q1
-2025;Ausfuhr;Tsd. EUR;2221;1109488;Gesamt_Polymere;Gesamt_Polymere;Gesamt_Polymere;Q1;-1,647674135;2025-Q1
+2025;Ausfuhr;Tsd. EUR;2222;2806;Tüten, Beutel, Säcke usw. aus PVC;WA39232910 Säcke und Beutel, aus Polyvinylchlorid;39232910;Q1;25,60429722;2025-Q1
 2015;Ausfuhr;Tsd. US $;2221;1046045;Gesamt_Polymere;Gesamt_Polymere;Gesamt_Polymere;Q1;;2015-Q1
 2016;Ausfuhr;Tsd. US $;2221;1067305;Gesamt_Polymere;Gesamt_Polymere;Gesamt_Polymere;Q1;2,032417343;2016-Q1
 2017;Ausfuhr;Tsd. US $;2221;1106112;Gesamt_Polymere;Gesamt_Polymere;Gesamt_Polymere;Q1;3,635980343;2017-Q1
@@ -551,7 +543,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2022;Ausfuhr;Tsd. EUR;2221;1393646;Gesamt_Polymere;Gesamt_Polymere;Gesamt_Polymere;Q2;15,61900084;2022-Q2
 2023;Ausfuhr;Tsd. EUR;2221;1122670;Gesamt_Polymere;Gesamt_Polymere;Gesamt_Polymere;Q2;-19,44367508;2023-Q2
 2024;Ausfuhr;Tsd. EUR;2221;1141144;Gesamt_Polymere;Gesamt_Polymere;Gesamt_Polymere;Q2;1,645541432;2024-Q2
-2025;Ausfuhr;Tsd. EUR;2221;;Gesamt_Polymere;Gesamt_Polymere;Gesamt_Polymere;;;
 2015;Ausfuhr;Tsd. US $;2221;1097480;Gesamt_Polymere;Gesamt_Polymere;Gesamt_Polymere;Q2;;2015-Q2
 2016;Ausfuhr;Tsd. US $;2221;1142064;Gesamt_Polymere;Gesamt_Polymere;Gesamt_Polymere;Q2;4,062397492;2016-Q2
 2017;Ausfuhr;Tsd. US $;2221;1164961;Gesamt_Polymere;Gesamt_Polymere;Gesamt_Polymere;Q2;2,004878886;2017-Q2
@@ -562,7 +553,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2022;Ausfuhr;Tsd. US $;2221;1484315;Gesamt_Polymere;Gesamt_Polymere;Gesamt_Polymere;Q2;2,119492978;2022-Q2
 2023;Ausfuhr;Tsd. US $;2221;1222591;Gesamt_Polymere;Gesamt_Polymere;Gesamt_Polymere;Q2;-17,63264536;2023-Q2
 2024;Ausfuhr;Tsd. US $;2221;1228490;Gesamt_Polymere;Gesamt_Polymere;Gesamt_Polymere;Q2;0,482499871;2024-Q2
-2025;Ausfuhr;Tsd. US $;2221;;Gesamt_Polymere;Gesamt_Polymere;Gesamt_Polymere;;;
 2015;Ausfuhr;t;2221;335724,2;Gesamt_Polymere;Gesamt_Polymere;Gesamt_Polymere;Q2;;2015-Q2
 2016;Ausfuhr;t;2221;353190;Gesamt_Polymere;Gesamt_Polymere;Gesamt_Polymere;Q2;5,202425086;2016-Q2
 2017;Ausfuhr;t;2221;349318,1;Gesamt_Polymere;Gesamt_Polymere;Gesamt_Polymere;Q2;-1,096265466;2017-Q2
@@ -573,7 +563,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2022;Ausfuhr;t;2221;344751,9;Gesamt_Polymere;Gesamt_Polymere;Gesamt_Polymere;Q2;-5,51164852;2022-Q2
 2023;Ausfuhr;t;2221;284819,8;Gesamt_Polymere;Gesamt_Polymere;Gesamt_Polymere;Q2;-17,38412464;2023-Q2
 2024;Ausfuhr;t;2221;309051,3;Gesamt_Polymere;Gesamt_Polymere;Gesamt_Polymere;Q2;8,507659931;2024-Q2
-2025;Ausfuhr;t;2221;;Gesamt_Polymere;Gesamt_Polymere;Gesamt_Polymere;;;
 2015;Einfuhr;Tsd. EUR;2221;577132;Gesamt_Polymere;Gesamt_Polymere;Gesamt_Polymere;Q2;;2015-Q2
 2016;Einfuhr;Tsd. EUR;2221;554182;Gesamt_Polymere;Gesamt_Polymere;Gesamt_Polymere;Q2;-3,976559955;2016-Q2
 2017;Einfuhr;Tsd. EUR;2221;600661;Gesamt_Polymere;Gesamt_Polymere;Gesamt_Polymere;Q2;8,38695591;2017-Q2
@@ -584,7 +573,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2022;Einfuhr;Tsd. EUR;2221;852939;Gesamt_Polymere;Gesamt_Polymere;Gesamt_Polymere;Q2;23,02578534;2022-Q2
 2023;Einfuhr;Tsd. EUR;2221;632214;Gesamt_Polymere;Gesamt_Polymere;Gesamt_Polymere;Q2;-25,87816948;2023-Q2
 2024;Einfuhr;Tsd. EUR;2221;655829;Gesamt_Polymere;Gesamt_Polymere;Gesamt_Polymere;Q2;3,735285837;2024-Q2
-2025;Einfuhr;Tsd. EUR;2221;;Gesamt_Polymere;Gesamt_Polymere;Gesamt_Polymere;;;
 2015;Einfuhr;Tsd. US $;2221;637327;Gesamt_Polymere;Gesamt_Polymere;Gesamt_Polymere;Q2;;2015-Q2
 2016;Einfuhr;Tsd. US $;2221;625865;Gesamt_Polymere;Gesamt_Polymere;Gesamt_Polymere;Q2;-1,798448834;2016-Q2
 2017;Einfuhr;Tsd. US $;2221;661007;Gesamt_Polymere;Gesamt_Polymere;Gesamt_Polymere;Q2;5,614948911;2017-Q2
@@ -595,7 +583,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2022;Einfuhr;Tsd. US $;2221;908657;Gesamt_Polymere;Gesamt_Polymere;Gesamt_Polymere;Q2;8,699480223;2022-Q2
 2023;Einfuhr;Tsd. US $;2221;688516;Gesamt_Polymere;Gesamt_Polymere;Gesamt_Polymere;Q2;-24,22707358;2023-Q2
 2024;Einfuhr;Tsd. US $;2221;706042;Gesamt_Polymere;Gesamt_Polymere;Gesamt_Polymere;Q2;2,545474615;2024-Q2
-2025;Einfuhr;Tsd. US $;2221;;Gesamt_Polymere;Gesamt_Polymere;Gesamt_Polymere;;;
 2015;Einfuhr;t;2221;218096,5;Gesamt_Polymere;Gesamt_Polymere;Gesamt_Polymere;Q2;;2015-Q2
 2016;Einfuhr;t;2221;212239,2;Gesamt_Polymere;Gesamt_Polymere;Gesamt_Polymere;Q2;-2,685646033;2016-Q2
 2017;Einfuhr;t;2221;225143;Gesamt_Polymere;Gesamt_Polymere;Gesamt_Polymere;Q2;6,07983822;2017-Q2
@@ -606,7 +593,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2022;Einfuhr;t;2221;251452,6;Gesamt_Polymere;Gesamt_Polymere;Gesamt_Polymere;Q2;4,400815269;2022-Q2
 2023;Einfuhr;t;2221;194438,1;Gesamt_Polymere;Gesamt_Polymere;Gesamt_Polymere;Q2;-22,67405467;2023-Q2
 2024;Einfuhr;t;2221;216528,2;Gesamt_Polymere;Gesamt_Polymere;Gesamt_Polymere;Q2;11,36099355;2024-Q2
-2025;Einfuhr;t;2221;;Gesamt_Polymere;Gesamt_Polymere;Gesamt_Polymere;;;
 2015;Ausfuhr;Tsd. EUR;2221;950633;Gesamt_Polymere;Gesamt_Polymere;Gesamt_Polymere;Q3;;2015-Q3
 2016;Ausfuhr;Tsd. EUR;2221;956960;Gesamt_Polymere;Gesamt_Polymere;Gesamt_Polymere;Q3;0,665556529;2016-Q3
 2017;Ausfuhr;Tsd. EUR;2221;1041632;Gesamt_Polymere;Gesamt_Polymere;Gesamt_Polymere;Q3;8,848018726;2017-Q3
@@ -15620,7 +15606,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Ausfuhr;Anzahl;2222;30770629;Flaschen größer 2 l;WA39233090 Ballons, Flaschen, Flakons aus Kunststoffen >2l St;39233090;Q3;7,987917392;2024-Q3
 2024;Ausfuhr;Anzahl;2222;27584683;Flaschen größer 2 l;WA39233090 Ballons, Flaschen, Flakons aus Kunststoffen >2l St;39233090;Q4;3,559965889;2024-Q4
 2025;Ausfuhr;Anzahl;2222;33673082;Flaschen größer 2 l;WA39233090 Ballons, Flaschen, Flakons aus Kunststoffen >2l St;39233090;Q1;7,311146402;2025-Q1
-2025;Ausfuhr;Anzahl;2222;;Flaschen größer 2 l;WA39233090 Ballons, Flaschen, Flakons aus Kunststoffen >2l St;39233090;;;
 2015;Ausfuhr;Anzahl;2222;962529621;Flaschen kleiner 2 l;WA39233010 Ballons, Flaschen, Flakons a.Kunststoffen <=2l  St;39233010;Q1;;2015-Q1
 2015;Ausfuhr;Anzahl;2222;1025401708;Flaschen kleiner 2 l;WA39233010 Ballons, Flaschen, Flakons a.Kunststoffen <=2l  St;39233010;Q2;;2015-Q2
 2015;Ausfuhr;Anzahl;2222;1015081629;Flaschen kleiner 2 l;WA39233010 Ballons, Flaschen, Flakons a.Kunststoffen <=2l  St;39233010;Q3;;2015-Q3
@@ -15662,7 +15647,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Ausfuhr;Anzahl;2222;925623294;Flaschen kleiner 2 l;WA39233010 Ballons, Flaschen, Flakons a.Kunststoffen <=2l  St;39233010;Q3;11,8790239;2024-Q3
 2024;Ausfuhr;Anzahl;2222;802576531;Flaschen kleiner 2 l;WA39233010 Ballons, Flaschen, Flakons a.Kunststoffen <=2l  St;39233010;Q4;4,567138908;2024-Q4
 2025;Ausfuhr;Anzahl;2222;925571470;Flaschen kleiner 2 l;WA39233010 Ballons, Flaschen, Flakons a.Kunststoffen <=2l  St;39233010;Q1;4,603736761;2025-Q1
-2025;Ausfuhr;Anzahl;2222;;Flaschen kleiner 2 l;WA39233010 Ballons, Flaschen, Flakons a.Kunststoffen <=2l  St;39233010;;;
 2017;Ausfuhr;Tsd. EUR;2222;235426;Becher, Dosen, Kisten;WA39231010 Kisten zum Transport von Wafern aus Kunststoffen+WA39231090 Dosen, Kisten, Verschläge u.a. aus Kunststoffen;39231010+39231090;Q1;;2017-Q1
 2017;Ausfuhr;Tsd. EUR;2222;255834;Becher, Dosen, Kisten;WA39231010 Kisten zum Transport von Wafern aus Kunststoffen+WA39231090 Dosen, Kisten, Verschläge u.a. aus Kunststoffen;39231010+39231090;Q2;;2017-Q2
 2017;Ausfuhr;Tsd. EUR;2222;253779;Becher, Dosen, Kisten;WA39231010 Kisten zum Transport von Wafern aus Kunststoffen+WA39231090 Dosen, Kisten, Verschläge u.a. aus Kunststoffen;39231010+39231090;Q3;;2017-Q3
@@ -15695,8 +15679,7 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Ausfuhr;Tsd. EUR;2222;310459;Becher, Dosen, Kisten;WA39231010 Kisten zum Transport von Wafern aus Kunststoffen+WA39231090 Dosen, Kisten, Verschläge u.a. aus Kunststoffen;39231010+39231090;Q2;-3,269938994;2024-Q2
 2024;Ausfuhr;Tsd. EUR;2222;313757;Becher, Dosen, Kisten;WA39231010 Kisten zum Transport von Wafern aus Kunststoffen+WA39231090 Dosen, Kisten, Verschläge u.a. aus Kunststoffen;39231010+39231090;Q3;-0,296799082;2024-Q3
 2024;Ausfuhr;Tsd. EUR;2222;290788;Becher, Dosen, Kisten;WA39231010 Kisten zum Transport von Wafern aus Kunststoffen+WA39231090 Dosen, Kisten, Verschläge u.a. aus Kunststoffen;39231010+39231090;Q4;-3,056448279;2024-Q4
-2025;Ausfuhr;Tsd. EUR;2222;302591;Becher, Dosen, Kisten;WA39231010 Kisten zum Transport von Wafern aus Kunststoffen+WA39231090 Dosen, Kisten, Verschläge u.a. aus Kunststoffen;39231010+39231090;Q1;-5,372890685;2025-Q1
-2025;Ausfuhr;Tsd. EUR;2222;;Becher, Dosen, Kisten;WA39231010 Kisten zum Transport von Wafern aus Kunststoffen+WA39231090 Dosen, Kisten, Verschläge u.a. aus Kunststoffen;39231010+39231090;;;
+2025;Ausfuhr;Tsd. EUR;2221;2939;Celluloseacetat;WA39207380 Folien, Platten u.a. aus Celluloseacetaten,a.n.g.;39207380;Q1;1,942421089;2025-Q1
 2015;Ausfuhr;Tsd. EUR;2221;6070;Celluloseacetat;WA39207380 Folien, Platten u.a. aus Celluloseacetaten,a.n.g.;39207380;Q1;;2015-Q1
 2015;Ausfuhr;Tsd. EUR;2221;5815;Celluloseacetat;WA39207380 Folien, Platten u.a. aus Celluloseacetaten,a.n.g.;39207380;Q2;;2015-Q2
 2015;Ausfuhr;Tsd. EUR;2221;5596;Celluloseacetat;WA39207380 Folien, Platten u.a. aus Celluloseacetaten,a.n.g.;39207380;Q3;;2015-Q3
@@ -15737,8 +15720,7 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Ausfuhr;Tsd. EUR;2221;3094;Celluloseacetat;WA39207380 Folien, Platten u.a. aus Celluloseacetaten,a.n.g.;39207380;Q2;-9,26686217;2024-Q2
 2024;Ausfuhr;Tsd. EUR;2221;3224;Celluloseacetat;WA39207380 Folien, Platten u.a. aus Celluloseacetaten,a.n.g.;39207380;Q3;-0,647149461;2024-Q3
 2024;Ausfuhr;Tsd. EUR;2221;2908;Celluloseacetat;WA39207380 Folien, Platten u.a. aus Celluloseacetaten,a.n.g.;39207380;Q4;15,62624254;2024-Q4
-2025;Ausfuhr;Tsd. EUR;2221;2939;Celluloseacetat;WA39207380 Folien, Platten u.a. aus Celluloseacetaten,a.n.g.;39207380;Q1;1,942421089;2025-Q1
-2025;Ausfuhr;Tsd. EUR;2221;;Celluloseacetat;WA39207380 Folien, Platten u.a. aus Celluloseacetaten,a.n.g.;39207380;;;
+2025;Ausfuhr;Tsd. EUR;2221;25335;PA;WA39209200 Tafeln, Platten u.a., aus Polyamiden;39209200;Q1;-0,627574034;2025-Q1
 2015;Ausfuhr;Tsd. EUR;2221;141019;Ethylencopolymere/Sonstige;WA39201040 Tafeln, Folien u.a., Polymere d.Ethylens,<=0,125mm+WA39201081 Synthetischer Papierhalbstoff aus Polyethylen+WA39201089 Tafeln, Folien u.a., Polymere d.Ethylens, <0,125mm;39201040+39201081+39201089;Q1;;2015-Q1
 2015;Ausfuhr;Tsd. EUR;2221;170916;Ethylencopolymere/Sonstige;WA39201040 Tafeln, Folien u.a., Polymere d.Ethylens,<=0,125mm+WA39201081 Synthetischer Papierhalbstoff aus Polyethylen+WA39201089 Tafeln, Folien u.a., Polymere d.Ethylens, <0,125mm;39201040+39201081+39201089;Q2;;2015-Q2
 2015;Ausfuhr;Tsd. EUR;2221;153773;Ethylencopolymere/Sonstige;WA39201040 Tafeln, Folien u.a., Polymere d.Ethylens,<=0,125mm+WA39201081 Synthetischer Papierhalbstoff aus Polyethylen+WA39201089 Tafeln, Folien u.a., Polymere d.Ethylens, <0,125mm;39201040+39201081+39201089;Q3;;2015-Q3
@@ -15779,8 +15761,7 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Ausfuhr;Tsd. EUR;2221;194996;Ethylencopolymere/Sonstige;WA39201040 Tafeln, Folien u.a., Polymere d.Ethylens,<=0,125mm+WA39201081 Synthetischer Papierhalbstoff aus Polyethylen+WA39201089 Tafeln, Folien u.a., Polymere d.Ethylens, <0,125mm;39201040+39201081+39201089;Q2;2,174528154;2024-Q2
 2024;Ausfuhr;Tsd. EUR;2221;177943;Ethylencopolymere/Sonstige;WA39201040 Tafeln, Folien u.a., Polymere d.Ethylens,<=0,125mm+WA39201081 Synthetischer Papierhalbstoff aus Polyethylen+WA39201089 Tafeln, Folien u.a., Polymere d.Ethylens, <0,125mm;39201040+39201081+39201089;Q3;-3,349102977;2024-Q3
 2024;Ausfuhr;Tsd. EUR;2221;157831;Ethylencopolymere/Sonstige;WA39201040 Tafeln, Folien u.a., Polymere d.Ethylens,<=0,125mm+WA39201081 Synthetischer Papierhalbstoff aus Polyethylen+WA39201089 Tafeln, Folien u.a., Polymere d.Ethylens, <0,125mm;39201040+39201081+39201089;Q4;-0,503060601;2024-Q4
-2025;Ausfuhr;Tsd. EUR;2221;183438;Ethylencopolymere/Sonstige;WA39201040 Tafeln, Folien u.a., Polymere d.Ethylens,<=0,125mm+WA39201081 Synthetischer Papierhalbstoff aus Polyethylen+WA39201089 Tafeln, Folien u.a., Polymere d.Ethylens, <0,125mm;39201040+39201081+39201089;Q1;0,812820471;2025-Q1
-2025;Ausfuhr;Tsd. EUR;2221;;Ethylencopolymere/Sonstige;WA39201040 Tafeln, Folien u.a., Polymere d.Ethylens,<=0,125mm+WA39201081 Synthetischer Papierhalbstoff aus Polyethylen+WA39201089 Tafeln, Folien u.a., Polymere d.Ethylens, <0,125mm;39201040+39201081+39201089;;;
+2025;Ausfuhr;Tsd. EUR;2221;33655;PC;WA39206100 Tafeln, Platten u.a., aus Polycarbonaten;39206100;Q1;-4,375621537;2025-Q1
 2015;Ausfuhr;Tsd. EUR;2222;36185;Flaschen größer 2 l;WA39233090 Ballons, Flaschen, Flakons aus Kunststoffen >2l St;39233090;Q1;;2015-Q1
 2015;Ausfuhr;Tsd. EUR;2222;33663;Flaschen größer 2 l;WA39233090 Ballons, Flaschen, Flakons aus Kunststoffen >2l St;39233090;Q2;;2015-Q2
 2015;Ausfuhr;Tsd. EUR;2222;40135;Flaschen größer 2 l;WA39233090 Ballons, Flaschen, Flakons aus Kunststoffen >2l St;39233090;Q3;;2015-Q3
@@ -15821,8 +15802,7 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Ausfuhr;Tsd. EUR;2222;58432;Flaschen größer 2 l;WA39233090 Ballons, Flaschen, Flakons aus Kunststoffen >2l St;39233090;Q2;2,694247702;2024-Q2
 2024;Ausfuhr;Tsd. EUR;2222;53718;Flaschen größer 2 l;WA39233090 Ballons, Flaschen, Flakons aus Kunststoffen >2l St;39233090;Q3;2,405825835;2024-Q3
 2024;Ausfuhr;Tsd. EUR;2222;47044;Flaschen größer 2 l;WA39233090 Ballons, Flaschen, Flakons aus Kunststoffen >2l St;39233090;Q4;-6,396864243;2024-Q4
-2025;Ausfuhr;Tsd. EUR;2222;61132;Flaschen größer 2 l;WA39233090 Ballons, Flaschen, Flakons aus Kunststoffen >2l St;39233090;Q1;4,354654239;2025-Q1
-2025;Ausfuhr;Tsd. EUR;2222;;Flaschen größer 2 l;WA39233090 Ballons, Flaschen, Flakons aus Kunststoffen >2l St;39233090;;;
+2025;Ausfuhr;Tsd. EUR;2222;51308;Tüten, Beutel, Säcke usw. aus andere Kunststoffe;WA39232990 Säcke und Beutel, aus anderen Kunststoffen;39232990;Q1;-15,00372733;2025-Q1
 2015;Ausfuhr;Tsd. EUR;2222;110923;Flaschen kleiner 2 l;WA39233010 Ballons, Flaschen, Flakons a.Kunststoffen <=2l  St;39233010;Q1;;2015-Q1
 2015;Ausfuhr;Tsd. EUR;2222;111506;Flaschen kleiner 2 l;WA39233010 Ballons, Flaschen, Flakons a.Kunststoffen <=2l  St;39233010;Q2;;2015-Q2
 2015;Ausfuhr;Tsd. EUR;2222;110564;Flaschen kleiner 2 l;WA39233010 Ballons, Flaschen, Flakons a.Kunststoffen <=2l  St;39233010;Q3;;2015-Q3
@@ -15863,8 +15843,7 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Ausfuhr;Tsd. EUR;2222;156220;Flaschen kleiner 2 l;WA39233010 Ballons, Flaschen, Flakons a.Kunststoffen <=2l  St;39233010;Q2;7,665906256;2024-Q2
 2024;Ausfuhr;Tsd. EUR;2222;154280;Flaschen kleiner 2 l;WA39233010 Ballons, Flaschen, Flakons a.Kunststoffen <=2l  St;39233010;Q3;8,803430256;2024-Q3
 2024;Ausfuhr;Tsd. EUR;2222;148933;Flaschen kleiner 2 l;WA39233010 Ballons, Flaschen, Flakons a.Kunststoffen <=2l  St;39233010;Q4;10,27826319;2024-Q4
-2025;Ausfuhr;Tsd. EUR;2222;161964;Flaschen kleiner 2 l;WA39233010 Ballons, Flaschen, Flakons a.Kunststoffen <=2l  St;39233010;Q1;2,378619604;2025-Q1
-2025;Ausfuhr;Tsd. EUR;2222;;Flaschen kleiner 2 l;WA39233010 Ballons, Flaschen, Flakons a.Kunststoffen <=2l  St;39233010;;;
+2025;Ausfuhr;Tsd. EUR;2222;61132;Flaschen größer 2 l;WA39233090 Ballons, Flaschen, Flakons aus Kunststoffen >2l St;39233090;Q1;4,354654239;2025-Q1
 2015;Ausfuhr;Tsd. EUR;2221;95621;HDPE;WA39201028 Tafeln, Platten u.a., aus Polyethylen, >= 0,94;39201028;Q1;;2015-Q1
 2015;Ausfuhr;Tsd. EUR;2221;97807;HDPE;WA39201028 Tafeln, Platten u.a., aus Polyethylen, >= 0,94;39201028;Q2;;2015-Q2
 2015;Ausfuhr;Tsd. EUR;2221;101643;HDPE;WA39201028 Tafeln, Platten u.a., aus Polyethylen, >= 0,94;39201028;Q3;;2015-Q3
@@ -15905,8 +15884,7 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Ausfuhr;Tsd. EUR;2221;116409;HDPE;WA39201028 Tafeln, Platten u.a., aus Polyethylen, >= 0,94;39201028;Q2;6,017194587;2024-Q2
 2024;Ausfuhr;Tsd. EUR;2221;105365;HDPE;WA39201028 Tafeln, Platten u.a., aus Polyethylen, >= 0,94;39201028;Q3;5,500040051;2024-Q3
 2024;Ausfuhr;Tsd. EUR;2221;103526;HDPE;WA39201028 Tafeln, Platten u.a., aus Polyethylen, >= 0,94;39201028;Q4;10,2395911;2024-Q4
-2025;Ausfuhr;Tsd. EUR;2221;112380;HDPE;WA39201028 Tafeln, Platten u.a., aus Polyethylen, >= 0,94;39201028;Q1;3,636212732;2025-Q1
-2025;Ausfuhr;Tsd. EUR;2221;;HDPE;WA39201028 Tafeln, Platten u.a., aus Polyethylen, >= 0,94;39201028;;;
+2025;Ausfuhr;Tsd. EUR;2221;78500;PS;WA39203000 Tafeln, Platten u.a., aus Polymeren des Styrols;39203000;Q1;-11,44052978;2025-Q1
 2015;Ausfuhr;Tsd. EUR;2221;223413;LDPE;WA39201023 Polyethylenfolien, < 0,94, Halbleiterfertigung+WA39201024 Stretchfolien aus Polyethylens, < 0,94, <= 0,125mm+WA39201025 Folien u.a.aus Polymeren des Ethylens,<0,94,a.n.g.;39201023+39201024+39201025;Q1;;2015-Q1
 2015;Ausfuhr;Tsd. EUR;2221;234169;LDPE;WA39201023 Polyethylenfolien, < 0,94, Halbleiterfertigung+WA39201024 Stretchfolien aus Polyethylens, < 0,94, <= 0,125mm+WA39201025 Folien u.a.aus Polymeren des Ethylens,<0,94,a.n.g.;39201023+39201024+39201025;Q2;;2015-Q2
 2015;Ausfuhr;Tsd. EUR;2221;215751;LDPE;WA39201023 Polyethylenfolien, < 0,94, Halbleiterfertigung+WA39201024 Stretchfolien aus Polyethylens, < 0,94, <= 0,125mm+WA39201025 Folien u.a.aus Polymeren des Ethylens,<0,94,a.n.g.;39201023+39201024+39201025;Q3;;2015-Q3
@@ -15947,8 +15925,7 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Ausfuhr;Tsd. EUR;2221;232461;LDPE;WA39201023 Polyethylenfolien, < 0,94, Halbleiterfertigung+WA39201024 Stretchfolien aus Polyethylens, < 0,94, <= 0,125mm+WA39201025 Folien u.a.aus Polymeren des Ethylens,<0,94,a.n.g.;39201023+39201024+39201025;Q2;-2,083342109;2024-Q2
 2024;Ausfuhr;Tsd. EUR;2221;213255;LDPE;WA39201023 Polyethylenfolien, < 0,94, Halbleiterfertigung+WA39201024 Stretchfolien aus Polyethylens, < 0,94, <= 0,125mm+WA39201025 Folien u.a.aus Polymeren des Ethylens,<0,94,a.n.g.;39201023+39201024+39201025;Q3;1,225115581;2024-Q3
 2024;Ausfuhr;Tsd. EUR;2221;206600;LDPE;WA39201023 Polyethylenfolien, < 0,94, Halbleiterfertigung+WA39201024 Stretchfolien aus Polyethylens, < 0,94, <= 0,125mm+WA39201025 Folien u.a.aus Polymeren des Ethylens,<0,94,a.n.g.;39201023+39201024+39201025;Q4;6,104337644;2024-Q4
-2025;Ausfuhr;Tsd. EUR;2221;209565;LDPE;WA39201023 Polyethylenfolien, < 0,94, Halbleiterfertigung+WA39201024 Stretchfolien aus Polyethylens, < 0,94, <= 0,125mm+WA39201025 Folien u.a.aus Polymeren des Ethylens,<0,94,a.n.g.;39201023+39201024+39201025;Q1;-7,246267765;2025-Q1
-2025;Ausfuhr;Tsd. EUR;2221;;LDPE;WA39201023 Polyethylenfolien, < 0,94, Halbleiterfertigung+WA39201024 Stretchfolien aus Polyethylens, < 0,94, <= 0,125mm+WA39201025 Folien u.a.aus Polymeren des Ethylens,<0,94,a.n.g.;39201023+39201024+39201025;;;
+2025;Ausfuhr;Tsd. EUR;2221;112380;HDPE;WA39201028 Tafeln, Platten u.a., aus Polyethylen, >= 0,94;39201028;Q1;3,636212732;2025-Q1
 2015;Ausfuhr;Tsd. EUR;2221;20127;PA;WA39209200 Tafeln, Platten u.a., aus Polyamiden;39209200;Q1;;2015-Q1
 2015;Ausfuhr;Tsd. EUR;2221;20869;PA;WA39209200 Tafeln, Platten u.a., aus Polyamiden;39209200;Q2;;2015-Q2
 2015;Ausfuhr;Tsd. EUR;2221;18099;PA;WA39209200 Tafeln, Platten u.a., aus Polyamiden;39209200;Q3;;2015-Q3
@@ -15989,8 +15966,7 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Ausfuhr;Tsd. EUR;2221;23936;PA;WA39209200 Tafeln, Platten u.a., aus Polyamiden;39209200;Q2;-6,485388342;2024-Q2
 2024;Ausfuhr;Tsd. EUR;2221;22793;PA;WA39209200 Tafeln, Platten u.a., aus Polyamiden;39209200;Q3;6,127485217;2024-Q3
 2024;Ausfuhr;Tsd. EUR;2221;21466;PA;WA39209200 Tafeln, Platten u.a., aus Polyamiden;39209200;Q4;-0,670954606;2024-Q4
-2025;Ausfuhr;Tsd. EUR;2221;25335;PA;WA39209200 Tafeln, Platten u.a., aus Polyamiden;39209200;Q1;-0,627574034;2025-Q1
-2025;Ausfuhr;Tsd. EUR;2221;;PA;WA39209200 Tafeln, Platten u.a., aus Polyamiden;39209200;;;
+2025;Ausfuhr;Tsd. EUR;2222;161964;Flaschen kleiner 2 l;WA39233010 Ballons, Flaschen, Flakons a.Kunststoffen <=2l  St;39233010;Q1;2,378619604;2025-Q1
 2015;Ausfuhr;Tsd. EUR;2221;29964;PC;WA39206100 Tafeln, Platten u.a., aus Polycarbonaten;39206100;Q1;;2015-Q1
 2015;Ausfuhr;Tsd. EUR;2221;33487;PC;WA39206100 Tafeln, Platten u.a., aus Polycarbonaten;39206100;Q2;;2015-Q2
 2015;Ausfuhr;Tsd. EUR;2221;28466;PC;WA39206100 Tafeln, Platten u.a., aus Polycarbonaten;39206100;Q3;;2015-Q3
@@ -16031,8 +16007,7 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Ausfuhr;Tsd. EUR;2221;35661;PC;WA39206100 Tafeln, Platten u.a., aus Polycarbonaten;39206100;Q2;9,125126228;2024-Q2
 2024;Ausfuhr;Tsd. EUR;2221;29646;PC;WA39206100 Tafeln, Platten u.a., aus Polycarbonaten;39206100;Q3;2,439530062;2024-Q3
 2024;Ausfuhr;Tsd. EUR;2221;27802;PC;WA39206100 Tafeln, Platten u.a., aus Polycarbonaten;39206100;Q4;-3,108663832;2024-Q4
-2025;Ausfuhr;Tsd. EUR;2221;33655;PC;WA39206100 Tafeln, Platten u.a., aus Polycarbonaten;39206100;Q1;-4,375621537;2025-Q1
-2025;Ausfuhr;Tsd. EUR;2221;;PC;WA39206100 Tafeln, Platten u.a., aus Polycarbonaten;39206100;;;
+2025;Ausfuhr;Tsd. EUR;2221;163195;PET + Polyester;WA39206212 Folien aus Polyethylenterephthalat+WA39206219 Tafeln u.a., aus Polyethylen-Terephthalat+WA39206900 Tafeln u.a., aus anderen Polyestern;39206212+39206219+39206900;Q1;-2,938692487;2025-Q1
 2015;Ausfuhr;Tsd. EUR;2221;108084;PET + Polyester;WA39206212 Folien aus Polyethylenterephthalat+WA39206219 Tafeln u.a., aus Polyethylen-Terephthalat+WA39206900 Tafeln u.a., aus anderen Polyestern;39206212+39206219+39206900;Q1;;2015-Q1
 2015;Ausfuhr;Tsd. EUR;2221;116195;PET + Polyester;WA39206212 Folien aus Polyethylenterephthalat+WA39206219 Tafeln u.a., aus Polyethylen-Terephthalat+WA39206900 Tafeln u.a., aus anderen Polyestern;39206212+39206219+39206900;Q2;;2015-Q2
 2015;Ausfuhr;Tsd. EUR;2221;113283;PET + Polyester;WA39206212 Folien aus Polyethylenterephthalat+WA39206219 Tafeln u.a., aus Polyethylen-Terephthalat+WA39206900 Tafeln u.a., aus anderen Polyestern;39206212+39206219+39206900;Q3;;2015-Q3
@@ -16073,8 +16048,7 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Ausfuhr;Tsd. EUR;2221;156361;PET + Polyester;WA39206212 Folien aus Polyethylenterephthalat+WA39206219 Tafeln u.a., aus Polyethylen-Terephthalat+WA39206900 Tafeln u.a., aus anderen Polyestern;39206212+39206219+39206900;Q2;-6,252772948;2024-Q2
 2024;Ausfuhr;Tsd. EUR;2221;163963;PET + Polyester;WA39206212 Folien aus Polyethylenterephthalat+WA39206219 Tafeln u.a., aus Polyethylen-Terephthalat+WA39206900 Tafeln u.a., aus anderen Polyestern;39206212+39206219+39206900;Q3;5,963744466;2024-Q3
 2024;Ausfuhr;Tsd. EUR;2221;153746;PET + Polyester;WA39206212 Folien aus Polyethylenterephthalat+WA39206219 Tafeln u.a., aus Polyethylen-Terephthalat+WA39206900 Tafeln u.a., aus anderen Polyestern;39206212+39206219+39206900;Q4;3,487362434;2024-Q4
-2025;Ausfuhr;Tsd. EUR;2221;163195;PET + Polyester;WA39206212 Folien aus Polyethylenterephthalat+WA39206219 Tafeln u.a., aus Polyethylen-Terephthalat+WA39206900 Tafeln u.a., aus anderen Polyestern;39206212+39206219+39206900;Q1;-2,938692487;2025-Q1
-2025;Ausfuhr;Tsd. EUR;2221;;PET + Polyester;WA39206212 Folien aus Polyethylenterephthalat+WA39206219 Tafeln u.a., aus Polyethylen-Terephthalat+WA39206900 Tafeln u.a., aus anderen Polyestern;39206212+39206219+39206900;;;
+2025;Ausfuhr;Tsd. EUR;2222;182383;andere Transportverpackungen;WA39239000 Transport- oder Verpackungsmittel, a.n.g.;39239000;Q1;-1,320182012;2025-Q1
 2015;Ausfuhr;Tsd. EUR;2221;226107;PP;WA39202021 Folien u.a., Polymere d.Propylens,<=0,1mm, biaxial+WA39202029 Folien u.a., Polymere des Propylens, <=0,10mm+WA39202080 Folien u.a. aus Polymeren des Propylens, >0,10mm;39202021+39202029+39202080;Q1;;2015-Q1
 2015;Ausfuhr;Tsd. EUR;2221;234184;PP;WA39202021 Folien u.a., Polymere d.Propylens,<=0,1mm, biaxial+WA39202029 Folien u.a., Polymere des Propylens, <=0,10mm+WA39202080 Folien u.a. aus Polymeren des Propylens, >0,10mm;39202021+39202029+39202080;Q2;;2015-Q2
 2015;Ausfuhr;Tsd. EUR;2221;235980;PP;WA39202021 Folien u.a., Polymere d.Propylens,<=0,1mm, biaxial+WA39202029 Folien u.a., Polymere des Propylens, <=0,10mm+WA39202080 Folien u.a. aus Polymeren des Propylens, >0,10mm;39202021+39202029+39202080;Q3;;2015-Q3
@@ -16115,8 +16089,7 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Ausfuhr;Tsd. EUR;2221;291639;PP;WA39202021 Folien u.a., Polymere d.Propylens,<=0,1mm, biaxial+WA39202029 Folien u.a., Polymere des Propylens, <=0,10mm+WA39202080 Folien u.a. aus Polymeren des Propylens, >0,10mm;39202021+39202029+39202080;Q2;8,064073871;2024-Q2
 2024;Ausfuhr;Tsd. EUR;2221;267585;PP;WA39202021 Folien u.a., Polymere d.Propylens,<=0,1mm, biaxial+WA39202029 Folien u.a., Polymere des Propylens, <=0,10mm+WA39202080 Folien u.a. aus Polymeren des Propylens, >0,10mm;39202021+39202029+39202080;Q3;6,208125615;2024-Q3
 2024;Ausfuhr;Tsd. EUR;2221;265495;PP;WA39202021 Folien u.a., Polymere d.Propylens,<=0,1mm, biaxial+WA39202029 Folien u.a., Polymere des Propylens, <=0,10mm+WA39202080 Folien u.a. aus Polymeren des Propylens, >0,10mm;39202021+39202029+39202080;Q4;8,729661437;2024-Q4
-2025;Ausfuhr;Tsd. EUR;2221;299506;PP;WA39202021 Folien u.a., Polymere d.Propylens,<=0,1mm, biaxial+WA39202029 Folien u.a., Polymere des Propylens, <=0,10mm+WA39202080 Folien u.a. aus Polymeren des Propylens, >0,10mm;39202021+39202029+39202080;Q1;3,03526522;2025-Q1
-2025;Ausfuhr;Tsd. EUR;2221;;PP;WA39202021 Folien u.a., Polymere d.Propylens,<=0,1mm, biaxial+WA39202029 Folien u.a., Polymere des Propylens, <=0,10mm+WA39202080 Folien u.a. aus Polymeren des Propylens, >0,10mm;39202021+39202029+39202080;;;
+2025;Ausfuhr;Tsd. EUR;2221;183438;Ethylencopolymere/Sonstige;WA39201040 Tafeln, Folien u.a., Polymere d.Ethylens,<=0,125mm+WA39201081 Synthetischer Papierhalbstoff aus Polyethylen+WA39201089 Tafeln, Folien u.a., Polymere d.Ethylens, <0,125mm;39201040+39201081+39201089;Q1;0,812820471;2025-Q1
 2015;Ausfuhr;Tsd. EUR;2221;78001;PS;WA39203000 Tafeln, Platten u.a., aus Polymeren des Styrols;39203000;Q1;;2015-Q1
 2015;Ausfuhr;Tsd. EUR;2221;79247;PS;WA39203000 Tafeln, Platten u.a., aus Polymeren des Styrols;39203000;Q2;;2015-Q2
 2015;Ausfuhr;Tsd. EUR;2221;77325;PS;WA39203000 Tafeln, Platten u.a., aus Polymeren des Styrols;39203000;Q3;;2015-Q3
@@ -16157,8 +16130,7 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Ausfuhr;Tsd. EUR;2221;85364;PS;WA39203000 Tafeln, Platten u.a., aus Polymeren des Styrols;39203000;Q2;-0,180079048;2024-Q2
 2024;Ausfuhr;Tsd. EUR;2221;75173;PS;WA39203000 Tafeln, Platten u.a., aus Polymeren des Styrols;39203000;Q3;-3,581094081;2024-Q3
 2024;Ausfuhr;Tsd. EUR;2221;66734;PS;WA39203000 Tafeln, Platten u.a., aus Polymeren des Styrols;39203000;Q4;-14,42823071;2024-Q4
-2025;Ausfuhr;Tsd. EUR;2221;78500;PS;WA39203000 Tafeln, Platten u.a., aus Polymeren des Styrols;39203000;Q1;-11,44052978;2025-Q1
-2025;Ausfuhr;Tsd. EUR;2221;;PS;WA39203000 Tafeln, Platten u.a., aus Polymeren des Styrols;39203000;;;
+2025;Ausfuhr;Tsd. EUR;2221;209565;LDPE;WA39201023 Polyethylenfolien, < 0,94, Halbleiterfertigung+WA39201024 Stretchfolien aus Polyethylens, < 0,94, <= 0,125mm+WA39201025 Folien u.a.aus Polymeren des Ethylens,<0,94,a.n.g.;39201023+39201024+39201025;Q1;-7,246267765;2025-Q1
 2015;Ausfuhr;Tsd. EUR;2221;670;Regen. Cellulose;WA39207100 Folien, Platten u.a. aus regenerierter Cellulose;39207100;Q1;;2015-Q1
 2015;Ausfuhr;Tsd. EUR;2221;637;Regen. Cellulose;WA39207100 Folien, Platten u.a. aus regenerierter Cellulose;39207100;Q2;;2015-Q2
 2015;Ausfuhr;Tsd. EUR;2221;717;Regen. Cellulose;WA39207100 Folien, Platten u.a. aus regenerierter Cellulose;39207100;Q3;;2015-Q3
@@ -16199,8 +16171,7 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Ausfuhr;Tsd. EUR;2221;1223;Regen. Cellulose;WA39207100 Folien, Platten u.a. aus regenerierter Cellulose;39207100;Q2;63,94101877;2024-Q2
 2024;Ausfuhr;Tsd. EUR;2221;1051;Regen. Cellulose;WA39207100 Folien, Platten u.a. aus regenerierter Cellulose;39207100;Q3;15,87651599;2024-Q3
 2024;Ausfuhr;Tsd. EUR;2221;916;Regen. Cellulose;WA39207100 Folien, Platten u.a. aus regenerierter Cellulose;39207100;Q4;1,55210643;2024-Q4
-2025;Ausfuhr;Tsd. EUR;2221;975;Regen. Cellulose;WA39207100 Folien, Platten u.a. aus regenerierter Cellulose;39207100;Q1;37,51763047;2025-Q1
-2025;Ausfuhr;Tsd. EUR;2221;;Regen. Cellulose;WA39207100 Folien, Platten u.a. aus regenerierter Cellulose;39207100;;;
+2025;Ausfuhr;Tsd. EUR;2222;227709;Tüten, Beutel, Säcke usw. aus PE;WA39232100 Säcke und Beutel, aus Polymeren des Ethylens;39232100;Q1;6,976951771;2025-Q1
 2015;Ausfuhr;Tsd. EUR;2222;189550;Tüten, Beutel, Säcke usw. aus PE;WA39232100 Säcke und Beutel, aus Polymeren des Ethylens;39232100;Q1;;2015-Q1
 2015;Ausfuhr;Tsd. EUR;2222;190407;Tüten, Beutel, Säcke usw. aus PE;WA39232100 Säcke und Beutel, aus Polymeren des Ethylens;39232100;Q2;;2015-Q2
 2015;Ausfuhr;Tsd. EUR;2222;213726;Tüten, Beutel, Säcke usw. aus PE;WA39232100 Säcke und Beutel, aus Polymeren des Ethylens;39232100;Q3;;2015-Q3
@@ -16241,8 +16212,7 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Ausfuhr;Tsd. EUR;2222;216778;Tüten, Beutel, Säcke usw. aus PE;WA39232100 Säcke und Beutel, aus Polymeren des Ethylens;39232100;Q2;-8,756555631;2024-Q2
 2024;Ausfuhr;Tsd. EUR;2222;215354;Tüten, Beutel, Säcke usw. aus PE;WA39232100 Säcke und Beutel, aus Polymeren des Ethylens;39232100;Q3;2,456337331;2024-Q3
 2024;Ausfuhr;Tsd. EUR;2222;219699;Tüten, Beutel, Säcke usw. aus PE;WA39232100 Säcke und Beutel, aus Polymeren des Ethylens;39232100;Q4;2,583509988;2024-Q4
-2025;Ausfuhr;Tsd. EUR;2222;227709;Tüten, Beutel, Säcke usw. aus PE;WA39232100 Säcke und Beutel, aus Polymeren des Ethylens;39232100;Q1;6,976951771;2025-Q1
-2025;Ausfuhr;Tsd. EUR;2222;;Tüten, Beutel, Säcke usw. aus PE;WA39232100 Säcke und Beutel, aus Polymeren des Ethylens;39232100;;;
+2025;Ausfuhr;Tsd. EUR;2221;299506;PP;WA39202021 Folien u.a., Polymere d.Propylens,<=0,1mm, biaxial+WA39202029 Folien u.a., Polymere des Propylens, <=0,10mm+WA39202080 Folien u.a. aus Polymeren des Propylens, >0,10mm;39202021+39202029+39202080;Q1;3,03526522;2025-Q1
 2015;Ausfuhr;Tsd. EUR;2222;733;Tüten, Beutel, Säcke usw. aus PVC;WA39232910 Säcke und Beutel, aus Polyvinylchlorid;39232910;Q1;;2015-Q1
 2015;Ausfuhr;Tsd. EUR;2222;1428;Tüten, Beutel, Säcke usw. aus PVC;WA39232910 Säcke und Beutel, aus Polyvinylchlorid;39232910;Q2;;2015-Q2
 2015;Ausfuhr;Tsd. EUR;2222;1226;Tüten, Beutel, Säcke usw. aus PVC;WA39232910 Säcke und Beutel, aus Polyvinylchlorid;39232910;Q3;;2015-Q3
@@ -16283,8 +16253,7 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Ausfuhr;Tsd. EUR;2222;2742;Tüten, Beutel, Säcke usw. aus PVC;WA39232910 Säcke und Beutel, aus Polyvinylchlorid;39232910;Q2;-25,95193087;2024-Q2
 2024;Ausfuhr;Tsd. EUR;2222;2290;Tüten, Beutel, Säcke usw. aus PVC;WA39232910 Säcke und Beutel, aus Polyvinylchlorid;39232910;Q3;-18,1850661;2024-Q3
 2024;Ausfuhr;Tsd. EUR;2222;2136;Tüten, Beutel, Säcke usw. aus PVC;WA39232910 Säcke und Beutel, aus Polyvinylchlorid;39232910;Q4;1,232227488;2024-Q4
-2025;Ausfuhr;Tsd. EUR;2222;2806;Tüten, Beutel, Säcke usw. aus PVC;WA39232910 Säcke und Beutel, aus Polyvinylchlorid;39232910;Q1;25,60429722;2025-Q1
-2025;Ausfuhr;Tsd. EUR;2222;;Tüten, Beutel, Säcke usw. aus PVC;WA39232910 Säcke und Beutel, aus Polyvinylchlorid;39232910;;;
+2025;Ausfuhr;Tsd. EUR;2222;302591;Becher, Dosen, Kisten;WA39231010 Kisten zum Transport von Wafern aus Kunststoffen+WA39231090 Dosen, Kisten, Verschläge u.a. aus Kunststoffen;39231010+39231090;Q1;-5,372890685;2025-Q1
 2015;Ausfuhr;Tsd. EUR;2222;51405;Tüten, Beutel, Säcke usw. aus andere Kunststoffe;WA39232990 Säcke und Beutel, aus anderen Kunststoffen;39232990;Q1;;2015-Q1
 2015;Ausfuhr;Tsd. EUR;2222;52092;Tüten, Beutel, Säcke usw. aus andere Kunststoffe;WA39232990 Säcke und Beutel, aus anderen Kunststoffen;39232990;Q2;;2015-Q2
 2015;Ausfuhr;Tsd. EUR;2222;56975;Tüten, Beutel, Säcke usw. aus andere Kunststoffe;WA39232990 Säcke und Beutel, aus anderen Kunststoffen;39232990;Q3;;2015-Q3
@@ -16325,8 +16294,7 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Ausfuhr;Tsd. EUR;2222;61296;Tüten, Beutel, Säcke usw. aus andere Kunststoffe;WA39232990 Säcke und Beutel, aus anderen Kunststoffen;39232990;Q2;4,946324927;2024-Q2
 2024;Ausfuhr;Tsd. EUR;2222;56890;Tüten, Beutel, Säcke usw. aus andere Kunststoffe;WA39232990 Säcke und Beutel, aus anderen Kunststoffen;39232990;Q3;9,443835247;2024-Q3
 2024;Ausfuhr;Tsd. EUR;2222;47114;Tüten, Beutel, Säcke usw. aus andere Kunststoffe;WA39232990 Säcke und Beutel, aus anderen Kunststoffen;39232990;Q4;-19,87278695;2024-Q4
-2025;Ausfuhr;Tsd. EUR;2222;51308;Tüten, Beutel, Säcke usw. aus andere Kunststoffe;WA39232990 Säcke und Beutel, aus anderen Kunststoffen;39232990;Q1;-15,00372733;2025-Q1
-2025;Ausfuhr;Tsd. EUR;2222;;Tüten, Beutel, Säcke usw. aus andere Kunststoffe;WA39232990 Säcke und Beutel, aus anderen Kunststoffen;39232990;;;
+2025;Ausfuhr;Tsd. EUR;2222;311524;Verschlüsse;WA39235010 Verschluß- oder Flaschenkapseln aus Kunststoffen+WA39235090 Stöpsel, Deckel und Verschlüsse aus Kunststoffen;39235010+39235090;Q1;4,455531861;2025-Q1
 2015;Ausfuhr;Tsd. EUR;2222;209058;Verschlüsse;WA39235010 Verschluß- oder Flaschenkapseln aus Kunststoffen+WA39235090 Stöpsel, Deckel und Verschlüsse aus Kunststoffen;39235010+39235090;Q1;;2015-Q1
 2015;Ausfuhr;Tsd. EUR;2222;214039;Verschlüsse;WA39235010 Verschluß- oder Flaschenkapseln aus Kunststoffen+WA39235090 Stöpsel, Deckel und Verschlüsse aus Kunststoffen;39235010+39235090;Q2;;2015-Q2
 2015;Ausfuhr;Tsd. EUR;2222;215410;Verschlüsse;WA39235010 Verschluß- oder Flaschenkapseln aus Kunststoffen+WA39235090 Stöpsel, Deckel und Verschlüsse aus Kunststoffen;39235010+39235090;Q3;;2015-Q3
@@ -16367,8 +16335,7 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Ausfuhr;Tsd. EUR;2222;297637;Verschlüsse;WA39235010 Verschluß- oder Flaschenkapseln aus Kunststoffen+WA39235090 Stöpsel, Deckel und Verschlüsse aus Kunststoffen;39235010+39235090;Q2;3,798134935;2024-Q2
 2024;Ausfuhr;Tsd. EUR;2222;294589;Verschlüsse;WA39235010 Verschluß- oder Flaschenkapseln aus Kunststoffen+WA39235090 Stöpsel, Deckel und Verschlüsse aus Kunststoffen;39235010+39235090;Q3;5,165286306;2024-Q3
 2024;Ausfuhr;Tsd. EUR;2222;266299;Verschlüsse;WA39235010 Verschluß- oder Flaschenkapseln aus Kunststoffen+WA39235090 Stöpsel, Deckel und Verschlüsse aus Kunststoffen;39235010+39235090;Q4;1,39818069;2024-Q4
-2025;Ausfuhr;Tsd. EUR;2222;311524;Verschlüsse;WA39235010 Verschluß- oder Flaschenkapseln aus Kunststoffen+WA39235090 Stöpsel, Deckel und Verschlüsse aus Kunststoffen;39235010+39235090;Q1;4,455531861;2025-Q1
-2025;Ausfuhr;Tsd. EUR;2222;;Verschlüsse;WA39235010 Verschluß- oder Flaschenkapseln aus Kunststoffen+WA39235090 Stöpsel, Deckel und Verschlüsse aus Kunststoffen;39235010+39235090;;;
+2025;Ausfuhr;Tsd. EUR;2221;1109488;Gesamt_Polymere;Gesamt_Polymere;Gesamt_Polymere;Q1;-1,647674135;2025-Q1
 2015;Ausfuhr;Tsd. EUR;2222;117467;andere Transportverpackungen;WA39239000 Transport- oder Verpackungsmittel, a.n.g.;39239000;Q1;;2015-Q1
 2015;Ausfuhr;Tsd. EUR;2222;123873;andere Transportverpackungen;WA39239000 Transport- oder Verpackungsmittel, a.n.g.;39239000;Q2;;2015-Q2
 2015;Ausfuhr;Tsd. EUR;2222;121157;andere Transportverpackungen;WA39239000 Transport- oder Verpackungsmittel, a.n.g.;39239000;Q3;;2015-Q3
@@ -16409,8 +16376,7 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Ausfuhr;Tsd. EUR;2222;187577;andere Transportverpackungen;WA39239000 Transport- oder Verpackungsmittel, a.n.g.;39239000;Q2;3,978957755;2024-Q2
 2024;Ausfuhr;Tsd. EUR;2222;173411;andere Transportverpackungen;WA39239000 Transport- oder Verpackungsmittel, a.n.g.;39239000;Q3;-3,446528694;2024-Q3
 2024;Ausfuhr;Tsd. EUR;2222;164679;andere Transportverpackungen;WA39239000 Transport- oder Verpackungsmittel, a.n.g.;39239000;Q4;0,093602796;2024-Q4
-2025;Ausfuhr;Tsd. EUR;2222;182383;andere Transportverpackungen;WA39239000 Transport- oder Verpackungsmittel, a.n.g.;39239000;Q1;-1,320182012;2025-Q1
-2025;Ausfuhr;Tsd. EUR;2222;;andere Transportverpackungen;WA39239000 Transport- oder Verpackungsmittel, a.n.g.;39239000;;;
+2025;Ausfuhr;Tsd. EUR;2222;1301417;Gesamt_Packmittel;Gesamt_Packmittel;Gesamt_Packmittel;Q1;0,490089339;2025-Q1
 2017;Ausfuhr;Tsd. US $;2222;250718;Becher, Dosen, Kisten;WA39231010 Kisten zum Transport von Wafern aus Kunststoffen+WA39231090 Dosen, Kisten, Verschläge u.a. aus Kunststoffen;39231010+39231090;Q1;;2017-Q1
 2017;Ausfuhr;Tsd. US $;2222;281698;Becher, Dosen, Kisten;WA39231010 Kisten zum Transport von Wafern aus Kunststoffen+WA39231090 Dosen, Kisten, Verschläge u.a. aus Kunststoffen;39231010+39231090;Q2;;2017-Q2
 2017;Ausfuhr;Tsd. US $;2222;298196;Becher, Dosen, Kisten;WA39231010 Kisten zum Transport von Wafern aus Kunststoffen+WA39231090 Dosen, Kisten, Verschläge u.a. aus Kunststoffen;39231010+39231090;Q3;;2017-Q3
@@ -16444,7 +16410,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Ausfuhr;Tsd. US $;2222;344553;Becher, Dosen, Kisten;WA39231010 Kisten zum Transport von Wafern aus Kunststoffen+WA39231090 Dosen, Kisten, Verschläge u.a. aus Kunststoffen;39231010+39231090;Q3;0,590311534;2024-Q3
 2024;Ausfuhr;Tsd. US $;2222;310926;Becher, Dosen, Kisten;WA39231010 Kisten zum Transport von Wafern aus Kunststoffen+WA39231090 Dosen, Kisten, Verschläge u.a. aus Kunststoffen;39231010+39231090;Q4;-3,6007937;2024-Q4
 2025;Ausfuhr;Tsd. US $;2222;318648;Becher, Dosen, Kisten;WA39231010 Kisten zum Transport von Wafern aus Kunststoffen+WA39231090 Dosen, Kisten, Verschläge u.a. aus Kunststoffen;39231010+39231090;Q1;-8,21319215;2025-Q1
-2025;Ausfuhr;Tsd. US $;2222;;Becher, Dosen, Kisten;WA39231010 Kisten zum Transport von Wafern aus Kunststoffen+WA39231090 Dosen, Kisten, Verschläge u.a. aus Kunststoffen;39231010+39231090;;;
 2015;Ausfuhr;Tsd. US $;2221;6843;Celluloseacetat;WA39207380 Folien, Platten u.a. aus Celluloseacetaten,a.n.g.;39207380;Q1;;2015-Q1
 2015;Ausfuhr;Tsd. US $;2221;6424;Celluloseacetat;WA39207380 Folien, Platten u.a. aus Celluloseacetaten,a.n.g.;39207380;Q2;;2015-Q2
 2015;Ausfuhr;Tsd. US $;2221;6217;Celluloseacetat;WA39207380 Folien, Platten u.a. aus Celluloseacetaten,a.n.g.;39207380;Q3;;2015-Q3
@@ -16486,7 +16451,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Ausfuhr;Tsd. US $;2221;3550;Celluloseacetat;WA39207380 Folien, Platten u.a. aus Celluloseacetaten,a.n.g.;39207380;Q3;0,795002839;2024-Q3
 2024;Ausfuhr;Tsd. US $;2221;3110;Celluloseacetat;WA39207380 Folien, Platten u.a. aus Celluloseacetaten,a.n.g.;39207380;Q4;15,31331109;2024-Q4
 2025;Ausfuhr;Tsd. US $;2221;3100;Celluloseacetat;WA39207380 Folien, Platten u.a. aus Celluloseacetaten,a.n.g.;39207380;Q1;-0,895140665;2025-Q1
-2025;Ausfuhr;Tsd. US $;2221;;Celluloseacetat;WA39207380 Folien, Platten u.a. aus Celluloseacetaten,a.n.g.;39207380;;;
 2015;Ausfuhr;Tsd. US $;2221;158585;Ethylencopolymere/Sonstige;WA39201040 Tafeln, Folien u.a., Polymere d.Ethylens,<=0,125mm+WA39201081 Synthetischer Papierhalbstoff aus Polyethylen+WA39201089 Tafeln, Folien u.a., Polymere d.Ethylens, <0,125mm;39201040+39201081+39201089;Q1;;2015-Q1
 2015;Ausfuhr;Tsd. US $;2221;188973;Ethylencopolymere/Sonstige;WA39201040 Tafeln, Folien u.a., Polymere d.Ethylens,<=0,125mm+WA39201081 Synthetischer Papierhalbstoff aus Polyethylen+WA39201089 Tafeln, Folien u.a., Polymere d.Ethylens, <0,125mm;39201040+39201081+39201089;Q2;;2015-Q2
 2015;Ausfuhr;Tsd. US $;2221;170909;Ethylencopolymere/Sonstige;WA39201040 Tafeln, Folien u.a., Polymere d.Ethylens,<=0,125mm+WA39201081 Synthetischer Papierhalbstoff aus Polyethylen+WA39201089 Tafeln, Folien u.a., Polymere d.Ethylens, <0,125mm;39201040+39201081+39201089;Q3;;2015-Q3
@@ -16528,7 +16492,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Ausfuhr;Tsd. US $;2221;195514;Ethylencopolymere/Sonstige;WA39201040 Tafeln, Folien u.a., Polymere d.Ethylens,<=0,125mm+WA39201081 Synthetischer Papierhalbstoff aus Polyethylen+WA39201089 Tafeln, Folien u.a., Polymere d.Ethylens, <0,125mm;39201040+39201081+39201089;Q3;-2,309917706;2024-Q3
 2024;Ausfuhr;Tsd. US $;2221;168842;Ethylencopolymere/Sonstige;WA39201040 Tafeln, Folien u.a., Polymere d.Ethylens,<=0,125mm+WA39201081 Synthetischer Papierhalbstoff aus Polyethylen+WA39201089 Tafeln, Folien u.a., Polymere d.Ethylens, <0,125mm;39201040+39201081+39201089;Q4;-0,901524845;2024-Q4
 2025;Ausfuhr;Tsd. US $;2221;193128;Ethylencopolymere/Sonstige;WA39201040 Tafeln, Folien u.a., Polymere d.Ethylens,<=0,125mm+WA39201081 Synthetischer Papierhalbstoff aus Polyethylen+WA39201089 Tafeln, Folien u.a., Polymere d.Ethylens, <0,125mm;39201040+39201081+39201089;Q1;-2,22852225;2025-Q1
-2025;Ausfuhr;Tsd. US $;2221;;Ethylencopolymere/Sonstige;WA39201040 Tafeln, Folien u.a., Polymere d.Ethylens,<=0,125mm+WA39201081 Synthetischer Papierhalbstoff aus Polyethylen+WA39201089 Tafeln, Folien u.a., Polymere d.Ethylens, <0,125mm;39201040+39201081+39201089;;;
 2015;Ausfuhr;Tsd. US $;2222;40705;Flaschen größer 2 l;WA39233090 Ballons, Flaschen, Flakons aus Kunststoffen >2l St;39233090;Q1;;2015-Q1
 2015;Ausfuhr;Tsd. US $;2222;37171;Flaschen größer 2 l;WA39233090 Ballons, Flaschen, Flakons aus Kunststoffen >2l St;39233090;Q2;;2015-Q2
 2015;Ausfuhr;Tsd. US $;2222;44581;Flaschen größer 2 l;WA39233090 Ballons, Flaschen, Flakons aus Kunststoffen >2l St;39233090;Q3;;2015-Q3
@@ -16570,7 +16533,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Ausfuhr;Tsd. US $;2222;58964;Flaschen größer 2 l;WA39233090 Ballons, Flaschen, Flakons aus Kunststoffen >2l St;39233090;Q3;3,262639884;2024-Q3
 2024;Ausfuhr;Tsd. US $;2222;50306;Flaschen größer 2 l;WA39233090 Ballons, Flaschen, Flakons aus Kunststoffen >2l St;39233090;Q4;-6,854540068;2024-Q4
 2025;Ausfuhr;Tsd. US $;2222;64388;Flaschen größer 2 l;WA39233090 Ballons, Flaschen, Flakons aus Kunststoffen >2l St;39233090;Q1;1,250137594;2025-Q1
-2025;Ausfuhr;Tsd. US $;2222;;Flaschen größer 2 l;WA39233090 Ballons, Flaschen, Flakons aus Kunststoffen >2l St;39233090;;;
 2015;Ausfuhr;Tsd. US $;2222;124803;Flaschen kleiner 2 l;WA39233010 Ballons, Flaschen, Flakons a.Kunststoffen <=2l  St;39233010;Q1;;2015-Q1
 2015;Ausfuhr;Tsd. US $;2222;123202;Flaschen kleiner 2 l;WA39233010 Ballons, Flaschen, Flakons a.Kunststoffen <=2l  St;39233010;Q2;;2015-Q2
 2015;Ausfuhr;Tsd. US $;2222;122945;Flaschen kleiner 2 l;WA39233010 Ballons, Flaschen, Flakons a.Kunststoffen <=2l  St;39233010;Q3;;2015-Q3
@@ -16612,7 +16574,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Ausfuhr;Tsd. US $;2222;169461;Flaschen kleiner 2 l;WA39233010 Ballons, Flaschen, Flakons a.Kunststoffen <=2l  St;39233010;Q3;9,799335221;2024-Q3
 2024;Ausfuhr;Tsd. US $;2222;159174;Flaschen kleiner 2 l;WA39233010 Ballons, Flaschen, Flakons a.Kunststoffen <=2l  St;39233010;Q4;9,695737569;2024-Q4
 2025;Ausfuhr;Tsd. US $;2222;170482;Flaschen kleiner 2 l;WA39233010 Ballons, Flaschen, Flakons a.Kunststoffen <=2l  St;39233010;Q1;-0,75272886;2025-Q1
-2025;Ausfuhr;Tsd. US $;2222;;Flaschen kleiner 2 l;WA39233010 Ballons, Flaschen, Flakons a.Kunststoffen <=2l  St;39233010;;;
 2015;Ausfuhr;Tsd. US $;2221;107659;HDPE;WA39201028 Tafeln, Platten u.a., aus Polyethylen, >= 0,94;39201028;Q1;;2015-Q1
 2015;Ausfuhr;Tsd. US $;2221;108075;HDPE;WA39201028 Tafeln, Platten u.a., aus Polyethylen, >= 0,94;39201028;Q2;;2015-Q2
 2015;Ausfuhr;Tsd. US $;2221;113031;HDPE;WA39201028 Tafeln, Platten u.a., aus Polyethylen, >= 0,94;39201028;Q3;;2015-Q3
@@ -16654,7 +16615,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Ausfuhr;Tsd. US $;2221;115724;HDPE;WA39201028 Tafeln, Platten u.a., aus Polyethylen, >= 0,94;39201028;Q3;6,470636943;2024-Q3
 2024;Ausfuhr;Tsd. US $;2221;110663;HDPE;WA39201028 Tafeln, Platten u.a., aus Polyethylen, >= 0,94;39201028;Q4;9,610736926;2024-Q4
 2025;Ausfuhr;Tsd. US $;2221;118327;HDPE;WA39201028 Tafeln, Platten u.a., aus Polyethylen, >= 0,94;39201028;Q1;0,512215011;2025-Q1
-2025;Ausfuhr;Tsd. US $;2221;;HDPE;WA39201028 Tafeln, Platten u.a., aus Polyethylen, >= 0,94;39201028;;;
 2015;Ausfuhr;Tsd. US $;2221;251307;LDPE;WA39201023 Polyethylenfolien, < 0,94, Halbleiterfertigung+WA39201024 Stretchfolien aus Polyethylens, < 0,94, <= 0,125mm+WA39201025 Folien u.a.aus Polymeren des Ethylens,<0,94,a.n.g.;39201023+39201024+39201025;Q1;;2015-Q1
 2015;Ausfuhr;Tsd. US $;2221;258766;LDPE;WA39201023 Polyethylenfolien, < 0,94, Halbleiterfertigung+WA39201024 Stretchfolien aus Polyethylens, < 0,94, <= 0,125mm+WA39201025 Folien u.a.aus Polymeren des Ethylens,<0,94,a.n.g.;39201023+39201024+39201025;Q2;;2015-Q2
 2015;Ausfuhr;Tsd. US $;2221;239906;LDPE;WA39201023 Polyethylenfolien, < 0,94, Halbleiterfertigung+WA39201024 Stretchfolien aus Polyethylens, < 0,94, <= 0,125mm+WA39201025 Folien u.a.aus Polymeren des Ethylens,<0,94,a.n.g.;39201023+39201024+39201025;Q3;;2015-Q3
@@ -16696,7 +16656,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Ausfuhr;Tsd. US $;2221;234130;LDPE;WA39201023 Polyethylenfolien, < 0,94, Halbleiterfertigung+WA39201024 Stretchfolien aus Polyethylens, < 0,94, <= 0,125mm+WA39201025 Folien u.a.aus Polymeren des Ethylens,<0,94,a.n.g.;39201023+39201024+39201025;Q3;2,122443995;2024-Q3
 2024;Ausfuhr;Tsd. US $;2221;220813;LDPE;WA39201023 Polyethylenfolien, < 0,94, Halbleiterfertigung+WA39201024 Stretchfolien aus Polyethylens, < 0,94, <= 0,125mm+WA39201025 Folien u.a.aus Polymeren des Ethylens,<0,94,a.n.g.;39201023+39201024+39201025;Q4;5,542570632;2024-Q4
 2025;Ausfuhr;Tsd. US $;2221;220675;LDPE;WA39201023 Polyethylenfolien, < 0,94, Halbleiterfertigung+WA39201024 Stretchfolien aus Polyethylens, < 0,94, <= 0,125mm+WA39201025 Folien u.a.aus Polymeren des Ethylens,<0,94,a.n.g.;39201023+39201024+39201025;Q1;-10,03579407;2025-Q1
-2025;Ausfuhr;Tsd. US $;2221;;LDPE;WA39201023 Polyethylenfolien, < 0,94, Halbleiterfertigung+WA39201024 Stretchfolien aus Polyethylens, < 0,94, <= 0,125mm+WA39201025 Folien u.a.aus Polymeren des Ethylens,<0,94,a.n.g.;39201023+39201024+39201025;;;
 2015;Ausfuhr;Tsd. US $;2221;22675;PA;WA39209200 Tafeln, Platten u.a., aus Polyamiden;39209200;Q1;;2015-Q1
 2015;Ausfuhr;Tsd. US $;2221;23086;PA;WA39209200 Tafeln, Platten u.a., aus Polyamiden;39209200;Q2;;2015-Q2
 2015;Ausfuhr;Tsd. US $;2221;20111;PA;WA39209200 Tafeln, Platten u.a., aus Polyamiden;39209200;Q3;;2015-Q3
@@ -16738,7 +16697,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Ausfuhr;Tsd. US $;2221;25034;PA;WA39209200 Tafeln, Platten u.a., aus Polyamiden;39209200;Q3;7,14316285;2024-Q3
 2024;Ausfuhr;Tsd. US $;2221;22974;PA;WA39209200 Tafeln, Platten u.a., aus Polyamiden;39209200;Q4;-0,991208412;2024-Q4
 2025;Ausfuhr;Tsd. US $;2221;26663;PA;WA39209200 Tafeln, Platten u.a., aus Polyamiden;39209200;Q1;-3,667172484;2025-Q1
-2025;Ausfuhr;Tsd. US $;2221;;PA;WA39209200 Tafeln, Platten u.a., aus Polyamiden;39209200;;;
 2015;Ausfuhr;Tsd. US $;2221;33771;PC;WA39206100 Tafeln, Platten u.a., aus Polycarbonaten;39206100;Q1;;2015-Q1
 2015;Ausfuhr;Tsd. US $;2221;36915;PC;WA39206100 Tafeln, Platten u.a., aus Polycarbonaten;39206100;Q2;;2015-Q2
 2015;Ausfuhr;Tsd. US $;2221;31606;PC;WA39206100 Tafeln, Platten u.a., aus Polycarbonaten;39206100;Q3;;2015-Q3
@@ -16780,7 +16738,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Ausfuhr;Tsd. US $;2221;32583;PC;WA39206100 Tafeln, Platten u.a., aus Polycarbonaten;39206100;Q3;3,539991738;2024-Q3
 2024;Ausfuhr;Tsd. US $;2221;29676;PC;WA39206100 Tafeln, Platten u.a., aus Polycarbonaten;39206100;Q4;-3,511509949;2024-Q4
 2025;Ausfuhr;Tsd. US $;2221;35404;PC;WA39206100 Tafeln, Platten u.a., aus Polycarbonaten;39206100;Q1;-7,353326006;2025-Q1
-2025;Ausfuhr;Tsd. US $;2221;;PC;WA39206100 Tafeln, Platten u.a., aus Polycarbonaten;39206100;;;
 2015;Ausfuhr;Tsd. US $;2221;121684;PET + Polyester;WA39206212 Folien aus Polyethylenterephthalat+WA39206219 Tafeln u.a., aus Polyethylen-Terephthalat+WA39206900 Tafeln u.a., aus anderen Polyestern;39206212+39206219+39206900;Q1;;2015-Q1
 2015;Ausfuhr;Tsd. US $;2221;128482;PET + Polyester;WA39206212 Folien aus Polyethylenterephthalat+WA39206219 Tafeln u.a., aus Polyethylen-Terephthalat+WA39206900 Tafeln u.a., aus anderen Polyestern;39206212+39206219+39206900;Q2;;2015-Q2
 2015;Ausfuhr;Tsd. US $;2221;125969;PET + Polyester;WA39206212 Folien aus Polyethylenterephthalat+WA39206219 Tafeln u.a., aus Polyethylen-Terephthalat+WA39206900 Tafeln u.a., aus anderen Polyestern;39206212+39206219+39206900;Q3;;2015-Q3
@@ -16822,7 +16779,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Ausfuhr;Tsd. US $;2221;180118;PET + Polyester;WA39206212 Folien aus Polyethylenterephthalat+WA39206219 Tafeln u.a., aus Polyethylen-Terephthalat+WA39206900 Tafeln u.a., aus anderen Polyestern;39206212+39206219+39206900;Q3;6,981937837;2024-Q3
 2024;Ausfuhr;Tsd. US $;2221;164181;PET + Polyester;WA39206212 Folien aus Polyethylenterephthalat+WA39206219 Tafeln u.a., aus Polyethylen-Terephthalat+WA39206900 Tafeln u.a., aus anderen Polyestern;39206212+39206219+39206900;Q4;2,883193383;2024-Q4
 2025;Ausfuhr;Tsd. US $;2221;171862;PET + Polyester;WA39206212 Folien aus Polyethylenterephthalat+WA39206219 Tafeln u.a., aus Polyethylen-Terephthalat+WA39206900 Tafeln u.a., aus anderen Polyestern;39206212+39206219+39206900;Q1;-5,834716812;2025-Q1
-2025;Ausfuhr;Tsd. US $;2221;;PET + Polyester;WA39206212 Folien aus Polyethylenterephthalat+WA39206219 Tafeln u.a., aus Polyethylen-Terephthalat+WA39206900 Tafeln u.a., aus anderen Polyestern;39206212+39206219+39206900;;;
 2015;Ausfuhr;Tsd. US $;2221;254895;PP;WA39202021 Folien u.a., Polymere d.Propylens,<=0,1mm, biaxial+WA39202029 Folien u.a., Polymere des Propylens, <=0,10mm+WA39202080 Folien u.a. aus Polymeren des Propylens, >0,10mm;39202021+39202029+39202080;Q1;;2015-Q1
 2015;Ausfuhr;Tsd. US $;2221;258657;PP;WA39202021 Folien u.a., Polymere d.Propylens,<=0,1mm, biaxial+WA39202029 Folien u.a., Polymere des Propylens, <=0,10mm+WA39202080 Folien u.a. aus Polymeren des Propylens, >0,10mm;39202021+39202029+39202080;Q2;;2015-Q2
 2015;Ausfuhr;Tsd. US $;2221;262388;PP;WA39202021 Folien u.a., Polymere d.Propylens,<=0,1mm, biaxial+WA39202029 Folien u.a., Polymere des Propylens, <=0,10mm+WA39202080 Folien u.a. aus Polymeren des Propylens, >0,10mm;39202021+39202029+39202080;Q3;;2015-Q3
@@ -16864,7 +16820,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Ausfuhr;Tsd. US $;2221;293969;PP;WA39202021 Folien u.a., Polymere d.Propylens,<=0,1mm, biaxial+WA39202029 Folien u.a., Polymere des Propylens, <=0,10mm+WA39202080 Folien u.a. aus Polymeren des Propylens, >0,10mm;39202021+39202029+39202080;Q3;7,255075086;2024-Q3
 2024;Ausfuhr;Tsd. US $;2221;283921;PP;WA39202021 Folien u.a., Polymere d.Propylens,<=0,1mm, biaxial+WA39202029 Folien u.a., Polymere des Propylens, <=0,10mm+WA39202080 Folien u.a. aus Polymeren des Propylens, >0,10mm;39202021+39202029+39202080;Q4;8,198714211;2024-Q4
 2025;Ausfuhr;Tsd. US $;2221;315333;PP;WA39202021 Folien u.a., Polymere d.Propylens,<=0,1mm, biaxial+WA39202029 Folien u.a., Polymere des Propylens, <=0,10mm+WA39202080 Folien u.a. aus Polymeren des Propylens, >0,10mm;39202021+39202029+39202080;Q1;-0,080801551;2025-Q1
-2025;Ausfuhr;Tsd. US $;2221;;PP;WA39202021 Folien u.a., Polymere d.Propylens,<=0,1mm, biaxial+WA39202029 Folien u.a., Polymere des Propylens, <=0,10mm+WA39202080 Folien u.a. aus Polymeren des Propylens, >0,10mm;39202021+39202029+39202080;;;
 2015;Ausfuhr;Tsd. US $;2221;87875;PS;WA39203000 Tafeln, Platten u.a., aus Polymeren des Styrols;39203000;Q1;;2015-Q1
 2015;Ausfuhr;Tsd. US $;2221;87396;PS;WA39203000 Tafeln, Platten u.a., aus Polymeren des Styrols;39203000;Q2;;2015-Q2
 2015;Ausfuhr;Tsd. US $;2221;85916;PS;WA39203000 Tafeln, Platten u.a., aus Polymeren des Styrols;39203000;Q3;;2015-Q3
@@ -16906,7 +16861,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Ausfuhr;Tsd. US $;2221;82575;PS;WA39203000 Tafeln, Platten u.a., aus Polymeren des Styrols;39203000;Q3;-2,610039156;2024-Q3
 2024;Ausfuhr;Tsd. US $;2221;71419;PS;WA39203000 Tafeln, Platten u.a., aus Polymeren des Styrols;39203000;Q4;-14,72561849;2024-Q4
 2025;Ausfuhr;Tsd. US $;2221;82582;PS;WA39203000 Tafeln, Platten u.a., aus Polymeren des Styrols;39203000;Q1;-14,20497636;2025-Q1
-2025;Ausfuhr;Tsd. US $;2221;;PS;WA39203000 Tafeln, Platten u.a., aus Polymeren des Styrols;39203000;;;
 2015;Ausfuhr;Tsd. US $;2221;751;Regen. Cellulose;WA39207100 Folien, Platten u.a. aus regenerierter Cellulose;39207100;Q1;;2015-Q1
 2015;Ausfuhr;Tsd. US $;2221;706;Regen. Cellulose;WA39207100 Folien, Platten u.a. aus regenerierter Cellulose;39207100;Q2;;2015-Q2
 2015;Ausfuhr;Tsd. US $;2221;797;Regen. Cellulose;WA39207100 Folien, Platten u.a. aus regenerierter Cellulose;39207100;Q3;;2015-Q3
@@ -16948,7 +16902,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Ausfuhr;Tsd. US $;2221;1155;Regen. Cellulose;WA39207100 Folien, Platten u.a. aus regenerierter Cellulose;39207100;Q3;16,78463094;2024-Q3
 2024;Ausfuhr;Tsd. US $;2221;979;Regen. Cellulose;WA39207100 Folien, Platten u.a. aus regenerierter Cellulose;39207100;Q4;1,345755694;2024-Q4
 2025;Ausfuhr;Tsd. US $;2221;1026;Regen. Cellulose;WA39207100 Folien, Platten u.a. aus regenerierter Cellulose;39207100;Q1;33,42002601;2025-Q1
-2025;Ausfuhr;Tsd. US $;2221;;Regen. Cellulose;WA39207100 Folien, Platten u.a. aus regenerierter Cellulose;39207100;;;
 2015;Ausfuhr;Tsd. US $;2222;213026;Tüten, Beutel, Säcke usw. aus PE;WA39232100 Säcke und Beutel, aus Polymeren des Ethylens;39232100;Q1;;2015-Q1
 2015;Ausfuhr;Tsd. US $;2222;210406;Tüten, Beutel, Säcke usw. aus PE;WA39232100 Säcke und Beutel, aus Polymeren des Ethylens;39232100;Q2;;2015-Q2
 2015;Ausfuhr;Tsd. US $;2222;237611;Tüten, Beutel, Säcke usw. aus PE;WA39232100 Säcke und Beutel, aus Polymeren des Ethylens;39232100;Q3;;2015-Q3
@@ -16990,7 +16943,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Ausfuhr;Tsd. US $;2222;236591;Tüten, Beutel, Säcke usw. aus PE;WA39232100 Säcke und Beutel, aus Polymeren des Ethylens;39232100;Q3;3,409225013;2024-Q3
 2024;Ausfuhr;Tsd. US $;2222;234755;Tüten, Beutel, Säcke usw. aus PE;WA39232100 Säcke und Beutel, aus Polymeren des Ethylens;39232100;Q4;1,960554376;2024-Q4
 2025;Ausfuhr;Tsd. US $;2222;239742;Tüten, Beutel, Säcke usw. aus PE;WA39232100 Säcke und Beutel, aus Polymeren des Ethylens;39232100;Q1;3,735466814;2025-Q1
-2025;Ausfuhr;Tsd. US $;2222;;Tüten, Beutel, Säcke usw. aus PE;WA39232100 Säcke und Beutel, aus Polymeren des Ethylens;39232100;;;
 2015;Ausfuhr;Tsd. US $;2222;824;Tüten, Beutel, Säcke usw. aus PVC;WA39232910 Säcke und Beutel, aus Polyvinylchlorid;39232910;Q1;;2015-Q1
 2015;Ausfuhr;Tsd. US $;2222;1581;Tüten, Beutel, Säcke usw. aus PVC;WA39232910 Säcke und Beutel, aus Polyvinylchlorid;39232910;Q2;;2015-Q2
 2015;Ausfuhr;Tsd. US $;2222;1362;Tüten, Beutel, Säcke usw. aus PVC;WA39232910 Säcke und Beutel, aus Polyvinylchlorid;39232910;Q3;;2015-Q3
@@ -17032,7 +16984,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Ausfuhr;Tsd. US $;2222;2515;Tüten, Beutel, Säcke usw. aus PVC;WA39232910 Säcke und Beutel, aus Polyvinylchlorid;39232910;Q3;-17,48687664;2024-Q3
 2024;Ausfuhr;Tsd. US $;2222;2285;Tüten, Beutel, Säcke usw. aus PVC;WA39232910 Säcke und Beutel, aus Polyvinylchlorid;39232910;Q4;0,705156457;2024-Q4
 2025;Ausfuhr;Tsd. US $;2222;2953;Tüten, Beutel, Säcke usw. aus PVC;WA39232910 Säcke und Beutel, aus Polyvinylchlorid;39232910;Q1;21,67284714;2025-Q1
-2025;Ausfuhr;Tsd. US $;2222;;Tüten, Beutel, Säcke usw. aus PVC;WA39232910 Säcke und Beutel, aus Polyvinylchlorid;39232910;;;
 2015;Ausfuhr;Tsd. US $;2222;57927;Tüten, Beutel, Säcke usw. aus andere Kunststoffe;WA39232990 Säcke und Beutel, aus anderen Kunststoffen;39232990;Q1;;2015-Q1
 2015;Ausfuhr;Tsd. US $;2222;57526;Tüten, Beutel, Säcke usw. aus andere Kunststoffe;WA39232990 Säcke und Beutel, aus anderen Kunststoffen;39232990;Q2;;2015-Q2
 2015;Ausfuhr;Tsd. US $;2222;63305;Tüten, Beutel, Säcke usw. aus andere Kunststoffe;WA39232990 Säcke und Beutel, aus anderen Kunststoffen;39232990;Q3;;2015-Q3
@@ -17074,7 +17025,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Ausfuhr;Tsd. US $;2222;62452;Tüten, Beutel, Säcke usw. aus andere Kunststoffe;WA39232990 Säcke und Beutel, aus anderen Kunststoffen;39232990;Q3;10,4309232;2024-Q3
 2024;Ausfuhr;Tsd. US $;2222;50401;Tüten, Beutel, Säcke usw. aus andere Kunststoffe;WA39232990 Säcke und Beutel, aus anderen Kunststoffen;39232990;Q4;-20,20234005;2024-Q4
 2025;Ausfuhr;Tsd. US $;2222;53990;Tüten, Beutel, Säcke usw. aus andere Kunststoffe;WA39232990 Säcke und Beutel, aus anderen Kunststoffen;39232990;Q1;-17,62910977;2025-Q1
-2025;Ausfuhr;Tsd. US $;2222;;Tüten, Beutel, Säcke usw. aus andere Kunststoffe;WA39232990 Säcke und Beutel, aus anderen Kunststoffen;39232990;;;
 2015;Ausfuhr;Tsd. US $;2222;235405;Verschlüsse;WA39235010 Verschluß- oder Flaschenkapseln aus Kunststoffen+WA39235090 Stöpsel, Deckel und Verschlüsse aus Kunststoffen;39235010+39235090;Q1;;2015-Q1
 2015;Ausfuhr;Tsd. US $;2222;236459;Verschlüsse;WA39235010 Verschluß- oder Flaschenkapseln aus Kunststoffen+WA39235090 Stöpsel, Deckel und Verschlüsse aus Kunststoffen;39235010+39235090;Q2;;2015-Q2
 2015;Ausfuhr;Tsd. US $;2222;239461;Verschlüsse;WA39235010 Verschluß- oder Flaschenkapseln aus Kunststoffen+WA39235090 Stöpsel, Deckel und Verschlüsse aus Kunststoffen;39235010+39235090;Q3;;2015-Q3
@@ -17116,7 +17066,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Ausfuhr;Tsd. US $;2222;323567;Verschlüsse;WA39235010 Verschluß- oder Flaschenkapseln aus Kunststoffen+WA39235090 Stöpsel, Deckel und Verschlüsse aus Kunststoffen;39235010+39235090;Q3;6,126163948;2024-Q3
 2024;Ausfuhr;Tsd. US $;2222;284662;Verschlüsse;WA39235010 Verschluß- oder Flaschenkapseln aus Kunststoffen+WA39235090 Stöpsel, Deckel und Verschlüsse aus Kunststoffen;39235010+39235090;Q4;0,840985093;2024-Q4
 2025;Ausfuhr;Tsd. US $;2222;327916;Verschlüsse;WA39235010 Verschluß- oder Flaschenkapseln aus Kunststoffen+WA39235090 Stöpsel, Deckel und Verschlüsse aus Kunststoffen;39235010+39235090;Q1;1,255832193;2025-Q1
-2025;Ausfuhr;Tsd. US $;2222;;Verschlüsse;WA39235010 Verschluß- oder Flaschenkapseln aus Kunststoffen+WA39235090 Stöpsel, Deckel und Verschlüsse aus Kunststoffen;39235010+39235090;;;
 2015;Ausfuhr;Tsd. US $;2222;132339;andere Transportverpackungen;WA39239000 Transport- oder Verpackungsmittel, a.n.g.;39239000;Q1;;2015-Q1
 2015;Ausfuhr;Tsd. US $;2222;136789;andere Transportverpackungen;WA39239000 Transport- oder Verpackungsmittel, a.n.g.;39239000;Q2;;2015-Q2
 2015;Ausfuhr;Tsd. US $;2222;134630;andere Transportverpackungen;WA39239000 Transport- oder Verpackungsmittel, a.n.g.;39239000;Q3;;2015-Q3
@@ -17158,7 +17107,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Ausfuhr;Tsd. US $;2222;190441;andere Transportverpackungen;WA39239000 Transport- oder Verpackungsmittel, a.n.g.;39239000;Q3;-2,572773316;2024-Q3
 2024;Ausfuhr;Tsd. US $;2222;176093;andere Transportverpackungen;WA39239000 Transport- oder Verpackungsmittel, a.n.g.;39239000;Q4;-0,370584108;2024-Q4
 2025;Ausfuhr;Tsd. US $;2222;192016;andere Transportverpackungen;WA39239000 Transport- oder Verpackungsmittel, a.n.g.;39239000;Q1;-4,298245614;2025-Q1
-2025;Ausfuhr;Tsd. US $;2222;;andere Transportverpackungen;WA39239000 Transport- oder Verpackungsmittel, a.n.g.;39239000;;;
 2017;Ausfuhr;t;2222;69212,2;Becher, Dosen, Kisten;WA39231010 Kisten zum Transport von Wafern aus Kunststoffen+WA39231090 Dosen, Kisten, Verschläge u.a. aus Kunststoffen;39231010+39231090;Q1;;2017-Q1
 2017;Ausfuhr;t;2222;69838,9;Becher, Dosen, Kisten;WA39231010 Kisten zum Transport von Wafern aus Kunststoffen+WA39231090 Dosen, Kisten, Verschläge u.a. aus Kunststoffen;39231010+39231090;Q2;;2017-Q2
 2017;Ausfuhr;t;2222;72001,7;Becher, Dosen, Kisten;WA39231010 Kisten zum Transport von Wafern aus Kunststoffen+WA39231090 Dosen, Kisten, Verschläge u.a. aus Kunststoffen;39231010+39231090;Q3;;2017-Q3
@@ -17192,7 +17140,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Ausfuhr;t;2222;69866,4;Becher, Dosen, Kisten;WA39231010 Kisten zum Transport von Wafern aus Kunststoffen+WA39231090 Dosen, Kisten, Verschläge u.a. aus Kunststoffen;39231010+39231090;Q3;0,540792568;2024-Q3
 2024;Ausfuhr;t;2222;66532,2;Becher, Dosen, Kisten;WA39231010 Kisten zum Transport von Wafern aus Kunststoffen+WA39231090 Dosen, Kisten, Verschläge u.a. aus Kunststoffen;39231010+39231090;Q4;-2,548764287;2024-Q4
 2025;Ausfuhr;t;2222;63499,7;Becher, Dosen, Kisten;WA39231010 Kisten zum Transport von Wafern aus Kunststoffen+WA39231090 Dosen, Kisten, Verschläge u.a. aus Kunststoffen;39231010+39231090;Q1;-8,907719498;2025-Q1
-2025;Ausfuhr;t;2222;;Becher, Dosen, Kisten;WA39231010 Kisten zum Transport von Wafern aus Kunststoffen+WA39231090 Dosen, Kisten, Verschläge u.a. aus Kunststoffen;39231010+39231090;;;
 2015;Ausfuhr;t;2221;512,1;Celluloseacetat;WA39207380 Folien, Platten u.a. aus Celluloseacetaten,a.n.g.;39207380;Q1;;2015-Q1
 2015;Ausfuhr;t;2221;480,3;Celluloseacetat;WA39207380 Folien, Platten u.a. aus Celluloseacetaten,a.n.g.;39207380;Q2;;2015-Q2
 2015;Ausfuhr;t;2221;453,4;Celluloseacetat;WA39207380 Folien, Platten u.a. aus Celluloseacetaten,a.n.g.;39207380;Q3;;2015-Q3
@@ -17234,7 +17181,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Ausfuhr;t;2221;203,9;Celluloseacetat;WA39207380 Folien, Platten u.a. aus Celluloseacetaten,a.n.g.;39207380;Q3;-9,458259325;2024-Q3
 2024;Ausfuhr;t;2221;168,3;Celluloseacetat;WA39207380 Folien, Platten u.a. aus Celluloseacetaten,a.n.g.;39207380;Q4;1,324503311;2024-Q4
 2025;Ausfuhr;t;2221;170,8;Celluloseacetat;WA39207380 Folien, Platten u.a. aus Celluloseacetaten,a.n.g.;39207380;Q1;-9,14893617;2025-Q1
-2025;Ausfuhr;t;2221;;Celluloseacetat;WA39207380 Folien, Platten u.a. aus Celluloseacetaten,a.n.g.;39207380;;;
 2015;Ausfuhr;t;2221;57883,7;Ethylencopolymere/Sonstige;WA39201040 Tafeln, Folien u.a., Polymere d.Ethylens,<=0,125mm+WA39201081 Synthetischer Papierhalbstoff aus Polyethylen+WA39201089 Tafeln, Folien u.a., Polymere d.Ethylens, <0,125mm;39201040+39201081+39201089;Q1;;2015-Q1
 2015;Ausfuhr;t;2221;69123,2;Ethylencopolymere/Sonstige;WA39201040 Tafeln, Folien u.a., Polymere d.Ethylens,<=0,125mm+WA39201081 Synthetischer Papierhalbstoff aus Polyethylen+WA39201089 Tafeln, Folien u.a., Polymere d.Ethylens, <0,125mm;39201040+39201081+39201089;Q2;;2015-Q2
 2015;Ausfuhr;t;2221;59232,8;Ethylencopolymere/Sonstige;WA39201040 Tafeln, Folien u.a., Polymere d.Ethylens,<=0,125mm+WA39201081 Synthetischer Papierhalbstoff aus Polyethylen+WA39201089 Tafeln, Folien u.a., Polymere d.Ethylens, <0,125mm;39201040+39201081+39201089;Q3;;2015-Q3
@@ -17276,7 +17222,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Ausfuhr;t;2221;56990,8;Ethylencopolymere/Sonstige;WA39201040 Tafeln, Folien u.a., Polymere d.Ethylens,<=0,125mm+WA39201081 Synthetischer Papierhalbstoff aus Polyethylen+WA39201089 Tafeln, Folien u.a., Polymere d.Ethylens, <0,125mm;39201040+39201081+39201089;Q3;-6,114884511;2024-Q3
 2024;Ausfuhr;t;2221;49278,7;Ethylencopolymere/Sonstige;WA39201040 Tafeln, Folien u.a., Polymere d.Ethylens,<=0,125mm+WA39201081 Synthetischer Papierhalbstoff aus Polyethylen+WA39201089 Tafeln, Folien u.a., Polymere d.Ethylens, <0,125mm;39201040+39201081+39201089;Q4;-6,732720115;2024-Q4
 2025;Ausfuhr;t;2221;60494;Ethylencopolymere/Sonstige;WA39201040 Tafeln, Folien u.a., Polymere d.Ethylens,<=0,125mm+WA39201081 Synthetischer Papierhalbstoff aus Polyethylen+WA39201089 Tafeln, Folien u.a., Polymere d.Ethylens, <0,125mm;39201040+39201081+39201089;Q1;1,563903463;2025-Q1
-2025;Ausfuhr;t;2221;;Ethylencopolymere/Sonstige;WA39201040 Tafeln, Folien u.a., Polymere d.Ethylens,<=0,125mm+WA39201081 Synthetischer Papierhalbstoff aus Polyethylen+WA39201089 Tafeln, Folien u.a., Polymere d.Ethylens, <0,125mm;39201040+39201081+39201089;;;
 2015;Ausfuhr;t;2222;15783,8;Flaschen größer 2 l;WA39233090 Ballons, Flaschen, Flakons aus Kunststoffen >2l St;39233090;Q1;;2015-Q1
 2015;Ausfuhr;t;2222;14509,4;Flaschen größer 2 l;WA39233090 Ballons, Flaschen, Flakons aus Kunststoffen >2l St;39233090;Q2;;2015-Q2
 2015;Ausfuhr;t;2222;15520,5;Flaschen größer 2 l;WA39233090 Ballons, Flaschen, Flakons aus Kunststoffen >2l St;39233090;Q3;;2015-Q3
@@ -17318,7 +17263,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Ausfuhr;t;2222;16418,6;Flaschen größer 2 l;WA39233090 Ballons, Flaschen, Flakons aus Kunststoffen >2l St;39233090;Q3;10,60243723;2024-Q3
 2024;Ausfuhr;t;2222;14577,9;Flaschen größer 2 l;WA39233090 Ballons, Flaschen, Flakons aus Kunststoffen >2l St;39233090;Q4;6,414243167;2024-Q4
 2025;Ausfuhr;t;2222;18632,6;Flaschen größer 2 l;WA39233090 Ballons, Flaschen, Flakons aus Kunststoffen >2l St;39233090;Q1;10,21750575;2025-Q1
-2025;Ausfuhr;t;2222;;Flaschen größer 2 l;WA39233090 Ballons, Flaschen, Flakons aus Kunststoffen >2l St;39233090;;;
 2015;Ausfuhr;t;2222;22058,9;Flaschen kleiner 2 l;WA39233010 Ballons, Flaschen, Flakons a.Kunststoffen <=2l  St;39233010;Q1;;2015-Q1
 2015;Ausfuhr;t;2222;22264;Flaschen kleiner 2 l;WA39233010 Ballons, Flaschen, Flakons a.Kunststoffen <=2l  St;39233010;Q2;;2015-Q2
 2015;Ausfuhr;t;2222;21087,4;Flaschen kleiner 2 l;WA39233010 Ballons, Flaschen, Flakons a.Kunststoffen <=2l  St;39233010;Q3;;2015-Q3
@@ -17360,7 +17304,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Ausfuhr;t;2222;20230,6;Flaschen kleiner 2 l;WA39233010 Ballons, Flaschen, Flakons a.Kunststoffen <=2l  St;39233010;Q3;10,82527596;2024-Q3
 2024;Ausfuhr;t;2222;18793,5;Flaschen kleiner 2 l;WA39233010 Ballons, Flaschen, Flakons a.Kunststoffen <=2l  St;39233010;Q4;4,959956214;2024-Q4
 2025;Ausfuhr;t;2222;20077,3;Flaschen kleiner 2 l;WA39233010 Ballons, Flaschen, Flakons a.Kunststoffen <=2l  St;39233010;Q1;-0,974115651;2025-Q1
-2025;Ausfuhr;t;2222;;Flaschen kleiner 2 l;WA39233010 Ballons, Flaschen, Flakons a.Kunststoffen <=2l  St;39233010;;;
 2015;Ausfuhr;t;2221;31055,5;HDPE;WA39201028 Tafeln, Platten u.a., aus Polyethylen, >= 0,94;39201028;Q1;;2015-Q1
 2015;Ausfuhr;t;2221;32078,4;HDPE;WA39201028 Tafeln, Platten u.a., aus Polyethylen, >= 0,94;39201028;Q2;;2015-Q2
 2015;Ausfuhr;t;2221;32348,3;HDPE;WA39201028 Tafeln, Platten u.a., aus Polyethylen, >= 0,94;39201028;Q3;;2015-Q3
@@ -17402,7 +17345,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Ausfuhr;t;2221;31508,6;HDPE;WA39201028 Tafeln, Platten u.a., aus Polyethylen, >= 0,94;39201028;Q3;7,064316199;2024-Q3
 2024;Ausfuhr;t;2221;29401,6;HDPE;WA39201028 Tafeln, Platten u.a., aus Polyethylen, >= 0,94;39201028;Q4;6,305296536;2024-Q4
 2025;Ausfuhr;t;2221;32207,6;HDPE;WA39201028 Tafeln, Platten u.a., aus Polyethylen, >= 0,94;39201028;Q1;0,276785798;2025-Q1
-2025;Ausfuhr;t;2221;;HDPE;WA39201028 Tafeln, Platten u.a., aus Polyethylen, >= 0,94;39201028;;;
 2015;Ausfuhr;t;2221;98988,8;LDPE;WA39201023 Polyethylenfolien, < 0,94, Halbleiterfertigung+WA39201024 Stretchfolien aus Polyethylens, < 0,94, <= 0,125mm+WA39201025 Folien u.a.aus Polymeren des Ethylens,<0,94,a.n.g.;39201023+39201024+39201025;Q1;;2015-Q1
 2015;Ausfuhr;t;2221;100407,3;LDPE;WA39201023 Polyethylenfolien, < 0,94, Halbleiterfertigung+WA39201024 Stretchfolien aus Polyethylens, < 0,94, <= 0,125mm+WA39201025 Folien u.a.aus Polymeren des Ethylens,<0,94,a.n.g.;39201023+39201024+39201025;Q2;;2015-Q2
 2015;Ausfuhr;t;2221;88326,4;LDPE;WA39201023 Polyethylenfolien, < 0,94, Halbleiterfertigung+WA39201024 Stretchfolien aus Polyethylens, < 0,94, <= 0,125mm+WA39201025 Folien u.a.aus Polymeren des Ethylens,<0,94,a.n.g.;39201023+39201024+39201025;Q3;;2015-Q3
@@ -17444,7 +17386,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Ausfuhr;t;2221;70081,6;LDPE;WA39201023 Polyethylenfolien, < 0,94, Halbleiterfertigung+WA39201024 Stretchfolien aus Polyethylens, < 0,94, <= 0,125mm+WA39201025 Folien u.a.aus Polymeren des Ethylens,<0,94,a.n.g.;39201023+39201024+39201025;Q3;2,895333404;2024-Q3
 2024;Ausfuhr;t;2221;64737,3;LDPE;WA39201023 Polyethylenfolien, < 0,94, Halbleiterfertigung+WA39201024 Stretchfolien aus Polyethylens, < 0,94, <= 0,125mm+WA39201025 Folien u.a.aus Polymeren des Ethylens,<0,94,a.n.g.;39201023+39201024+39201025;Q4;2,297766232;2024-Q4
 2025;Ausfuhr;t;2221;61621,9;LDPE;WA39201023 Polyethylenfolien, < 0,94, Halbleiterfertigung+WA39201024 Stretchfolien aus Polyethylens, < 0,94, <= 0,125mm+WA39201025 Folien u.a.aus Polymeren des Ethylens,<0,94,a.n.g.;39201023+39201024+39201025;Q1;-19,17612556;2025-Q1
-2025;Ausfuhr;t;2221;;LDPE;WA39201023 Polyethylenfolien, < 0,94, Halbleiterfertigung+WA39201024 Stretchfolien aus Polyethylens, < 0,94, <= 0,125mm+WA39201025 Folien u.a.aus Polymeren des Ethylens,<0,94,a.n.g.;39201023+39201024+39201025;;;
 2015;Ausfuhr;t;2221;4188,7;PA;WA39209200 Tafeln, Platten u.a., aus Polyamiden;39209200;Q1;;2015-Q1
 2015;Ausfuhr;t;2221;4414,6;PA;WA39209200 Tafeln, Platten u.a., aus Polyamiden;39209200;Q2;;2015-Q2
 2015;Ausfuhr;t;2221;3617,4;PA;WA39209200 Tafeln, Platten u.a., aus Polyamiden;39209200;Q3;;2015-Q3
@@ -17486,7 +17427,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Ausfuhr;t;2221;4370,2;PA;WA39209200 Tafeln, Platten u.a., aus Polyamiden;39209200;Q3;20,82722774;2024-Q3
 2024;Ausfuhr;t;2221;4333,4;PA;WA39209200 Tafeln, Platten u.a., aus Polyamiden;39209200;Q4;13,19975967;2024-Q4
 2025;Ausfuhr;t;2221;4790,4;PA;WA39209200 Tafeln, Platten u.a., aus Polyamiden;39209200;Q1;-3,520502699;2025-Q1
-2025;Ausfuhr;t;2221;;PA;WA39209200 Tafeln, Platten u.a., aus Polyamiden;39209200;;;
 2015;Ausfuhr;t;2221;4027,4;PC;WA39206100 Tafeln, Platten u.a., aus Polycarbonaten;39206100;Q1;;2015-Q1
 2015;Ausfuhr;t;2221;4684,9;PC;WA39206100 Tafeln, Platten u.a., aus Polycarbonaten;39206100;Q2;;2015-Q2
 2015;Ausfuhr;t;2221;3878,7;PC;WA39206100 Tafeln, Platten u.a., aus Polycarbonaten;39206100;Q3;;2015-Q3
@@ -17528,7 +17468,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Ausfuhr;t;2221;3090,6;PC;WA39206100 Tafeln, Platten u.a., aus Polycarbonaten;39206100;Q3;-5,364688591;2024-Q3
 2024;Ausfuhr;t;2221;3107,7;PC;WA39206100 Tafeln, Platten u.a., aus Polycarbonaten;39206100;Q4;8,881648098;2024-Q4
 2025;Ausfuhr;t;2221;3654,6;PC;WA39206100 Tafeln, Platten u.a., aus Polycarbonaten;39206100;Q1;0,016420361;2025-Q1
-2025;Ausfuhr;t;2221;;PC;WA39206100 Tafeln, Platten u.a., aus Polycarbonaten;39206100;;;
 2015;Ausfuhr;t;2221;25693,8;PET + Polyester;WA39206212 Folien aus Polyethylenterephthalat+WA39206219 Tafeln u.a., aus Polyethylen-Terephthalat+WA39206900 Tafeln u.a., aus anderen Polyestern;39206212+39206219+39206900;Q1;;2015-Q1
 2015;Ausfuhr;t;2221;27401,7;PET + Polyester;WA39206212 Folien aus Polyethylenterephthalat+WA39206219 Tafeln u.a., aus Polyethylen-Terephthalat+WA39206900 Tafeln u.a., aus anderen Polyestern;39206212+39206219+39206900;Q2;;2015-Q2
 2015;Ausfuhr;t;2221;26915,6;PET + Polyester;WA39206212 Folien aus Polyethylenterephthalat+WA39206219 Tafeln u.a., aus Polyethylen-Terephthalat+WA39206900 Tafeln u.a., aus anderen Polyestern;39206212+39206219+39206900;Q3;;2015-Q3
@@ -17570,7 +17509,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Ausfuhr;t;2221;32823,1;PET + Polyester;WA39206212 Folien aus Polyethylenterephthalat+WA39206219 Tafeln u.a., aus Polyethylen-Terephthalat+WA39206900 Tafeln u.a., aus anderen Polyestern;39206212+39206219+39206900;Q3;11,07911186;2024-Q3
 2024;Ausfuhr;t;2221;30868,9;PET + Polyester;WA39206212 Folien aus Polyethylenterephthalat+WA39206219 Tafeln u.a., aus Polyethylen-Terephthalat+WA39206900 Tafeln u.a., aus anderen Polyestern;39206212+39206219+39206900;Q4;3,18456221;2024-Q4
 2025;Ausfuhr;t;2221;33305,4;PET + Polyester;WA39206212 Folien aus Polyethylenterephthalat+WA39206219 Tafeln u.a., aus Polyethylen-Terephthalat+WA39206900 Tafeln u.a., aus anderen Polyestern;39206212+39206219+39206900;Q1;0,210618798;2025-Q1
-2025;Ausfuhr;t;2221;;PET + Polyester;WA39206212 Folien aus Polyethylenterephthalat+WA39206219 Tafeln u.a., aus Polyethylen-Terephthalat+WA39206900 Tafeln u.a., aus anderen Polyestern;39206212+39206219+39206900;;;
 2015;Ausfuhr;t;2221;65771,8;PP;WA39202021 Folien u.a., Polymere d.Propylens,<=0,1mm, biaxial+WA39202029 Folien u.a., Polymere des Propylens, <=0,10mm+WA39202080 Folien u.a. aus Polymeren des Propylens, >0,10mm;39202021+39202029+39202080;Q1;;2015-Q1
 2015;Ausfuhr;t;2221;72083,7;PP;WA39202021 Folien u.a., Polymere d.Propylens,<=0,1mm, biaxial+WA39202029 Folien u.a., Polymere des Propylens, <=0,10mm+WA39202080 Folien u.a. aus Polymeren des Propylens, >0,10mm;39202021+39202029+39202080;Q2;;2015-Q2
 2015;Ausfuhr;t;2221;66373,5;PP;WA39202021 Folien u.a., Polymere d.Propylens,<=0,1mm, biaxial+WA39202029 Folien u.a., Polymere des Propylens, <=0,10mm+WA39202080 Folien u.a. aus Polymeren des Propylens, >0,10mm;39202021+39202029+39202080;Q3;;2015-Q3
@@ -17612,7 +17550,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Ausfuhr;t;2221;63987,2;PP;WA39202021 Folien u.a., Polymere d.Propylens,<=0,1mm, biaxial+WA39202029 Folien u.a., Polymere des Propylens, <=0,10mm+WA39202080 Folien u.a. aus Polymeren des Propylens, >0,10mm;39202021+39202029+39202080;Q3;5,093625946;2024-Q3
 2024;Ausfuhr;t;2221;63142,5;PP;WA39202021 Folien u.a., Polymere d.Propylens,<=0,1mm, biaxial+WA39202029 Folien u.a., Polymere des Propylens, <=0,10mm+WA39202080 Folien u.a. aus Polymeren des Propylens, >0,10mm;39202021+39202029+39202080;Q4;6,904678461;2024-Q4
 2025;Ausfuhr;t;2221;68292,9;PP;WA39202021 Folien u.a., Polymere d.Propylens,<=0,1mm, biaxial+WA39202029 Folien u.a., Polymere des Propylens, <=0,10mm+WA39202080 Folien u.a. aus Polymeren des Propylens, >0,10mm;39202021+39202029+39202080;Q1;-2,846481482;2025-Q1
-2025;Ausfuhr;t;2221;;PP;WA39202021 Folien u.a., Polymere d.Propylens,<=0,1mm, biaxial+WA39202029 Folien u.a., Polymere des Propylens, <=0,10mm+WA39202080 Folien u.a. aus Polymeren des Propylens, >0,10mm;39202021+39202029+39202080;;;
 2015;Ausfuhr;t;2221;25965,9;PS;WA39203000 Tafeln, Platten u.a., aus Polymeren des Styrols;39203000;Q1;;2015-Q1
 2015;Ausfuhr;t;2221;25008,5;PS;WA39203000 Tafeln, Platten u.a., aus Polymeren des Styrols;39203000;Q2;;2015-Q2
 2015;Ausfuhr;t;2221;24035,9;PS;WA39203000 Tafeln, Platten u.a., aus Polymeren des Styrols;39203000;Q3;;2015-Q3
@@ -17654,7 +17591,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Ausfuhr;t;2221;17923,6;PS;WA39203000 Tafeln, Platten u.a., aus Polymeren des Styrols;39203000;Q3;1,467358076;2024-Q3
 2024;Ausfuhr;t;2221;17077,7;PS;WA39203000 Tafeln, Platten u.a., aus Polymeren des Styrols;39203000;Q4;-12,27268991;2024-Q4
 2025;Ausfuhr;t;2221;18668;PS;WA39203000 Tafeln, Platten u.a., aus Polymeren des Styrols;39203000;Q1;-9,470049659;2025-Q1
-2025;Ausfuhr;t;2221;;PS;WA39203000 Tafeln, Platten u.a., aus Polymeren des Styrols;39203000;;;
 2015;Ausfuhr;t;2221;36,6;Regen. Cellulose;WA39207100 Folien, Platten u.a. aus regenerierter Cellulose;39207100;Q1;;2015-Q1
 2015;Ausfuhr;t;2221;41,6;Regen. Cellulose;WA39207100 Folien, Platten u.a. aus regenerierter Cellulose;39207100;Q2;;2015-Q2
 2015;Ausfuhr;t;2221;54,3;Regen. Cellulose;WA39207100 Folien, Platten u.a. aus regenerierter Cellulose;39207100;Q3;;2015-Q3
@@ -17696,7 +17632,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Ausfuhr;t;2221;41,5;Regen. Cellulose;WA39207100 Folien, Platten u.a. aus regenerierter Cellulose;39207100;Q3;-30,60200669;2024-Q3
 2024;Ausfuhr;t;2221;39,9;Regen. Cellulose;WA39207100 Folien, Platten u.a. aus regenerierter Cellulose;39207100;Q4;12,3943662;2024-Q4
 2025;Ausfuhr;t;2221;41,8;Regen. Cellulose;WA39207100 Folien, Platten u.a. aus regenerierter Cellulose;39207100;Q1;49,28571429;2025-Q1
-2025;Ausfuhr;t;2221;;Regen. Cellulose;WA39207100 Folien, Platten u.a. aus regenerierter Cellulose;39207100;;;
 2015;Ausfuhr;t;2222;60070,4;Tüten, Beutel, Säcke usw. aus PE;WA39232100 Säcke und Beutel, aus Polymeren des Ethylens;39232100;Q1;;2015-Q1
 2015;Ausfuhr;t;2222;60071,7;Tüten, Beutel, Säcke usw. aus PE;WA39232100 Säcke und Beutel, aus Polymeren des Ethylens;39232100;Q2;;2015-Q2
 2015;Ausfuhr;t;2222;71126,3;Tüten, Beutel, Säcke usw. aus PE;WA39232100 Säcke und Beutel, aus Polymeren des Ethylens;39232100;Q3;;2015-Q3
@@ -17738,7 +17673,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Ausfuhr;t;2222;59227,4;Tüten, Beutel, Säcke usw. aus PE;WA39232100 Säcke und Beutel, aus Polymeren des Ethylens;39232100;Q3;3,374163528;2024-Q3
 2024;Ausfuhr;t;2222;61148,7;Tüten, Beutel, Säcke usw. aus PE;WA39232100 Säcke und Beutel, aus Polymeren des Ethylens;39232100;Q4;3,722908917;2024-Q4
 2025;Ausfuhr;t;2222;60738,6;Tüten, Beutel, Säcke usw. aus PE;WA39232100 Säcke und Beutel, aus Polymeren des Ethylens;39232100;Q1;3,910327802;2025-Q1
-2025;Ausfuhr;t;2222;;Tüten, Beutel, Säcke usw. aus PE;WA39232100 Säcke und Beutel, aus Polymeren des Ethylens;39232100;;;
 2015;Ausfuhr;t;2222;97,2;Tüten, Beutel, Säcke usw. aus PVC;WA39232910 Säcke und Beutel, aus Polyvinylchlorid;39232910;Q1;;2015-Q1
 2015;Ausfuhr;t;2222;180,6;Tüten, Beutel, Säcke usw. aus PVC;WA39232910 Säcke und Beutel, aus Polyvinylchlorid;39232910;Q2;;2015-Q2
 2015;Ausfuhr;t;2222;151,3;Tüten, Beutel, Säcke usw. aus PVC;WA39232910 Säcke und Beutel, aus Polyvinylchlorid;39232910;Q3;;2015-Q3
@@ -17780,7 +17714,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Ausfuhr;t;2222;134;Tüten, Beutel, Säcke usw. aus PVC;WA39232910 Säcke und Beutel, aus Polyvinylchlorid;39232910;Q3;-32,15189873;2024-Q3
 2024;Ausfuhr;t;2222;123,8;Tüten, Beutel, Säcke usw. aus PVC;WA39232910 Säcke und Beutel, aus Polyvinylchlorid;39232910;Q4;-28,02325581;2024-Q4
 2025;Ausfuhr;t;2222;189,8;Tüten, Beutel, Säcke usw. aus PVC;WA39232910 Säcke und Beutel, aus Polyvinylchlorid;39232910;Q1;29,46793997;2025-Q1
-2025;Ausfuhr;t;2222;;Tüten, Beutel, Säcke usw. aus PVC;WA39232910 Säcke und Beutel, aus Polyvinylchlorid;39232910;;;
 2015;Ausfuhr;t;2222;10514,1;Tüten, Beutel, Säcke usw. aus andere Kunststoffe;WA39232990 Säcke und Beutel, aus anderen Kunststoffen;39232990;Q1;;2015-Q1
 2015;Ausfuhr;t;2222;10923,8;Tüten, Beutel, Säcke usw. aus andere Kunststoffe;WA39232990 Säcke und Beutel, aus anderen Kunststoffen;39232990;Q2;;2015-Q2
 2015;Ausfuhr;t;2222;11521,5;Tüten, Beutel, Säcke usw. aus andere Kunststoffe;WA39232990 Säcke und Beutel, aus anderen Kunststoffen;39232990;Q3;;2015-Q3
@@ -17822,7 +17755,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Ausfuhr;t;2222;7328,7;Tüten, Beutel, Säcke usw. aus andere Kunststoffe;WA39232990 Säcke und Beutel, aus anderen Kunststoffen;39232990;Q3;10,24911996;2024-Q3
 2024;Ausfuhr;t;2222;6512,2;Tüten, Beutel, Säcke usw. aus andere Kunststoffe;WA39232990 Säcke und Beutel, aus anderen Kunststoffen;39232990;Q4;-24,20712049;2024-Q4
 2025;Ausfuhr;t;2222;7227,2;Tüten, Beutel, Säcke usw. aus andere Kunststoffe;WA39232990 Säcke und Beutel, aus anderen Kunststoffen;39232990;Q1;-12,13344356;2025-Q1
-2025;Ausfuhr;t;2222;;Tüten, Beutel, Säcke usw. aus andere Kunststoffe;WA39232990 Säcke und Beutel, aus anderen Kunststoffen;39232990;;;
 2015;Ausfuhr;t;2222;37242,5;Verschlüsse;WA39235010 Verschluß- oder Flaschenkapseln aus Kunststoffen+WA39235090 Stöpsel, Deckel und Verschlüsse aus Kunststoffen;39235010+39235090;Q1;;2015-Q1
 2015;Ausfuhr;t;2222;39044,5;Verschlüsse;WA39235010 Verschluß- oder Flaschenkapseln aus Kunststoffen+WA39235090 Stöpsel, Deckel und Verschlüsse aus Kunststoffen;39235010+39235090;Q2;;2015-Q2
 2015;Ausfuhr;t;2222;37886,9;Verschlüsse;WA39235010 Verschluß- oder Flaschenkapseln aus Kunststoffen+WA39235090 Stöpsel, Deckel und Verschlüsse aus Kunststoffen;39235010+39235090;Q3;;2015-Q3
@@ -17864,7 +17796,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Ausfuhr;t;2222;40149,8;Verschlüsse;WA39235010 Verschluß- oder Flaschenkapseln aus Kunststoffen+WA39235090 Stöpsel, Deckel und Verschlüsse aus Kunststoffen;39235010+39235090;Q3;4,811156244;2024-Q3
 2024;Ausfuhr;t;2222;35879,2;Verschlüsse;WA39235010 Verschluß- oder Flaschenkapseln aus Kunststoffen+WA39235090 Stöpsel, Deckel und Verschlüsse aus Kunststoffen;39235010+39235090;Q4;0,878914487;2024-Q4
 2025;Ausfuhr;t;2222;42622,1;Verschlüsse;WA39235010 Verschluß- oder Flaschenkapseln aus Kunststoffen+WA39235090 Stöpsel, Deckel und Verschlüsse aus Kunststoffen;39235010+39235090;Q1;5,127616962;2025-Q1
-2025;Ausfuhr;t;2222;;Verschlüsse;WA39235010 Verschluß- oder Flaschenkapseln aus Kunststoffen+WA39235090 Stöpsel, Deckel und Verschlüsse aus Kunststoffen;39235010+39235090;;;
 2015;Ausfuhr;t;2222;37114,2;andere Transportverpackungen;WA39239000 Transport- oder Verpackungsmittel, a.n.g.;39239000;Q1;;2015-Q1
 2015;Ausfuhr;t;2222;40167,8;andere Transportverpackungen;WA39239000 Transport- oder Verpackungsmittel, a.n.g.;39239000;Q2;;2015-Q2
 2015;Ausfuhr;t;2222;37443,3;andere Transportverpackungen;WA39239000 Transport- oder Verpackungsmittel, a.n.g.;39239000;Q3;;2015-Q3
@@ -17906,7 +17837,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Ausfuhr;t;2222;36517,1;andere Transportverpackungen;WA39239000 Transport- oder Verpackungsmittel, a.n.g.;39239000;Q3;-11,62046057;2024-Q3
 2024;Ausfuhr;t;2222;33714,1;andere Transportverpackungen;WA39239000 Transport- oder Verpackungsmittel, a.n.g.;39239000;Q4;-11,63308206;2024-Q4
 2025;Ausfuhr;t;2222;39721,9;andere Transportverpackungen;WA39239000 Transport- oder Verpackungsmittel, a.n.g.;39239000;Q1;2,177995226;2025-Q1
-2025;Ausfuhr;t;2222;;andere Transportverpackungen;WA39239000 Transport- oder Verpackungsmittel, a.n.g.;39239000;;;
 2015;Einfuhr;Anzahl;2222;13194923;Flaschen größer 2 l;WA39233090 Ballons, Flaschen, Flakons aus Kunststoffen >2l St;39233090;Q1;;2015-Q1
 2015;Einfuhr;Anzahl;2222;11794895;Flaschen größer 2 l;WA39233090 Ballons, Flaschen, Flakons aus Kunststoffen >2l St;39233090;Q2;;2015-Q2
 2015;Einfuhr;Anzahl;2222;12776104;Flaschen größer 2 l;WA39233090 Ballons, Flaschen, Flakons aus Kunststoffen >2l St;39233090;Q3;;2015-Q3
@@ -17948,7 +17878,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Einfuhr;Anzahl;2222;15944160;Flaschen größer 2 l;WA39233090 Ballons, Flaschen, Flakons aus Kunststoffen >2l St;39233090;Q3;-1,771580802;2024-Q3
 2024;Einfuhr;Anzahl;2222;13076527;Flaschen größer 2 l;WA39233090 Ballons, Flaschen, Flakons aus Kunststoffen >2l St;39233090;Q4;-22,71003423;2024-Q4
 2025;Einfuhr;Anzahl;2222;16069963;Flaschen größer 2 l;WA39233090 Ballons, Flaschen, Flakons aus Kunststoffen >2l St;39233090;Q1;13,99440213;2025-Q1
-2025;Einfuhr;Anzahl;2222;;Flaschen größer 2 l;WA39233090 Ballons, Flaschen, Flakons aus Kunststoffen >2l St;39233090;;;
 2015;Einfuhr;Anzahl;2222;1480578793;Flaschen kleiner 2 l;WA39233010 Ballons, Flaschen, Flakons a.Kunststoffen <=2l  St;39233010;Q1;;2015-Q1
 2015;Einfuhr;Anzahl;2222;1656172475;Flaschen kleiner 2 l;WA39233010 Ballons, Flaschen, Flakons a.Kunststoffen <=2l  St;39233010;Q2;;2015-Q2
 2015;Einfuhr;Anzahl;2222;1804592137;Flaschen kleiner 2 l;WA39233010 Ballons, Flaschen, Flakons a.Kunststoffen <=2l  St;39233010;Q3;;2015-Q3
@@ -17990,7 +17919,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Einfuhr;Anzahl;2222;1552883503;Flaschen kleiner 2 l;WA39233010 Ballons, Flaschen, Flakons a.Kunststoffen <=2l  St;39233010;Q3;-6,621067554;2024-Q3
 2024;Einfuhr;Anzahl;2222;1294776991;Flaschen kleiner 2 l;WA39233010 Ballons, Flaschen, Flakons a.Kunststoffen <=2l  St;39233010;Q4;-8,735119542;2024-Q4
 2025;Einfuhr;Anzahl;2222;1499384435;Flaschen kleiner 2 l;WA39233010 Ballons, Flaschen, Flakons a.Kunststoffen <=2l  St;39233010;Q1;1,51219151;2025-Q1
-2025;Einfuhr;Anzahl;2222;;Flaschen kleiner 2 l;WA39233010 Ballons, Flaschen, Flakons a.Kunststoffen <=2l  St;39233010;;;
 2017;Einfuhr;Tsd. EUR;2222;146822;Becher, Dosen, Kisten;WA39231010 Kisten zum Transport von Wafern aus Kunststoffen+WA39231090 Dosen, Kisten, Verschläge u.a. aus Kunststoffen;39231010+39231090;Q1;;2017-Q1
 2017;Einfuhr;Tsd. EUR;2222;161392;Becher, Dosen, Kisten;WA39231010 Kisten zum Transport von Wafern aus Kunststoffen+WA39231090 Dosen, Kisten, Verschläge u.a. aus Kunststoffen;39231010+39231090;Q2;;2017-Q2
 2017;Einfuhr;Tsd. EUR;2222;154746;Becher, Dosen, Kisten;WA39231010 Kisten zum Transport von Wafern aus Kunststoffen+WA39231090 Dosen, Kisten, Verschläge u.a. aus Kunststoffen;39231010+39231090;Q3;;2017-Q3
@@ -18024,7 +17952,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Einfuhr;Tsd. EUR;2222;181782;Becher, Dosen, Kisten;WA39231010 Kisten zum Transport von Wafern aus Kunststoffen+WA39231090 Dosen, Kisten, Verschläge u.a. aus Kunststoffen;39231010+39231090;Q3;-3,899385699;2024-Q3
 2024;Einfuhr;Tsd. EUR;2222;172870;Becher, Dosen, Kisten;WA39231010 Kisten zum Transport von Wafern aus Kunststoffen+WA39231090 Dosen, Kisten, Verschläge u.a. aus Kunststoffen;39231010+39231090;Q4;-3,769719776;2024-Q4
 2025;Einfuhr;Tsd. EUR;2222;204354;Becher, Dosen, Kisten;WA39231010 Kisten zum Transport von Wafern aus Kunststoffen+WA39231090 Dosen, Kisten, Verschläge u.a. aus Kunststoffen;39231010+39231090;Q1;13,54450846;2025-Q1
-2025;Einfuhr;Tsd. EUR;2222;;Becher, Dosen, Kisten;WA39231010 Kisten zum Transport von Wafern aus Kunststoffen+WA39231090 Dosen, Kisten, Verschläge u.a. aus Kunststoffen;39231010+39231090;;;
 2015;Einfuhr;Tsd. EUR;2221;1119;Celluloseacetat;WA39207380 Folien, Platten u.a. aus Celluloseacetaten,a.n.g.;39207380;Q1;;2015-Q1
 2015;Einfuhr;Tsd. EUR;2221;1344;Celluloseacetat;WA39207380 Folien, Platten u.a. aus Celluloseacetaten,a.n.g.;39207380;Q2;;2015-Q2
 2015;Einfuhr;Tsd. EUR;2221;1340;Celluloseacetat;WA39207380 Folien, Platten u.a. aus Celluloseacetaten,a.n.g.;39207380;Q3;;2015-Q3
@@ -18066,7 +17993,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Einfuhr;Tsd. EUR;2221;946;Celluloseacetat;WA39207380 Folien, Platten u.a. aus Celluloseacetaten,a.n.g.;39207380;Q3;-21,49377593;2024-Q3
 2024;Einfuhr;Tsd. EUR;2221;917;Celluloseacetat;WA39207380 Folien, Platten u.a. aus Celluloseacetaten,a.n.g.;39207380;Q4;-26,93227092;2024-Q4
 2025;Einfuhr;Tsd. EUR;2221;1334;Celluloseacetat;WA39207380 Folien, Platten u.a. aus Celluloseacetaten,a.n.g.;39207380;Q1;31,04125737;2025-Q1
-2025;Einfuhr;Tsd. EUR;2221;;Celluloseacetat;WA39207380 Folien, Platten u.a. aus Celluloseacetaten,a.n.g.;39207380;;;
 2015;Einfuhr;Tsd. EUR;2221;50342;Ethylencopolymere/Sonstige;WA39201040 Tafeln, Folien u.a., Polymere d.Ethylens,<=0,125mm+WA39201081 Synthetischer Papierhalbstoff aus Polyethylen+WA39201089 Tafeln, Folien u.a., Polymere d.Ethylens, <0,125mm;39201040+39201081+39201089;Q1;;2015-Q1
 2015;Einfuhr;Tsd. EUR;2221;64854;Ethylencopolymere/Sonstige;WA39201040 Tafeln, Folien u.a., Polymere d.Ethylens,<=0,125mm+WA39201081 Synthetischer Papierhalbstoff aus Polyethylen+WA39201089 Tafeln, Folien u.a., Polymere d.Ethylens, <0,125mm;39201040+39201081+39201089;Q2;;2015-Q2
 2015;Einfuhr;Tsd. EUR;2221;60945;Ethylencopolymere/Sonstige;WA39201040 Tafeln, Folien u.a., Polymere d.Ethylens,<=0,125mm+WA39201081 Synthetischer Papierhalbstoff aus Polyethylen+WA39201089 Tafeln, Folien u.a., Polymere d.Ethylens, <0,125mm;39201040+39201081+39201089;Q3;;2015-Q3
@@ -18108,7 +18034,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Einfuhr;Tsd. EUR;2221;72230;Ethylencopolymere/Sonstige;WA39201040 Tafeln, Folien u.a., Polymere d.Ethylens,<=0,125mm+WA39201081 Synthetischer Papierhalbstoff aus Polyethylen+WA39201089 Tafeln, Folien u.a., Polymere d.Ethylens, <0,125mm;39201040+39201081+39201089;Q3;4,830048475;2024-Q3
 2024;Einfuhr;Tsd. EUR;2221;58925;Ethylencopolymere/Sonstige;WA39201040 Tafeln, Folien u.a., Polymere d.Ethylens,<=0,125mm+WA39201081 Synthetischer Papierhalbstoff aus Polyethylen+WA39201089 Tafeln, Folien u.a., Polymere d.Ethylens, <0,125mm;39201040+39201081+39201089;Q4;-0,023753372;2024-Q4
 2025;Einfuhr;Tsd. EUR;2221;83921;Ethylencopolymere/Sonstige;WA39201040 Tafeln, Folien u.a., Polymere d.Ethylens,<=0,125mm+WA39201081 Synthetischer Papierhalbstoff aus Polyethylen+WA39201089 Tafeln, Folien u.a., Polymere d.Ethylens, <0,125mm;39201040+39201081+39201089;Q1;17,25395406;2025-Q1
-2025;Einfuhr;Tsd. EUR;2221;;Ethylencopolymere/Sonstige;WA39201040 Tafeln, Folien u.a., Polymere d.Ethylens,<=0,125mm+WA39201081 Synthetischer Papierhalbstoff aus Polyethylen+WA39201089 Tafeln, Folien u.a., Polymere d.Ethylens, <0,125mm;39201040+39201081+39201089;;;
 2015;Einfuhr;Tsd. EUR;2222;20194;Flaschen größer 2 l;WA39233090 Ballons, Flaschen, Flakons aus Kunststoffen >2l St;39233090;Q1;;2015-Q1
 2015;Einfuhr;Tsd. EUR;2222;19140;Flaschen größer 2 l;WA39233090 Ballons, Flaschen, Flakons aus Kunststoffen >2l St;39233090;Q2;;2015-Q2
 2015;Einfuhr;Tsd. EUR;2222;19059;Flaschen größer 2 l;WA39233090 Ballons, Flaschen, Flakons aus Kunststoffen >2l St;39233090;Q3;;2015-Q3
@@ -18150,7 +18075,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Einfuhr;Tsd. EUR;2222;26785;Flaschen größer 2 l;WA39233090 Ballons, Flaschen, Flakons aus Kunststoffen >2l St;39233090;Q3;5,068057898;2024-Q3
 2024;Einfuhr;Tsd. EUR;2222;24710;Flaschen größer 2 l;WA39233090 Ballons, Flaschen, Flakons aus Kunststoffen >2l St;39233090;Q4;-7,688284519;2024-Q4
 2025;Einfuhr;Tsd. EUR;2222;30104;Flaschen größer 2 l;WA39233090 Ballons, Flaschen, Flakons aus Kunststoffen >2l St;39233090;Q1;0,867817055;2025-Q1
-2025;Einfuhr;Tsd. EUR;2222;;Flaschen größer 2 l;WA39233090 Ballons, Flaschen, Flakons aus Kunststoffen >2l St;39233090;;;
 2015;Einfuhr;Tsd. EUR;2222;106897;Flaschen kleiner 2 l;WA39233010 Ballons, Flaschen, Flakons a.Kunststoffen <=2l  St;39233010;Q1;;2015-Q1
 2015;Einfuhr;Tsd. EUR;2222;117435;Flaschen kleiner 2 l;WA39233010 Ballons, Flaschen, Flakons a.Kunststoffen <=2l  St;39233010;Q2;;2015-Q2
 2015;Einfuhr;Tsd. EUR;2222;128799;Flaschen kleiner 2 l;WA39233010 Ballons, Flaschen, Flakons a.Kunststoffen <=2l  St;39233010;Q3;;2015-Q3
@@ -18192,7 +18116,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Einfuhr;Tsd. EUR;2222;148626;Flaschen kleiner 2 l;WA39233010 Ballons, Flaschen, Flakons a.Kunststoffen <=2l  St;39233010;Q3;0,141494179;2024-Q3
 2024;Einfuhr;Tsd. EUR;2222;125222;Flaschen kleiner 2 l;WA39233010 Ballons, Flaschen, Flakons a.Kunststoffen <=2l  St;39233010;Q4;-6,885679868;2024-Q4
 2025;Einfuhr;Tsd. EUR;2222;153666;Flaschen kleiner 2 l;WA39233010 Ballons, Flaschen, Flakons a.Kunststoffen <=2l  St;39233010;Q1;11,35862949;2025-Q1
-2025;Einfuhr;Tsd. EUR;2222;;Flaschen kleiner 2 l;WA39233010 Ballons, Flaschen, Flakons a.Kunststoffen <=2l  St;39233010;;;
 2015;Einfuhr;Tsd. EUR;2221;27762;HDPE;WA39201028 Tafeln, Platten u.a., aus Polyethylen, >= 0,94;39201028;Q1;;2015-Q1
 2015;Einfuhr;Tsd. EUR;2221;26326;HDPE;WA39201028 Tafeln, Platten u.a., aus Polyethylen, >= 0,94;39201028;Q2;;2015-Q2
 2015;Einfuhr;Tsd. EUR;2221;26034;HDPE;WA39201028 Tafeln, Platten u.a., aus Polyethylen, >= 0,94;39201028;Q3;;2015-Q3
@@ -18234,7 +18157,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Einfuhr;Tsd. EUR;2221;38390;HDPE;WA39201028 Tafeln, Platten u.a., aus Polyethylen, >= 0,94;39201028;Q3;6,918063833;2024-Q3
 2024;Einfuhr;Tsd. EUR;2221;33279;HDPE;WA39201028 Tafeln, Platten u.a., aus Polyethylen, >= 0,94;39201028;Q4;-1,304902281;2024-Q4
 2025;Einfuhr;Tsd. EUR;2221;38666;HDPE;WA39201028 Tafeln, Platten u.a., aus Polyethylen, >= 0,94;39201028;Q1;11,25945961;2025-Q1
-2025;Einfuhr;Tsd. EUR;2221;;HDPE;WA39201028 Tafeln, Platten u.a., aus Polyethylen, >= 0,94;39201028;;;
 2015;Einfuhr;Tsd. EUR;2221;142504;LDPE;WA39201023 Polyethylenfolien, < 0,94, Halbleiterfertigung+WA39201024 Stretchfolien aus Polyethylens, < 0,94, <= 0,125mm+WA39201025 Folien u.a.aus Polymeren des Ethylens,<0,94,a.n.g.;39201023+39201024+39201025;Q1;;2015-Q1
 2015;Einfuhr;Tsd. EUR;2221;149642;LDPE;WA39201023 Polyethylenfolien, < 0,94, Halbleiterfertigung+WA39201024 Stretchfolien aus Polyethylens, < 0,94, <= 0,125mm+WA39201025 Folien u.a.aus Polymeren des Ethylens,<0,94,a.n.g.;39201023+39201024+39201025;Q2;;2015-Q2
 2015;Einfuhr;Tsd. EUR;2221;139660;LDPE;WA39201023 Polyethylenfolien, < 0,94, Halbleiterfertigung+WA39201024 Stretchfolien aus Polyethylens, < 0,94, <= 0,125mm+WA39201025 Folien u.a.aus Polymeren des Ethylens,<0,94,a.n.g.;39201023+39201024+39201025;Q3;;2015-Q3
@@ -18276,7 +18198,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Einfuhr;Tsd. EUR;2221;159352;LDPE;WA39201023 Polyethylenfolien, < 0,94, Halbleiterfertigung+WA39201024 Stretchfolien aus Polyethylens, < 0,94, <= 0,125mm+WA39201025 Folien u.a.aus Polymeren des Ethylens,<0,94,a.n.g.;39201023+39201024+39201025;Q3;15,52604106;2024-Q3
 2024;Einfuhr;Tsd. EUR;2221;145037;LDPE;WA39201023 Polyethylenfolien, < 0,94, Halbleiterfertigung+WA39201024 Stretchfolien aus Polyethylens, < 0,94, <= 0,125mm+WA39201025 Folien u.a.aus Polymeren des Ethylens,<0,94,a.n.g.;39201023+39201024+39201025;Q4;4,125924331;2024-Q4
 2025;Einfuhr;Tsd. EUR;2221;210716;LDPE;WA39201023 Polyethylenfolien, < 0,94, Halbleiterfertigung+WA39201024 Stretchfolien aus Polyethylens, < 0,94, <= 0,125mm+WA39201025 Folien u.a.aus Polymeren des Ethylens,<0,94,a.n.g.;39201023+39201024+39201025;Q1;23,30144241;2025-Q1
-2025;Einfuhr;Tsd. EUR;2221;;LDPE;WA39201023 Polyethylenfolien, < 0,94, Halbleiterfertigung+WA39201024 Stretchfolien aus Polyethylens, < 0,94, <= 0,125mm+WA39201025 Folien u.a.aus Polymeren des Ethylens,<0,94,a.n.g.;39201023+39201024+39201025;;;
 2015;Einfuhr;Tsd. EUR;2221;10153;PA;WA39209200 Tafeln, Platten u.a., aus Polyamiden;39209200;Q1;;2015-Q1
 2015;Einfuhr;Tsd. EUR;2221;10107;PA;WA39209200 Tafeln, Platten u.a., aus Polyamiden;39209200;Q2;;2015-Q2
 2015;Einfuhr;Tsd. EUR;2221;10441;PA;WA39209200 Tafeln, Platten u.a., aus Polyamiden;39209200;Q3;;2015-Q3
@@ -18318,7 +18239,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Einfuhr;Tsd. EUR;2221;9059;PA;WA39209200 Tafeln, Platten u.a., aus Polyamiden;39209200;Q3;-5,260405773;2024-Q3
 2024;Einfuhr;Tsd. EUR;2221;9015;PA;WA39209200 Tafeln, Platten u.a., aus Polyamiden;39209200;Q4;-21,64957414;2024-Q4
 2025;Einfuhr;Tsd. EUR;2221;10736;PA;WA39209200 Tafeln, Platten u.a., aus Polyamiden;39209200;Q1;2,130898021;2025-Q1
-2025;Einfuhr;Tsd. EUR;2221;;PA;WA39209200 Tafeln, Platten u.a., aus Polyamiden;39209200;;;
 2015;Einfuhr;Tsd. EUR;2221;27978;PC;WA39206100 Tafeln, Platten u.a., aus Polycarbonaten;39206100;Q1;;2015-Q1
 2015;Einfuhr;Tsd. EUR;2221;36370;PC;WA39206100 Tafeln, Platten u.a., aus Polycarbonaten;39206100;Q2;;2015-Q2
 2015;Einfuhr;Tsd. EUR;2221;28740;PC;WA39206100 Tafeln, Platten u.a., aus Polycarbonaten;39206100;Q3;;2015-Q3
@@ -18360,7 +18280,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Einfuhr;Tsd. EUR;2221;24742;PC;WA39206100 Tafeln, Platten u.a., aus Polycarbonaten;39206100;Q3;-5,485522194;2024-Q3
 2024;Einfuhr;Tsd. EUR;2221;21228;PC;WA39206100 Tafeln, Platten u.a., aus Polycarbonaten;39206100;Q4;-18,1681508;2024-Q4
 2025;Einfuhr;Tsd. EUR;2221;31173;PC;WA39206100 Tafeln, Platten u.a., aus Polycarbonaten;39206100;Q1;24,1902713;2025-Q1
-2025;Einfuhr;Tsd. EUR;2221;;PC;WA39206100 Tafeln, Platten u.a., aus Polycarbonaten;39206100;;;
 2015;Einfuhr;Tsd. EUR;2221;90950;PET + Polyester;WA39206212 Folien aus Polyethylenterephthalat+WA39206219 Tafeln u.a., aus Polyethylen-Terephthalat+WA39206900 Tafeln u.a., aus anderen Polyestern;39206212+39206219+39206900;Q1;;2015-Q1
 2015;Einfuhr;Tsd. EUR;2221;94298;PET + Polyester;WA39206212 Folien aus Polyethylenterephthalat+WA39206219 Tafeln u.a., aus Polyethylen-Terephthalat+WA39206900 Tafeln u.a., aus anderen Polyestern;39206212+39206219+39206900;Q2;;2015-Q2
 2015;Einfuhr;Tsd. EUR;2221;91144;PET + Polyester;WA39206212 Folien aus Polyethylenterephthalat+WA39206219 Tafeln u.a., aus Polyethylen-Terephthalat+WA39206900 Tafeln u.a., aus anderen Polyestern;39206212+39206219+39206900;Q3;;2015-Q3
@@ -18402,7 +18321,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Einfuhr;Tsd. EUR;2221;88972;PET + Polyester;WA39206212 Folien aus Polyethylenterephthalat+WA39206219 Tafeln u.a., aus Polyethylen-Terephthalat+WA39206900 Tafeln u.a., aus anderen Polyestern;39206212+39206219+39206900;Q3;-0,35725885;2024-Q3
 2024;Einfuhr;Tsd. EUR;2221;85470;PET + Polyester;WA39206212 Folien aus Polyethylenterephthalat+WA39206219 Tafeln u.a., aus Polyethylen-Terephthalat+WA39206900 Tafeln u.a., aus anderen Polyestern;39206212+39206219+39206900;Q4;5,230110069;2024-Q4
 2025;Einfuhr;Tsd. EUR;2221;108678;PET + Polyester;WA39206212 Folien aus Polyethylenterephthalat+WA39206219 Tafeln u.a., aus Polyethylen-Terephthalat+WA39206900 Tafeln u.a., aus anderen Polyestern;39206212+39206219+39206900;Q1;22,17737856;2025-Q1
-2025;Einfuhr;Tsd. EUR;2221;;PET + Polyester;WA39206212 Folien aus Polyethylenterephthalat+WA39206219 Tafeln u.a., aus Polyethylen-Terephthalat+WA39206900 Tafeln u.a., aus anderen Polyestern;39206212+39206219+39206900;;;
 2015;Einfuhr;Tsd. EUR;2221;158071;PP;WA39202021 Folien u.a., Polymere d.Propylens,<=0,1mm, biaxial+WA39202029 Folien u.a., Polymere des Propylens, <=0,10mm+WA39202080 Folien u.a. aus Polymeren des Propylens, >0,10mm;39202021+39202029+39202080;Q1;;2015-Q1
 2015;Einfuhr;Tsd. EUR;2221;158523;PP;WA39202021 Folien u.a., Polymere d.Propylens,<=0,1mm, biaxial+WA39202029 Folien u.a., Polymere des Propylens, <=0,10mm+WA39202080 Folien u.a. aus Polymeren des Propylens, >0,10mm;39202021+39202029+39202080;Q2;;2015-Q2
 2015;Einfuhr;Tsd. EUR;2221;176943;PP;WA39202021 Folien u.a., Polymere d.Propylens,<=0,1mm, biaxial+WA39202029 Folien u.a., Polymere des Propylens, <=0,10mm+WA39202080 Folien u.a. aus Polymeren des Propylens, >0,10mm;39202021+39202029+39202080;Q3;;2015-Q3
@@ -18444,7 +18362,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Einfuhr;Tsd. EUR;2221;189156;PP;WA39202021 Folien u.a., Polymere d.Propylens,<=0,1mm, biaxial+WA39202029 Folien u.a., Polymere des Propylens, <=0,10mm+WA39202080 Folien u.a. aus Polymeren des Propylens, >0,10mm;39202021+39202029+39202080;Q3;7,592373498;2024-Q3
 2024;Einfuhr;Tsd. EUR;2221;179112;PP;WA39202021 Folien u.a., Polymere d.Propylens,<=0,1mm, biaxial+WA39202029 Folien u.a., Polymere des Propylens, <=0,10mm+WA39202080 Folien u.a. aus Polymeren des Propylens, >0,10mm;39202021+39202029+39202080;Q4;6,452705715;2024-Q4
 2025;Einfuhr;Tsd. EUR;2221;214491;PP;WA39202021 Folien u.a., Polymere d.Propylens,<=0,1mm, biaxial+WA39202029 Folien u.a., Polymere des Propylens, <=0,10mm+WA39202080 Folien u.a. aus Polymeren des Propylens, >0,10mm;39202021+39202029+39202080;Q1;9,980720519;2025-Q1
-2025;Einfuhr;Tsd. EUR;2221;;PP;WA39202021 Folien u.a., Polymere d.Propylens,<=0,1mm, biaxial+WA39202029 Folien u.a., Polymere des Propylens, <=0,10mm+WA39202080 Folien u.a. aus Polymeren des Propylens, >0,10mm;39202021+39202029+39202080;;;
 2015;Einfuhr;Tsd. EUR;2221;34469;PS;WA39203000 Tafeln, Platten u.a., aus Polymeren des Styrols;39203000;Q1;;2015-Q1
 2015;Einfuhr;Tsd. EUR;2221;34442;PS;WA39203000 Tafeln, Platten u.a., aus Polymeren des Styrols;39203000;Q2;;2015-Q2
 2015;Einfuhr;Tsd. EUR;2221;32848;PS;WA39203000 Tafeln, Platten u.a., aus Polymeren des Styrols;39203000;Q3;;2015-Q3
@@ -18486,7 +18403,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Einfuhr;Tsd. EUR;2221;33547;PS;WA39203000 Tafeln, Platten u.a., aus Polymeren des Styrols;39203000;Q3;-5,191612028;2024-Q3
 2024;Einfuhr;Tsd. EUR;2221;30906;PS;WA39203000 Tafeln, Platten u.a., aus Polymeren des Styrols;39203000;Q4;-10,5496223;2024-Q4
 2025;Einfuhr;Tsd. EUR;2221;38160;PS;WA39203000 Tafeln, Platten u.a., aus Polymeren des Styrols;39203000;Q1;-0,015720799;2025-Q1
-2025;Einfuhr;Tsd. EUR;2221;;PS;WA39203000 Tafeln, Platten u.a., aus Polymeren des Styrols;39203000;;;
 2015;Einfuhr;Tsd. EUR;2221;1558;Regen. Cellulose;WA39207100 Folien, Platten u.a. aus regenerierter Cellulose;39207100;Q1;;2015-Q1
 2015;Einfuhr;Tsd. EUR;2221;1226;Regen. Cellulose;WA39207100 Folien, Platten u.a. aus regenerierter Cellulose;39207100;Q2;;2015-Q2
 2015;Einfuhr;Tsd. EUR;2221;1479;Regen. Cellulose;WA39207100 Folien, Platten u.a. aus regenerierter Cellulose;39207100;Q3;;2015-Q3
@@ -18528,7 +18444,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Einfuhr;Tsd. EUR;2221;3057;Regen. Cellulose;WA39207100 Folien, Platten u.a. aus regenerierter Cellulose;39207100;Q3;19,18128655;2024-Q3
 2024;Einfuhr;Tsd. EUR;2221;3309;Regen. Cellulose;WA39207100 Folien, Platten u.a. aus regenerierter Cellulose;39207100;Q4;19,89130435;2024-Q4
 2025;Einfuhr;Tsd. EUR;2221;4295;Regen. Cellulose;WA39207100 Folien, Platten u.a. aus regenerierter Cellulose;39207100;Q1;41,05090312;2025-Q1
-2025;Einfuhr;Tsd. EUR;2221;;Regen. Cellulose;WA39207100 Folien, Platten u.a. aus regenerierter Cellulose;39207100;;;
 2015;Einfuhr;Tsd. EUR;2222;157232;Tüten, Beutel, Säcke usw. aus PE;WA39232100 Säcke und Beutel, aus Polymeren des Ethylens;39232100;Q1;;2015-Q1
 2015;Einfuhr;Tsd. EUR;2222;161958;Tüten, Beutel, Säcke usw. aus PE;WA39232100 Säcke und Beutel, aus Polymeren des Ethylens;39232100;Q2;;2015-Q2
 2015;Einfuhr;Tsd. EUR;2222;160350;Tüten, Beutel, Säcke usw. aus PE;WA39232100 Säcke und Beutel, aus Polymeren des Ethylens;39232100;Q3;;2015-Q3
@@ -18570,7 +18485,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Einfuhr;Tsd. EUR;2222;208576;Tüten, Beutel, Säcke usw. aus PE;WA39232100 Säcke und Beutel, aus Polymeren des Ethylens;39232100;Q3;16,9751217;2024-Q3
 2024;Einfuhr;Tsd. EUR;2222;205151;Tüten, Beutel, Säcke usw. aus PE;WA39232100 Säcke und Beutel, aus Polymeren des Ethylens;39232100;Q4;10,69437925;2024-Q4
 2025;Einfuhr;Tsd. EUR;2222;223399;Tüten, Beutel, Säcke usw. aus PE;WA39232100 Säcke und Beutel, aus Polymeren des Ethylens;39232100;Q1;11,40705648;2025-Q1
-2025;Einfuhr;Tsd. EUR;2222;;Tüten, Beutel, Säcke usw. aus PE;WA39232100 Säcke und Beutel, aus Polymeren des Ethylens;39232100;;;
 2015;Einfuhr;Tsd. EUR;2222;1439;Tüten, Beutel, Säcke usw. aus PVC;WA39232910 Säcke und Beutel, aus Polyvinylchlorid;39232910;Q1;;2015-Q1
 2015;Einfuhr;Tsd. EUR;2222;2419;Tüten, Beutel, Säcke usw. aus PVC;WA39232910 Säcke und Beutel, aus Polyvinylchlorid;39232910;Q2;;2015-Q2
 2015;Einfuhr;Tsd. EUR;2222;2981;Tüten, Beutel, Säcke usw. aus PVC;WA39232910 Säcke und Beutel, aus Polyvinylchlorid;39232910;Q3;;2015-Q3
@@ -18612,7 +18526,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Einfuhr;Tsd. EUR;2222;2873;Tüten, Beutel, Säcke usw. aus PVC;WA39232910 Säcke und Beutel, aus Polyvinylchlorid;39232910;Q3;33,81462506;2024-Q3
 2024;Einfuhr;Tsd. EUR;2222;2302;Tüten, Beutel, Säcke usw. aus PVC;WA39232910 Säcke und Beutel, aus Polyvinylchlorid;39232910;Q4;6,920575941;2024-Q4
 2025;Einfuhr;Tsd. EUR;2222;2255;Tüten, Beutel, Säcke usw. aus PVC;WA39232910 Säcke und Beutel, aus Polyvinylchlorid;39232910;Q1;5,918271489;2025-Q1
-2025;Einfuhr;Tsd. EUR;2222;;Tüten, Beutel, Säcke usw. aus PVC;WA39232910 Säcke und Beutel, aus Polyvinylchlorid;39232910;;;
 2015;Einfuhr;Tsd. EUR;2222;50716;Tüten, Beutel, Säcke usw. aus andere Kunststoffe;WA39232990 Säcke und Beutel, aus anderen Kunststoffen;39232990;Q1;;2015-Q1
 2015;Einfuhr;Tsd. EUR;2222;50955;Tüten, Beutel, Säcke usw. aus andere Kunststoffe;WA39232990 Säcke und Beutel, aus anderen Kunststoffen;39232990;Q2;;2015-Q2
 2015;Einfuhr;Tsd. EUR;2222;54240;Tüten, Beutel, Säcke usw. aus andere Kunststoffe;WA39232990 Säcke und Beutel, aus anderen Kunststoffen;39232990;Q3;;2015-Q3
@@ -18654,7 +18567,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Einfuhr;Tsd. EUR;2222;66055;Tüten, Beutel, Säcke usw. aus andere Kunststoffe;WA39232990 Säcke und Beutel, aus anderen Kunststoffen;39232990;Q3;4,296270566;2024-Q3
 2024;Einfuhr;Tsd. EUR;2222;61742;Tüten, Beutel, Säcke usw. aus andere Kunststoffe;WA39232990 Säcke und Beutel, aus anderen Kunststoffen;39232990;Q4;-0,200433194;2024-Q4
 2025;Einfuhr;Tsd. EUR;2222;69347;Tüten, Beutel, Säcke usw. aus andere Kunststoffe;WA39232990 Säcke und Beutel, aus anderen Kunststoffen;39232990;Q1;8,760841267;2025-Q1
-2025;Einfuhr;Tsd. EUR;2222;;Tüten, Beutel, Säcke usw. aus andere Kunststoffe;WA39232990 Säcke und Beutel, aus anderen Kunststoffen;39232990;;;
 2015;Einfuhr;Tsd. EUR;2222;120074;Verschlüsse;WA39235010 Verschluß- oder Flaschenkapseln aus Kunststoffen+WA39235090 Stöpsel, Deckel und Verschlüsse aus Kunststoffen;39235010+39235090;Q1;;2015-Q1
 2015;Einfuhr;Tsd. EUR;2222;121913;Verschlüsse;WA39235010 Verschluß- oder Flaschenkapseln aus Kunststoffen+WA39235090 Stöpsel, Deckel und Verschlüsse aus Kunststoffen;39235010+39235090;Q2;;2015-Q2
 2015;Einfuhr;Tsd. EUR;2222;128081;Verschlüsse;WA39235010 Verschluß- oder Flaschenkapseln aus Kunststoffen+WA39235090 Stöpsel, Deckel und Verschlüsse aus Kunststoffen;39235010+39235090;Q3;;2015-Q3
@@ -18696,7 +18608,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Einfuhr;Tsd. EUR;2222;177785;Verschlüsse;WA39235010 Verschluß- oder Flaschenkapseln aus Kunststoffen+WA39235090 Stöpsel, Deckel und Verschlüsse aus Kunststoffen;39235010+39235090;Q3;5,248669481;2024-Q3
 2024;Einfuhr;Tsd. EUR;2222;160292;Verschlüsse;WA39235010 Verschluß- oder Flaschenkapseln aus Kunststoffen+WA39235090 Stöpsel, Deckel und Verschlüsse aus Kunststoffen;39235010+39235090;Q4;0,709335712;2024-Q4
 2025;Einfuhr;Tsd. EUR;2222;187218;Verschlüsse;WA39235010 Verschluß- oder Flaschenkapseln aus Kunststoffen+WA39235090 Stöpsel, Deckel und Verschlüsse aus Kunststoffen;39235010+39235090;Q1;6,074925211;2025-Q1
-2025;Einfuhr;Tsd. EUR;2222;;Verschlüsse;WA39235010 Verschluß- oder Flaschenkapseln aus Kunststoffen+WA39235090 Stöpsel, Deckel und Verschlüsse aus Kunststoffen;39235010+39235090;;;
 2015;Einfuhr;Tsd. EUR;2222;105657;andere Transportverpackungen;WA39239000 Transport- oder Verpackungsmittel, a.n.g.;39239000;Q1;;2015-Q1
 2015;Einfuhr;Tsd. EUR;2222;113061;andere Transportverpackungen;WA39239000 Transport- oder Verpackungsmittel, a.n.g.;39239000;Q2;;2015-Q2
 2015;Einfuhr;Tsd. EUR;2222;116122;andere Transportverpackungen;WA39239000 Transport- oder Verpackungsmittel, a.n.g.;39239000;Q3;;2015-Q3
@@ -18738,7 +18649,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Einfuhr;Tsd. EUR;2222;166587;andere Transportverpackungen;WA39239000 Transport- oder Verpackungsmittel, a.n.g.;39239000;Q3;4,131843953;2024-Q3
 2024;Einfuhr;Tsd. EUR;2222;146142;andere Transportverpackungen;WA39239000 Transport- oder Verpackungsmittel, a.n.g.;39239000;Q4;-8,70233395;2024-Q4
 2025;Einfuhr;Tsd. EUR;2222;171067;andere Transportverpackungen;WA39239000 Transport- oder Verpackungsmittel, a.n.g.;39239000;Q1;4,802484868;2025-Q1
-2025;Einfuhr;Tsd. EUR;2222;;andere Transportverpackungen;WA39239000 Transport- oder Verpackungsmittel, a.n.g.;39239000;;;
 2017;Einfuhr;Tsd. US $;2222;156357;Becher, Dosen, Kisten;WA39231010 Kisten zum Transport von Wafern aus Kunststoffen+WA39231090 Dosen, Kisten, Verschläge u.a. aus Kunststoffen;39231010+39231090;Q1;;2017-Q1
 2017;Einfuhr;Tsd. US $;2222;177662;Becher, Dosen, Kisten;WA39231010 Kisten zum Transport von Wafern aus Kunststoffen+WA39231090 Dosen, Kisten, Verschläge u.a. aus Kunststoffen;39231010+39231090;Q2;;2017-Q2
 2017;Einfuhr;Tsd. US $;2222;181652;Becher, Dosen, Kisten;WA39231010 Kisten zum Transport von Wafern aus Kunststoffen+WA39231090 Dosen, Kisten, Verschläge u.a. aus Kunststoffen;39231010+39231090;Q3;;2017-Q3
@@ -18772,7 +18682,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Einfuhr;Tsd. US $;2222;199639;Becher, Dosen, Kisten;WA39231010 Kisten zum Transport von Wafern aus Kunststoffen+WA39231090 Dosen, Kisten, Verschläge u.a. aus Kunststoffen;39231010+39231090;Q3;-3,079865814;2024-Q3
 2024;Einfuhr;Tsd. US $;2222;184708;Becher, Dosen, Kisten;WA39231010 Kisten zum Transport von Wafern aus Kunststoffen+WA39231090 Dosen, Kisten, Verschläge u.a. aus Kunststoffen;39231010+39231090;Q4;-4,371686547;2024-Q4
 2025;Einfuhr;Tsd. US $;2222;215291;Becher, Dosen, Kisten;WA39231010 Kisten zum Transport von Wafern aus Kunststoffen+WA39231090 Dosen, Kisten, Verschläge u.a. aus Kunststoffen;39231010+39231090;Q1;10,18639835;2025-Q1
-2025;Einfuhr;Tsd. US $;2222;;Becher, Dosen, Kisten;WA39231010 Kisten zum Transport von Wafern aus Kunststoffen+WA39231090 Dosen, Kisten, Verschläge u.a. aus Kunststoffen;39231010+39231090;;;
 2015;Einfuhr;Tsd. US $;2221;1261;Celluloseacetat;WA39207380 Folien, Platten u.a. aus Celluloseacetaten,a.n.g.;39207380;Q1;;2015-Q1
 2015;Einfuhr;Tsd. US $;2221;1485;Celluloseacetat;WA39207380 Folien, Platten u.a. aus Celluloseacetaten,a.n.g.;39207380;Q2;;2015-Q2
 2015;Einfuhr;Tsd. US $;2221;1492;Celluloseacetat;WA39207380 Folien, Platten u.a. aus Celluloseacetaten,a.n.g.;39207380;Q3;;2015-Q3
@@ -18814,7 +18723,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Einfuhr;Tsd. US $;2221;1041;Celluloseacetat;WA39207380 Folien, Platten u.a. aus Celluloseacetaten,a.n.g.;39207380;Q3;-20,71591775;2024-Q3
 2024;Einfuhr;Tsd. US $;2221;984;Celluloseacetat;WA39207380 Folien, Platten u.a. aus Celluloseacetaten,a.n.g.;39207380;Q4;-27,11111111;2024-Q4
 2025;Einfuhr;Tsd. US $;2221;1406;Celluloseacetat;WA39207380 Folien, Platten u.a. aus Celluloseacetaten,a.n.g.;39207380;Q1;27,12477396;2025-Q1
-2025;Einfuhr;Tsd. US $;2221;;Celluloseacetat;WA39207380 Folien, Platten u.a. aus Celluloseacetaten,a.n.g.;39207380;;;
 2015;Einfuhr;Tsd. US $;2221;56516;Ethylencopolymere/Sonstige;WA39201040 Tafeln, Folien u.a., Polymere d.Ethylens,<=0,125mm+WA39201081 Synthetischer Papierhalbstoff aus Polyethylen+WA39201089 Tafeln, Folien u.a., Polymere d.Ethylens, <0,125mm;39201040+39201081+39201089;Q1;;2015-Q1
 2015;Einfuhr;Tsd. US $;2221;71608;Ethylencopolymere/Sonstige;WA39201040 Tafeln, Folien u.a., Polymere d.Ethylens,<=0,125mm+WA39201081 Synthetischer Papierhalbstoff aus Polyethylen+WA39201089 Tafeln, Folien u.a., Polymere d.Ethylens, <0,125mm;39201040+39201081+39201089;Q2;;2015-Q2
 2015;Einfuhr;Tsd. US $;2221;67764;Ethylencopolymere/Sonstige;WA39201040 Tafeln, Folien u.a., Polymere d.Ethylens,<=0,125mm+WA39201081 Synthetischer Papierhalbstoff aus Polyethylen+WA39201089 Tafeln, Folien u.a., Polymere d.Ethylens, <0,125mm;39201040+39201081+39201089;Q3;;2015-Q3
@@ -18856,7 +18764,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Einfuhr;Tsd. US $;2221;79301;Ethylencopolymere/Sonstige;WA39201040 Tafeln, Folien u.a., Polymere d.Ethylens,<=0,125mm+WA39201081 Synthetischer Papierhalbstoff aus Polyethylen+WA39201089 Tafeln, Folien u.a., Polymere d.Ethylens, <0,125mm;39201040+39201081+39201089;Q3;5,734666667;2024-Q3
 2024;Einfuhr;Tsd. US $;2221;63076;Ethylencopolymere/Sonstige;WA39201040 Tafeln, Folien u.a., Polymere d.Ethylens,<=0,125mm+WA39201081 Synthetischer Papierhalbstoff aus Polyethylen+WA39201089 Tafeln, Folien u.a., Polymere d.Ethylens, <0,125mm;39201040+39201081+39201089;Q4;-0,327102065;2024-Q4
 2025;Einfuhr;Tsd. US $;2221;88477;Ethylencopolymere/Sonstige;WA39201040 Tafeln, Folien u.a., Polymere d.Ethylens,<=0,125mm+WA39201081 Synthetischer Papierhalbstoff aus Polyethylen+WA39201089 Tafeln, Folien u.a., Polymere d.Ethylens, <0,125mm;39201040+39201081+39201089;Q1;13,87734088;2025-Q1
-2025;Einfuhr;Tsd. US $;2221;;Ethylencopolymere/Sonstige;WA39201040 Tafeln, Folien u.a., Polymere d.Ethylens,<=0,125mm+WA39201081 Synthetischer Papierhalbstoff aus Polyethylen+WA39201089 Tafeln, Folien u.a., Polymere d.Ethylens, <0,125mm;39201040+39201081+39201089;;;
 2015;Einfuhr;Tsd. US $;2222;22722;Flaschen größer 2 l;WA39233090 Ballons, Flaschen, Flakons aus Kunststoffen >2l St;39233090;Q1;;2015-Q1
 2015;Einfuhr;Tsd. US $;2222;21176;Flaschen größer 2 l;WA39233090 Ballons, Flaschen, Flakons aus Kunststoffen >2l St;39233090;Q2;;2015-Q2
 2015;Einfuhr;Tsd. US $;2222;21194;Flaschen größer 2 l;WA39233090 Ballons, Flaschen, Flakons aus Kunststoffen >2l St;39233090;Q3;;2015-Q3
@@ -18898,7 +18805,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Einfuhr;Tsd. US $;2222;29400;Flaschen größer 2 l;WA39233090 Ballons, Flaschen, Flakons aus Kunststoffen >2l St;39233090;Q3;5,984138428;2024-Q3
 2024;Einfuhr;Tsd. US $;2222;26388;Flaschen größer 2 l;WA39233090 Ballons, Flaschen, Flakons aus Kunststoffen >2l St;39233090;Q4;-8,314513047;2024-Q4
 2025;Einfuhr;Tsd. US $;2222;31692;Flaschen größer 2 l;WA39233090 Ballons, Flaschen, Flakons aus Kunststoffen >2l St;39233090;Q1;-2,179146861;2025-Q1
-2025;Einfuhr;Tsd. US $;2222;;Flaschen größer 2 l;WA39233090 Ballons, Flaschen, Flakons aus Kunststoffen >2l St;39233090;;;
 2015;Einfuhr;Tsd. US $;2222;120400;Flaschen kleiner 2 l;WA39233010 Ballons, Flaschen, Flakons a.Kunststoffen <=2l  St;39233010;Q1;;2015-Q1
 2015;Einfuhr;Tsd. US $;2222;129817;Flaschen kleiner 2 l;WA39233010 Ballons, Flaschen, Flakons a.Kunststoffen <=2l  St;39233010;Q2;;2015-Q2
 2015;Einfuhr;Tsd. US $;2222;143156;Flaschen kleiner 2 l;WA39233010 Ballons, Flaschen, Flakons a.Kunststoffen <=2l  St;39233010;Q3;;2015-Q3
@@ -18940,7 +18846,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Einfuhr;Tsd. US $;2222;163209;Flaschen kleiner 2 l;WA39233010 Ballons, Flaschen, Flakons a.Kunststoffen <=2l  St;39233010;Q3;0,946943926;2024-Q3
 2024;Einfuhr;Tsd. US $;2222;133829;Flaschen kleiner 2 l;WA39233010 Ballons, Flaschen, Flakons a.Kunststoffen <=2l  St;39233010;Q4;-7,459703908;2024-Q4
 2025;Einfuhr;Tsd. US $;2222;161809;Flaschen kleiner 2 l;WA39233010 Ballons, Flaschen, Flakons a.Kunststoffen <=2l  St;39233010;Q1;8,026063677;2025-Q1
-2025;Einfuhr;Tsd. US $;2222;;Flaschen kleiner 2 l;WA39233010 Ballons, Flaschen, Flakons a.Kunststoffen <=2l  St;39233010;;;
 2015;Einfuhr;Tsd. US $;2221;31314;HDPE;WA39201028 Tafeln, Platten u.a., aus Polyethylen, >= 0,94;39201028;Q1;;2015-Q1
 2015;Einfuhr;Tsd. US $;2221;29045;HDPE;WA39201028 Tafeln, Platten u.a., aus Polyethylen, >= 0,94;39201028;Q2;;2015-Q2
 2015;Einfuhr;Tsd. US $;2221;28929;HDPE;WA39201028 Tafeln, Platten u.a., aus Polyethylen, >= 0,94;39201028;Q3;;2015-Q3
@@ -18982,7 +18887,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Einfuhr;Tsd. US $;2221;42118;HDPE;WA39201028 Tafeln, Platten u.a., aus Polyethylen, >= 0,94;39201028;Q3;7,790346522;2024-Q3
 2024;Einfuhr;Tsd. US $;2221;35547;HDPE;WA39201028 Tafeln, Platten u.a., aus Polyethylen, >= 0,94;39201028;Q4;-1,7278558;2024-Q4
 2025;Einfuhr;Tsd. US $;2221;40731;HDPE;WA39201028 Tafeln, Platten u.a., aus Polyethylen, >= 0,94;39201028;Q1;7,948160712;2025-Q1
-2025;Einfuhr;Tsd. US $;2221;;HDPE;WA39201028 Tafeln, Platten u.a., aus Polyethylen, >= 0,94;39201028;;;
 2015;Einfuhr;Tsd. US $;2221;159995;LDPE;WA39201023 Polyethylenfolien, < 0,94, Halbleiterfertigung+WA39201024 Stretchfolien aus Polyethylens, < 0,94, <= 0,125mm+WA39201025 Folien u.a.aus Polymeren des Ethylens,<0,94,a.n.g.;39201023+39201024+39201025;Q1;;2015-Q1
 2015;Einfuhr;Tsd. US $;2221;165127;LDPE;WA39201023 Polyethylenfolien, < 0,94, Halbleiterfertigung+WA39201024 Stretchfolien aus Polyethylens, < 0,94, <= 0,125mm+WA39201025 Folien u.a.aus Polymeren des Ethylens,<0,94,a.n.g.;39201023+39201024+39201025;Q2;;2015-Q2
 2015;Einfuhr;Tsd. US $;2221;155187;LDPE;WA39201023 Polyethylenfolien, < 0,94, Halbleiterfertigung+WA39201024 Stretchfolien aus Polyethylens, < 0,94, <= 0,125mm+WA39201025 Folien u.a.aus Polymeren des Ethylens,<0,94,a.n.g.;39201023+39201024+39201025;Q3;;2015-Q3
@@ -19024,7 +18928,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Einfuhr;Tsd. US $;2221;175106;LDPE;WA39201023 Polyethylenfolien, < 0,94, Halbleiterfertigung+WA39201024 Stretchfolien aus Polyethylens, < 0,94, <= 0,125mm+WA39201025 Folien u.a.aus Polymeren des Ethylens,<0,94,a.n.g.;39201023+39201024+39201025;Q3;16,64790327;2024-Q3
 2024;Einfuhr;Tsd. US $;2221;154972;LDPE;WA39201023 Polyethylenfolien, < 0,94, Halbleiterfertigung+WA39201024 Stretchfolien aus Polyethylens, < 0,94, <= 0,125mm+WA39201025 Folien u.a.aus Polymeren des Ethylens,<0,94,a.n.g.;39201023+39201024+39201025;Q4;3,496821072;2024-Q4
 2025;Einfuhr;Tsd. US $;2221;222079;LDPE;WA39201023 Polyethylenfolien, < 0,94, Halbleiterfertigung+WA39201024 Stretchfolien aus Polyethylens, < 0,94, <= 0,125mm+WA39201025 Folien u.a.aus Polymeren des Ethylens,<0,94,a.n.g.;39201023+39201024+39201025;Q1;19,7139746;2025-Q1
-2025;Einfuhr;Tsd. US $;2221;;LDPE;WA39201023 Polyethylenfolien, < 0,94, Halbleiterfertigung+WA39201024 Stretchfolien aus Polyethylens, < 0,94, <= 0,125mm+WA39201025 Folien u.a.aus Polymeren des Ethylens,<0,94,a.n.g.;39201023+39201024+39201025;;;
 2015;Einfuhr;Tsd. US $;2221;11426;PA;WA39209200 Tafeln, Platten u.a., aus Polyamiden;39209200;Q1;;2015-Q1
 2015;Einfuhr;Tsd. US $;2221;11171;PA;WA39209200 Tafeln, Platten u.a., aus Polyamiden;39209200;Q2;;2015-Q2
 2015;Einfuhr;Tsd. US $;2221;11610;PA;WA39209200 Tafeln, Platten u.a., aus Polyamiden;39209200;Q3;;2015-Q3
@@ -19066,7 +18969,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Einfuhr;Tsd. US $;2221;9944;PA;WA39209200 Tafeln, Platten u.a., aus Polyamiden;39209200;Q3;-4,43056223;2024-Q3
 2024;Einfuhr;Tsd. US $;2221;9650;PA;WA39209200 Tafeln, Platten u.a., aus Polyamiden;39209200;Q4;-22,03910163;2024-Q4
 2025;Einfuhr;Tsd. US $;2221;11318;PA;WA39209200 Tafeln, Platten u.a., aus Polyamiden;39209200;Q1;-0,815003067;2025-Q1
-2025;Einfuhr;Tsd. US $;2221;;PA;WA39209200 Tafeln, Platten u.a., aus Polyamiden;39209200;;;
 2015;Einfuhr;Tsd. US $;2221;31576;PC;WA39206100 Tafeln, Platten u.a., aus Polycarbonaten;39206100;Q1;;2015-Q1
 2015;Einfuhr;Tsd. US $;2221;40131;PC;WA39206100 Tafeln, Platten u.a., aus Polycarbonaten;39206100;Q2;;2015-Q2
 2015;Einfuhr;Tsd. US $;2221;31939;PC;WA39206100 Tafeln, Platten u.a., aus Polycarbonaten;39206100;Q3;;2015-Q3
@@ -19108,7 +19010,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Einfuhr;Tsd. US $;2221;27183;PC;WA39206100 Tafeln, Platten u.a., aus Polycarbonaten;39206100;Q3;-4,540665824;2024-Q3
 2024;Einfuhr;Tsd. US $;2221;22754;PC;WA39206100 Tafeln, Platten u.a., aus Polycarbonaten;39206100;Q4;-18,36544326;2024-Q4
 2025;Einfuhr;Tsd. US $;2221;32829;PC;WA39206100 Tafeln, Platten u.a., aus Polycarbonaten;39206100;Q1;20,49992659;2025-Q1
-2025;Einfuhr;Tsd. US $;2221;;PC;WA39206100 Tafeln, Platten u.a., aus Polycarbonaten;39206100;;;
 2015;Einfuhr;Tsd. US $;2221;102175;PET + Polyester;WA39206212 Folien aus Polyethylenterephthalat+WA39206219 Tafeln u.a., aus Polyethylen-Terephthalat+WA39206900 Tafeln u.a., aus anderen Polyestern;39206212+39206219+39206900;Q1;;2015-Q1
 2015;Einfuhr;Tsd. US $;2221;104150;PET + Polyester;WA39206212 Folien aus Polyethylenterephthalat+WA39206219 Tafeln u.a., aus Polyethylen-Terephthalat+WA39206900 Tafeln u.a., aus anderen Polyestern;39206212+39206219+39206900;Q2;;2015-Q2
 2015;Einfuhr;Tsd. US $;2221;101272;PET + Polyester;WA39206212 Folien aus Polyethylenterephthalat+WA39206219 Tafeln u.a., aus Polyethylen-Terephthalat+WA39206900 Tafeln u.a., aus anderen Polyestern;39206212+39206219+39206900;Q3;;2015-Q3
@@ -19150,7 +19051,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Einfuhr;Tsd. US $;2221;97750;PET + Polyester;WA39206212 Folien aus Polyethylenterephthalat+WA39206219 Tafeln u.a., aus Polyethylen-Terephthalat+WA39206900 Tafeln u.a., aus anderen Polyestern;39206212+39206219+39206900;Q3;0,584470375;2024-Q3
 2024;Einfuhr;Tsd. US $;2221;91470;PET + Polyester;WA39206212 Folien aus Polyethylenterephthalat+WA39206219 Tafeln u.a., aus Polyethylen-Terephthalat+WA39206900 Tafeln u.a., aus anderen Polyestern;39206212+39206219+39206900;Q4;4,780232998;2024-Q4
 2025;Einfuhr;Tsd. US $;2221;114572;PET + Polyester;WA39206212 Folien aus Polyethylenterephthalat+WA39206219 Tafeln u.a., aus Polyethylen-Terephthalat+WA39206900 Tafeln u.a., aus anderen Polyestern;39206212+39206219+39206900;Q1;18,64262859;2025-Q1
-2025;Einfuhr;Tsd. US $;2221;;PET + Polyester;WA39206212 Folien aus Polyethylenterephthalat+WA39206219 Tafeln u.a., aus Polyethylen-Terephthalat+WA39206900 Tafeln u.a., aus anderen Polyestern;39206212+39206219+39206900;;;
 2015;Einfuhr;Tsd. US $;2221;177801;PP;WA39202021 Folien u.a., Polymere d.Propylens,<=0,1mm, biaxial+WA39202029 Folien u.a., Polymere des Propylens, <=0,10mm+WA39202080 Folien u.a. aus Polymeren des Propylens, >0,10mm;39202021+39202029+39202080;Q1;;2015-Q1
 2015;Einfuhr;Tsd. US $;2221;175202;PP;WA39202021 Folien u.a., Polymere d.Propylens,<=0,1mm, biaxial+WA39202029 Folien u.a., Polymere des Propylens, <=0,10mm+WA39202080 Folien u.a. aus Polymeren des Propylens, >0,10mm;39202021+39202029+39202080;Q2;;2015-Q2
 2015;Einfuhr;Tsd. US $;2221;196688;PP;WA39202021 Folien u.a., Polymere d.Propylens,<=0,1mm, biaxial+WA39202029 Folien u.a., Polymere des Propylens, <=0,10mm+WA39202080 Folien u.a. aus Polymeren des Propylens, >0,10mm;39202021+39202029+39202080;Q3;;2015-Q3
@@ -19192,7 +19092,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Einfuhr;Tsd. US $;2221;207740;PP;WA39202021 Folien u.a., Polymere d.Propylens,<=0,1mm, biaxial+WA39202029 Folien u.a., Polymere des Propylens, <=0,10mm+WA39202080 Folien u.a. aus Polymeren des Propylens, >0,10mm;39202021+39202029+39202080;Q3;8,579074459;2024-Q3
 2024;Einfuhr;Tsd. US $;2221;191563;PP;WA39202021 Folien u.a., Polymere d.Propylens,<=0,1mm, biaxial+WA39202029 Folien u.a., Polymere des Propylens, <=0,10mm+WA39202080 Folien u.a. aus Polymeren des Propylens, >0,10mm;39202021+39202029+39202080;Q4;5,945954914;2024-Q4
 2025;Einfuhr;Tsd. US $;2221;225854;PP;WA39202021 Folien u.a., Polymere d.Propylens,<=0,1mm, biaxial+WA39202029 Folien u.a., Polymere des Propylens, <=0,10mm+WA39202080 Folien u.a. aus Polymeren des Propylens, >0,10mm;39202021+39202029+39202080;Q1;6,662195922;2025-Q1
-2025;Einfuhr;Tsd. US $;2221;;PP;WA39202021 Folien u.a., Polymere d.Propylens,<=0,1mm, biaxial+WA39202029 Folien u.a., Polymere des Propylens, <=0,10mm+WA39202080 Folien u.a. aus Polymeren des Propylens, >0,10mm;39202021+39202029+39202080;;;
 2015;Einfuhr;Tsd. US $;2221;38730;PS;WA39203000 Tafeln, Platten u.a., aus Polymeren des Styrols;39203000;Q1;;2015-Q1
 2015;Einfuhr;Tsd. US $;2221;38057;PS;WA39203000 Tafeln, Platten u.a., aus Polymeren des Styrols;39203000;Q2;;2015-Q2
 2015;Einfuhr;Tsd. US $;2221;36525;PS;WA39203000 Tafeln, Platten u.a., aus Polymeren des Styrols;39203000;Q3;;2015-Q3
@@ -19234,7 +19133,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Einfuhr;Tsd. US $;2221;36842;PS;WA39203000 Tafeln, Platten u.a., aus Polymeren des Styrols;39203000;Q3;-4,341278496;2024-Q3
 2024;Einfuhr;Tsd. US $;2221;33069;PS;WA39203000 Tafeln, Platten u.a., aus Polymeren des Styrols;39203000;Q4;-10,997174;2024-Q4
 2025;Einfuhr;Tsd. US $;2221;40141;PS;WA39203000 Tafeln, Platten u.a., aus Polymeren des Styrols;39203000;Q1;-3,12530167;2025-Q1
-2025;Einfuhr;Tsd. US $;2221;;PS;WA39203000 Tafeln, Platten u.a., aus Polymeren des Styrols;39203000;;;
 2015;Einfuhr;Tsd. US $;2221;1754;Regen. Cellulose;WA39207100 Folien, Platten u.a. aus regenerierter Cellulose;39207100;Q1;;2015-Q1
 2015;Einfuhr;Tsd. US $;2221;1351;Regen. Cellulose;WA39207100 Folien, Platten u.a. aus regenerierter Cellulose;39207100;Q2;;2015-Q2
 2015;Einfuhr;Tsd. US $;2221;1642;Regen. Cellulose;WA39207100 Folien, Platten u.a. aus regenerierter Cellulose;39207100;Q3;;2015-Q3
@@ -19276,7 +19174,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Einfuhr;Tsd. US $;2221;3357;Regen. Cellulose;WA39207100 Folien, Platten u.a. aus regenerierter Cellulose;39207100;Q3;20,15032212;2024-Q3
 2024;Einfuhr;Tsd. US $;2221;3541;Regen. Cellulose;WA39207100 Folien, Platten u.a. aus regenerierter Cellulose;39207100;Q4;19,34614088;2024-Q4
 2025;Einfuhr;Tsd. US $;2221;4538;Regen. Cellulose;WA39207100 Folien, Platten u.a. aus regenerierter Cellulose;39207100;Q1;37,34866828;2025-Q1
-2025;Einfuhr;Tsd. US $;2221;;Regen. Cellulose;WA39207100 Folien, Platten u.a. aus regenerierter Cellulose;39207100;;;
 2015;Einfuhr;Tsd. US $;2222;177221;Tüten, Beutel, Säcke usw. aus PE;WA39232100 Säcke und Beutel, aus Polymeren des Ethylens;39232100;Q1;;2015-Q1
 2015;Einfuhr;Tsd. US $;2222;178954;Tüten, Beutel, Säcke usw. aus PE;WA39232100 Säcke und Beutel, aus Polymeren des Ethylens;39232100;Q2;;2015-Q2
 2015;Einfuhr;Tsd. US $;2222;178276;Tüten, Beutel, Säcke usw. aus PE;WA39232100 Säcke und Beutel, aus Polymeren des Ethylens;39232100;Q3;;2015-Q3
@@ -19318,7 +19215,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Einfuhr;Tsd. US $;2222;229164;Tüten, Beutel, Säcke usw. aus PE;WA39232100 Säcke und Beutel, aus Polymeren des Ethylens;39232100;Q3;18,10750915;2024-Q3
 2024;Einfuhr;Tsd. US $;2222;219336;Tüten, Beutel, Säcke usw. aus PE;WA39232100 Säcke und Beutel, aus Polymeren des Ethylens;39232100;Q4;10,07362129;2024-Q4
 2025;Einfuhr;Tsd. US $;2222;235301;Tüten, Beutel, Säcke usw. aus PE;WA39232100 Säcke und Beutel, aus Polymeren des Ethylens;39232100;Q1;8,082993422;2025-Q1
-2025;Einfuhr;Tsd. US $;2222;;Tüten, Beutel, Säcke usw. aus PE;WA39232100 Säcke und Beutel, aus Polymeren des Ethylens;39232100;;;
 2015;Einfuhr;Tsd. US $;2222;1616;Tüten, Beutel, Säcke usw. aus PVC;WA39232910 Säcke und Beutel, aus Polyvinylchlorid;39232910;Q1;;2015-Q1
 2015;Einfuhr;Tsd. US $;2222;2681;Tüten, Beutel, Säcke usw. aus PVC;WA39232910 Säcke und Beutel, aus Polyvinylchlorid;39232910;Q2;;2015-Q2
 2015;Einfuhr;Tsd. US $;2222;3318;Tüten, Beutel, Säcke usw. aus PVC;WA39232910 Säcke und Beutel, aus Polyvinylchlorid;39232910;Q3;;2015-Q3
@@ -19360,7 +19256,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Einfuhr;Tsd. US $;2222;3153;Tüten, Beutel, Säcke usw. aus PVC;WA39232910 Säcke und Beutel, aus Polyvinylchlorid;39232910;Q3;34,62852263;2024-Q3
 2024;Einfuhr;Tsd. US $;2222;2460;Tüten, Beutel, Säcke usw. aus PVC;WA39232910 Säcke und Beutel, aus Polyvinylchlorid;39232910;Q4;6,21761658;2024-Q4
 2025;Einfuhr;Tsd. US $;2222;2370;Tüten, Beutel, Säcke usw. aus PVC;WA39232910 Säcke und Beutel, aus Polyvinylchlorid;39232910;Q1;2,553007356;2025-Q1
-2025;Einfuhr;Tsd. US $;2222;;Tüten, Beutel, Säcke usw. aus PVC;WA39232910 Säcke und Beutel, aus Polyvinylchlorid;39232910;;;
 2015;Einfuhr;Tsd. US $;2222;57143;Tüten, Beutel, Säcke usw. aus andere Kunststoffe;WA39232990 Säcke und Beutel, aus anderen Kunststoffen;39232990;Q1;;2015-Q1
 2015;Einfuhr;Tsd. US $;2222;56326;Tüten, Beutel, Säcke usw. aus andere Kunststoffe;WA39232990 Säcke und Beutel, aus anderen Kunststoffen;39232990;Q2;;2015-Q2
 2015;Einfuhr;Tsd. US $;2222;60278;Tüten, Beutel, Säcke usw. aus andere Kunststoffe;WA39232990 Säcke und Beutel, aus anderen Kunststoffen;39232990;Q3;;2015-Q3
@@ -19402,7 +19297,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Einfuhr;Tsd. US $;2222;72511;Tüten, Beutel, Säcke usw. aus andere Kunststoffe;WA39232990 Säcke und Beutel, aus anderen Kunststoffen;39232990;Q3;5,201230305;2024-Q3
 2024;Einfuhr;Tsd. US $;2222;65993;Tüten, Beutel, Säcke usw. aus andere Kunststoffe;WA39232990 Säcke und Beutel, aus anderen Kunststoffen;39232990;Q4;-0,771358975;2024-Q4
 2025;Einfuhr;Tsd. US $;2222;73046;Tüten, Beutel, Säcke usw. aus andere Kunststoffe;WA39232990 Säcke und Beutel, aus anderen Kunststoffen;39232990;Q1;5,52882879;2025-Q1
-2025;Einfuhr;Tsd. US $;2222;;Tüten, Beutel, Säcke usw. aus andere Kunststoffe;WA39232990 Säcke und Beutel, aus anderen Kunststoffen;39232990;;;
 2015;Einfuhr;Tsd. US $;2222;135185;Verschlüsse;WA39235010 Verschluß- oder Flaschenkapseln aus Kunststoffen+WA39235090 Stöpsel, Deckel und Verschlüsse aus Kunststoffen;39235010+39235090;Q1;;2015-Q1
 2015;Einfuhr;Tsd. US $;2222;134668;Verschlüsse;WA39235010 Verschluß- oder Flaschenkapseln aus Kunststoffen+WA39235090 Stöpsel, Deckel und Verschlüsse aus Kunststoffen;39235010+39235090;Q2;;2015-Q2
 2015;Einfuhr;Tsd. US $;2222;142334;Verschlüsse;WA39235010 Verschluß- oder Flaschenkapseln aus Kunststoffen+WA39235090 Stöpsel, Deckel und Verschlüsse aus Kunststoffen;39235010+39235090;Q3;;2015-Q3
@@ -19444,7 +19338,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Einfuhr;Tsd. US $;2222;195270;Verschlüsse;WA39235010 Verschluß- oder Flaschenkapseln aus Kunststoffen+WA39235090 Stöpsel, Deckel und Verschlüsse aus Kunststoffen;39235010+39235090;Q3;6,165389007;2024-Q3
 2024;Einfuhr;Tsd. US $;2222;171303;Verschlüsse;WA39235010 Verschluß- oder Flaschenkapseln aus Kunststoffen+WA39235090 Stöpsel, Deckel und Verschlüsse aus Kunststoffen;39235010+39235090;Q4;0,096413421;2024-Q4
 2025;Einfuhr;Tsd. US $;2222;197154;Verschlüsse;WA39235010 Verschluß- oder Flaschenkapseln aus Kunststoffen+WA39235090 Stöpsel, Deckel und Verschlüsse aus Kunststoffen;39235010+39235090;Q1;2,899284443;2025-Q1
-2025;Einfuhr;Tsd. US $;2222;;Verschlüsse;WA39235010 Verschluß- oder Flaschenkapseln aus Kunststoffen+WA39235090 Stöpsel, Deckel und Verschlüsse aus Kunststoffen;39235010+39235090;;;
 2015;Einfuhr;Tsd. US $;2222;119022;andere Transportverpackungen;WA39239000 Transport- oder Verpackungsmittel, a.n.g.;39239000;Q1;;2015-Q1
 2015;Einfuhr;Tsd. US $;2222;124952;andere Transportverpackungen;WA39239000 Transport- oder Verpackungsmittel, a.n.g.;39239000;Q2;;2015-Q2
 2015;Einfuhr;Tsd. US $;2222;129104;andere Transportverpackungen;WA39239000 Transport- oder Verpackungsmittel, a.n.g.;39239000;Q3;;2015-Q3
@@ -19486,7 +19379,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Einfuhr;Tsd. US $;2222;182935;andere Transportverpackungen;WA39239000 Transport- oder Verpackungsmittel, a.n.g.;39239000;Q3;5,120558084;2024-Q3
 2024;Einfuhr;Tsd. US $;2222;156222;andere Transportverpackungen;WA39239000 Transport- oder Verpackungsmittel, a.n.g.;39239000;Q4;-9,281906554;2024-Q4
 2025;Einfuhr;Tsd. US $;2222;180135;andere Transportverpackungen;WA39239000 Transport- oder Verpackungsmittel, a.n.g.;39239000;Q1;1,65001044;2025-Q1
-2025;Einfuhr;Tsd. US $;2222;;andere Transportverpackungen;WA39239000 Transport- oder Verpackungsmittel, a.n.g.;39239000;;;
 2017;Einfuhr;t;2222;52747,8;Becher, Dosen, Kisten;WA39231010 Kisten zum Transport von Wafern aus Kunststoffen+WA39231090 Dosen, Kisten, Verschläge u.a. aus Kunststoffen;39231010+39231090;Q1;;2017-Q1
 2017;Einfuhr;t;2222;60483;Becher, Dosen, Kisten;WA39231010 Kisten zum Transport von Wafern aus Kunststoffen+WA39231090 Dosen, Kisten, Verschläge u.a. aus Kunststoffen;39231010+39231090;Q2;;2017-Q2
 2017;Einfuhr;t;2222;55067,9;Becher, Dosen, Kisten;WA39231010 Kisten zum Transport von Wafern aus Kunststoffen+WA39231090 Dosen, Kisten, Verschläge u.a. aus Kunststoffen;39231010+39231090;Q3;;2017-Q3
@@ -19520,7 +19412,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Einfuhr;t;2222;50025,6;Becher, Dosen, Kisten;WA39231010 Kisten zum Transport von Wafern aus Kunststoffen+WA39231090 Dosen, Kisten, Verschläge u.a. aus Kunststoffen;39231010+39231090;Q3;-0,437254828;2024-Q3
 2024;Einfuhr;t;2222;47489,2;Becher, Dosen, Kisten;WA39231010 Kisten zum Transport von Wafern aus Kunststoffen+WA39231090 Dosen, Kisten, Verschläge u.a. aus Kunststoffen;39231010+39231090;Q4;-5,647909179;2024-Q4
 2025;Einfuhr;t;2222;60066,7;Becher, Dosen, Kisten;WA39231010 Kisten zum Transport von Wafern aus Kunststoffen+WA39231090 Dosen, Kisten, Verschläge u.a. aus Kunststoffen;39231010+39231090;Q1;14,00365166;2025-Q1
-2025;Einfuhr;t;2222;;Becher, Dosen, Kisten;WA39231010 Kisten zum Transport von Wafern aus Kunststoffen+WA39231090 Dosen, Kisten, Verschläge u.a. aus Kunststoffen;39231010+39231090;;;
 2015;Einfuhr;t;2221;47,2;Celluloseacetat;WA39207380 Folien, Platten u.a. aus Celluloseacetaten,a.n.g.;39207380;Q1;;2015-Q1
 2015;Einfuhr;t;2221;54;Celluloseacetat;WA39207380 Folien, Platten u.a. aus Celluloseacetaten,a.n.g.;39207380;Q2;;2015-Q2
 2015;Einfuhr;t;2221;52,8;Celluloseacetat;WA39207380 Folien, Platten u.a. aus Celluloseacetaten,a.n.g.;39207380;Q3;;2015-Q3
@@ -19562,7 +19453,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Einfuhr;t;2221;37;Celluloseacetat;WA39207380 Folien, Platten u.a. aus Celluloseacetaten,a.n.g.;39207380;Q3;-15,13761468;2024-Q3
 2024;Einfuhr;t;2221;36,5;Celluloseacetat;WA39207380 Folien, Platten u.a. aus Celluloseacetaten,a.n.g.;39207380;Q4;-5,684754522;2024-Q4
 2025;Einfuhr;t;2221;52,3;Celluloseacetat;WA39207380 Folien, Platten u.a. aus Celluloseacetaten,a.n.g.;39207380;Q1;26,02409639;2025-Q1
-2025;Einfuhr;t;2221;;Celluloseacetat;WA39207380 Folien, Platten u.a. aus Celluloseacetaten,a.n.g.;39207380;;;
 2015;Einfuhr;t;2221;18018,8;Ethylencopolymere/Sonstige;WA39201040 Tafeln, Folien u.a., Polymere d.Ethylens,<=0,125mm+WA39201081 Synthetischer Papierhalbstoff aus Polyethylen+WA39201089 Tafeln, Folien u.a., Polymere d.Ethylens, <0,125mm;39201040+39201081+39201089;Q1;;2015-Q1
 2015;Einfuhr;t;2221;25949,3;Ethylencopolymere/Sonstige;WA39201040 Tafeln, Folien u.a., Polymere d.Ethylens,<=0,125mm+WA39201081 Synthetischer Papierhalbstoff aus Polyethylen+WA39201089 Tafeln, Folien u.a., Polymere d.Ethylens, <0,125mm;39201040+39201081+39201089;Q2;;2015-Q2
 2015;Einfuhr;t;2221;20414,1;Ethylencopolymere/Sonstige;WA39201040 Tafeln, Folien u.a., Polymere d.Ethylens,<=0,125mm+WA39201081 Synthetischer Papierhalbstoff aus Polyethylen+WA39201089 Tafeln, Folien u.a., Polymere d.Ethylens, <0,125mm;39201040+39201081+39201089;Q3;;2015-Q3
@@ -19604,7 +19494,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Einfuhr;t;2221;25720,3;Ethylencopolymere/Sonstige;WA39201040 Tafeln, Folien u.a., Polymere d.Ethylens,<=0,125mm+WA39201081 Synthetischer Papierhalbstoff aus Polyethylen+WA39201089 Tafeln, Folien u.a., Polymere d.Ethylens, <0,125mm;39201040+39201081+39201089;Q3;6,508892892;2024-Q3
 2024;Einfuhr;t;2221;18629,7;Ethylencopolymere/Sonstige;WA39201040 Tafeln, Folien u.a., Polymere d.Ethylens,<=0,125mm+WA39201081 Synthetischer Papierhalbstoff aus Polyethylen+WA39201089 Tafeln, Folien u.a., Polymere d.Ethylens, <0,125mm;39201040+39201081+39201089;Q4;-7,360553757;2024-Q4
 2025;Einfuhr;t;2221;29888,5;Ethylencopolymere/Sonstige;WA39201040 Tafeln, Folien u.a., Polymere d.Ethylens,<=0,125mm+WA39201081 Synthetischer Papierhalbstoff aus Polyethylen+WA39201089 Tafeln, Folien u.a., Polymere d.Ethylens, <0,125mm;39201040+39201081+39201089;Q1;4,59411318;2025-Q1
-2025;Einfuhr;t;2221;;Ethylencopolymere/Sonstige;WA39201040 Tafeln, Folien u.a., Polymere d.Ethylens,<=0,125mm+WA39201081 Synthetischer Papierhalbstoff aus Polyethylen+WA39201089 Tafeln, Folien u.a., Polymere d.Ethylens, <0,125mm;39201040+39201081+39201089;;;
 2015;Einfuhr;t;2222;6495,6;Flaschen größer 2 l;WA39233090 Ballons, Flaschen, Flakons aus Kunststoffen >2l St;39233090;Q1;;2015-Q1
 2015;Einfuhr;t;2222;6526,6;Flaschen größer 2 l;WA39233090 Ballons, Flaschen, Flakons aus Kunststoffen >2l St;39233090;Q2;;2015-Q2
 2015;Einfuhr;t;2222;7000,9;Flaschen größer 2 l;WA39233090 Ballons, Flaschen, Flakons aus Kunststoffen >2l St;39233090;Q3;;2015-Q3
@@ -19646,7 +19535,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Einfuhr;t;2222;7944,9;Flaschen größer 2 l;WA39233090 Ballons, Flaschen, Flakons aus Kunststoffen >2l St;39233090;Q3;-5,042549123;2024-Q3
 2024;Einfuhr;t;2222;6488,6;Flaschen größer 2 l;WA39233090 Ballons, Flaschen, Flakons aus Kunststoffen >2l St;39233090;Q4;-16,29017068;2024-Q4
 2025;Einfuhr;t;2222;8499,4;Flaschen größer 2 l;WA39233090 Ballons, Flaschen, Flakons aus Kunststoffen >2l St;39233090;Q1;16,16597873;2025-Q1
-2025;Einfuhr;t;2222;;Flaschen größer 2 l;WA39233090 Ballons, Flaschen, Flakons aus Kunststoffen >2l St;39233090;;;
 2015;Einfuhr;t;2222;38703,9;Flaschen kleiner 2 l;WA39233010 Ballons, Flaschen, Flakons a.Kunststoffen <=2l  St;39233010;Q1;;2015-Q1
 2015;Einfuhr;t;2222;45082,2;Flaschen kleiner 2 l;WA39233010 Ballons, Flaschen, Flakons a.Kunststoffen <=2l  St;39233010;Q2;;2015-Q2
 2015;Einfuhr;t;2222;50827,5;Flaschen kleiner 2 l;WA39233010 Ballons, Flaschen, Flakons a.Kunststoffen <=2l  St;39233010;Q3;;2015-Q3
@@ -19688,7 +19576,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Einfuhr;t;2222;44179,4;Flaschen kleiner 2 l;WA39233010 Ballons, Flaschen, Flakons a.Kunststoffen <=2l  St;39233010;Q3;-7,203485063;2024-Q3
 2024;Einfuhr;t;2222;35215,7;Flaschen kleiner 2 l;WA39233010 Ballons, Flaschen, Flakons a.Kunststoffen <=2l  St;39233010;Q4;-19,50973109;2024-Q4
 2025;Einfuhr;t;2222;44654;Flaschen kleiner 2 l;WA39233010 Ballons, Flaschen, Flakons a.Kunststoffen <=2l  St;39233010;Q1;-1,423437265;2025-Q1
-2025;Einfuhr;t;2222;;Flaschen kleiner 2 l;WA39233010 Ballons, Flaschen, Flakons a.Kunststoffen <=2l  St;39233010;;;
 2015;Einfuhr;t;2221;8949,3;HDPE;WA39201028 Tafeln, Platten u.a., aus Polyethylen, >= 0,94;39201028;Q1;;2015-Q1
 2015;Einfuhr;t;2221;8515,8;HDPE;WA39201028 Tafeln, Platten u.a., aus Polyethylen, >= 0,94;39201028;Q2;;2015-Q2
 2015;Einfuhr;t;2221;7906,2;HDPE;WA39201028 Tafeln, Platten u.a., aus Polyethylen, >= 0,94;39201028;Q3;;2015-Q3
@@ -19730,7 +19617,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Einfuhr;t;2221;10131,4;HDPE;WA39201028 Tafeln, Platten u.a., aus Polyethylen, >= 0,94;39201028;Q3;9,999565708;2024-Q3
 2024;Einfuhr;t;2221;9169,4;HDPE;WA39201028 Tafeln, Platten u.a., aus Polyethylen, >= 0,94;39201028;Q4;7,809340168;2024-Q4
 2025;Einfuhr;t;2221;10264,7;HDPE;WA39201028 Tafeln, Platten u.a., aus Polyethylen, >= 0,94;39201028;Q1;9,888662884;2025-Q1
-2025;Einfuhr;t;2221;;HDPE;WA39201028 Tafeln, Platten u.a., aus Polyethylen, >= 0,94;39201028;;;
 2015;Einfuhr;t;2221;76414,3;LDPE;WA39201023 Polyethylenfolien, < 0,94, Halbleiterfertigung+WA39201024 Stretchfolien aus Polyethylens, < 0,94, <= 0,125mm+WA39201025 Folien u.a.aus Polymeren des Ethylens,<0,94,a.n.g.;39201023+39201024+39201025;Q1;;2015-Q1
 2015;Einfuhr;t;2221;77111,9;LDPE;WA39201023 Polyethylenfolien, < 0,94, Halbleiterfertigung+WA39201024 Stretchfolien aus Polyethylens, < 0,94, <= 0,125mm+WA39201025 Folien u.a.aus Polymeren des Ethylens,<0,94,a.n.g.;39201023+39201024+39201025;Q2;;2015-Q2
 2015;Einfuhr;t;2221;63448,1;LDPE;WA39201023 Polyethylenfolien, < 0,94, Halbleiterfertigung+WA39201024 Stretchfolien aus Polyethylens, < 0,94, <= 0,125mm+WA39201025 Folien u.a.aus Polymeren des Ethylens,<0,94,a.n.g.;39201023+39201024+39201025;Q3;;2015-Q3
@@ -19772,7 +19658,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Einfuhr;t;2221;69470,7;LDPE;WA39201023 Polyethylenfolien, < 0,94, Halbleiterfertigung+WA39201024 Stretchfolien aus Polyethylens, < 0,94, <= 0,125mm+WA39201025 Folien u.a.aus Polymeren des Ethylens,<0,94,a.n.g.;39201023+39201024+39201025;Q3;20,68386254;2024-Q3
 2024;Einfuhr;t;2221;62067;LDPE;WA39201023 Polyethylenfolien, < 0,94, Halbleiterfertigung+WA39201024 Stretchfolien aus Polyethylens, < 0,94, <= 0,125mm+WA39201025 Folien u.a.aus Polymeren des Ethylens,<0,94,a.n.g.;39201023+39201024+39201025;Q4;3,50434249;2024-Q4
 2025;Einfuhr;t;2221;90199,6;LDPE;WA39201023 Polyethylenfolien, < 0,94, Halbleiterfertigung+WA39201024 Stretchfolien aus Polyethylens, < 0,94, <= 0,125mm+WA39201025 Folien u.a.aus Polymeren des Ethylens,<0,94,a.n.g.;39201023+39201024+39201025;Q1;18,43108318;2025-Q1
-2025;Einfuhr;t;2221;;LDPE;WA39201023 Polyethylenfolien, < 0,94, Halbleiterfertigung+WA39201024 Stretchfolien aus Polyethylens, < 0,94, <= 0,125mm+WA39201025 Folien u.a.aus Polymeren des Ethylens,<0,94,a.n.g.;39201023+39201024+39201025;;;
 2015;Einfuhr;t;2221;1998,5;PA;WA39209200 Tafeln, Platten u.a., aus Polyamiden;39209200;Q1;;2015-Q1
 2015;Einfuhr;t;2221;1831,3;PA;WA39209200 Tafeln, Platten u.a., aus Polyamiden;39209200;Q2;;2015-Q2
 2015;Einfuhr;t;2221;1951,4;PA;WA39209200 Tafeln, Platten u.a., aus Polyamiden;39209200;Q3;;2015-Q3
@@ -19814,7 +19699,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Einfuhr;t;2221;1625,2;PA;WA39209200 Tafeln, Platten u.a., aus Polyamiden;39209200;Q3;9,53696839;2024-Q3
 2024;Einfuhr;t;2221;1337,9;PA;WA39209200 Tafeln, Platten u.a., aus Polyamiden;39209200;Q4;-16,97281867;2024-Q4
 2025;Einfuhr;t;2221;1958,4;PA;WA39209200 Tafeln, Platten u.a., aus Polyamiden;39209200;Q1;7,486278814;2025-Q1
-2025;Einfuhr;t;2221;;PA;WA39209200 Tafeln, Platten u.a., aus Polyamiden;39209200;;;
 2015;Einfuhr;t;2221;5326,3;PC;WA39206100 Tafeln, Platten u.a., aus Polycarbonaten;39206100;Q1;;2015-Q1
 2015;Einfuhr;t;2221;7813,5;PC;WA39206100 Tafeln, Platten u.a., aus Polycarbonaten;39206100;Q2;;2015-Q2
 2015;Einfuhr;t;2221;4918,3;PC;WA39206100 Tafeln, Platten u.a., aus Polycarbonaten;39206100;Q3;;2015-Q3
@@ -19856,7 +19740,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Einfuhr;t;2221;4519,6;PC;WA39206100 Tafeln, Platten u.a., aus Polycarbonaten;39206100;Q3;-2,902442692;2024-Q3
 2024;Einfuhr;t;2221;3888;PC;WA39206100 Tafeln, Platten u.a., aus Polycarbonaten;39206100;Q4;0,939820344;2024-Q4
 2025;Einfuhr;t;2221;6054,8;PC;WA39206100 Tafeln, Platten u.a., aus Polycarbonaten;39206100;Q1;28,82553191;2025-Q1
-2025;Einfuhr;t;2221;;PC;WA39206100 Tafeln, Platten u.a., aus Polycarbonaten;39206100;;;
 2015;Einfuhr;t;2221;27221,1;PET + Polyester;WA39206212 Folien aus Polyethylenterephthalat+WA39206219 Tafeln u.a., aus Polyethylen-Terephthalat+WA39206900 Tafeln u.a., aus anderen Polyestern;39206212+39206219+39206900;Q1;;2015-Q1
 2015;Einfuhr;t;2221;28873,6;PET + Polyester;WA39206212 Folien aus Polyethylenterephthalat+WA39206219 Tafeln u.a., aus Polyethylen-Terephthalat+WA39206900 Tafeln u.a., aus anderen Polyestern;39206212+39206219+39206900;Q2;;2015-Q2
 2015;Einfuhr;t;2221;26806,2;PET + Polyester;WA39206212 Folien aus Polyethylenterephthalat+WA39206219 Tafeln u.a., aus Polyethylen-Terephthalat+WA39206900 Tafeln u.a., aus anderen Polyestern;39206212+39206219+39206900;Q3;;2015-Q3
@@ -19898,7 +19781,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Einfuhr;t;2221;24167,6;PET + Polyester;WA39206212 Folien aus Polyethylenterephthalat+WA39206219 Tafeln u.a., aus Polyethylen-Terephthalat+WA39206900 Tafeln u.a., aus anderen Polyestern;39206212+39206219+39206900;Q3;7,943597554;2024-Q3
 2024;Einfuhr;t;2221;23094,3;PET + Polyester;WA39206212 Folien aus Polyethylenterephthalat+WA39206219 Tafeln u.a., aus Polyethylen-Terephthalat+WA39206900 Tafeln u.a., aus anderen Polyestern;39206212+39206219+39206900;Q4;11,5122573;2024-Q4
 2025;Einfuhr;t;2221;27813,8;PET + Polyester;WA39206212 Folien aus Polyethylenterephthalat+WA39206219 Tafeln u.a., aus Polyethylen-Terephthalat+WA39206900 Tafeln u.a., aus anderen Polyestern;39206212+39206219+39206900;Q1;14,19034872;2025-Q1
-2025;Einfuhr;t;2221;;PET + Polyester;WA39206212 Folien aus Polyethylenterephthalat+WA39206219 Tafeln u.a., aus Polyethylen-Terephthalat+WA39206900 Tafeln u.a., aus anderen Polyestern;39206212+39206219+39206900;;;
 2015;Einfuhr;t;2221;53425,3;PP;WA39202021 Folien u.a., Polymere d.Propylens,<=0,1mm, biaxial+WA39202029 Folien u.a., Polymere des Propylens, <=0,10mm+WA39202080 Folien u.a. aus Polymeren des Propylens, >0,10mm;39202021+39202029+39202080;Q1;;2015-Q1
 2015;Einfuhr;t;2221;54173,6;PP;WA39202021 Folien u.a., Polymere d.Propylens,<=0,1mm, biaxial+WA39202029 Folien u.a., Polymere des Propylens, <=0,10mm+WA39202080 Folien u.a. aus Polymeren des Propylens, >0,10mm;39202021+39202029+39202080;Q2;;2015-Q2
 2015;Einfuhr;t;2221;55688;PP;WA39202021 Folien u.a., Polymere d.Propylens,<=0,1mm, biaxial+WA39202029 Folien u.a., Polymere des Propylens, <=0,10mm+WA39202080 Folien u.a. aus Polymeren des Propylens, >0,10mm;39202021+39202029+39202080;Q3;;2015-Q3
@@ -19940,7 +19822,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Einfuhr;t;2221;62426,3;PP;WA39202021 Folien u.a., Polymere d.Propylens,<=0,1mm, biaxial+WA39202029 Folien u.a., Polymere des Propylens, <=0,10mm+WA39202080 Folien u.a. aus Polymeren des Propylens, >0,10mm;39202021+39202029+39202080;Q3;21,0023066;2024-Q3
 2024;Einfuhr;t;2221;55992;PP;WA39202021 Folien u.a., Polymere d.Propylens,<=0,1mm, biaxial+WA39202029 Folien u.a., Polymere des Propylens, <=0,10mm+WA39202080 Folien u.a. aus Polymeren des Propylens, >0,10mm;39202021+39202029+39202080;Q4;13,34963642;2024-Q4
 2025;Einfuhr;t;2221;66177,4;PP;WA39202021 Folien u.a., Polymere d.Propylens,<=0,1mm, biaxial+WA39202029 Folien u.a., Polymere des Propylens, <=0,10mm+WA39202080 Folien u.a. aus Polymeren des Propylens, >0,10mm;39202021+39202029+39202080;Q1;5,311116027;2025-Q1
-2025;Einfuhr;t;2221;;PP;WA39202021 Folien u.a., Polymere d.Propylens,<=0,1mm, biaxial+WA39202029 Folien u.a., Polymere des Propylens, <=0,10mm+WA39202080 Folien u.a. aus Polymeren des Propylens, >0,10mm;39202021+39202029+39202080;;;
 2015;Einfuhr;t;2221;13590;PS;WA39203000 Tafeln, Platten u.a., aus Polymeren des Styrols;39203000;Q1;;2015-Q1
 2015;Einfuhr;t;2221;13493,7;PS;WA39203000 Tafeln, Platten u.a., aus Polymeren des Styrols;39203000;Q2;;2015-Q2
 2015;Einfuhr;t;2221;12115,9;PS;WA39203000 Tafeln, Platten u.a., aus Polymeren des Styrols;39203000;Q3;;2015-Q3
@@ -19982,7 +19863,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Einfuhr;t;2221;9977,9;PS;WA39203000 Tafeln, Platten u.a., aus Polymeren des Styrols;39203000;Q3;-8,096233732;2024-Q3
 2024;Einfuhr;t;2221;8891,5;PS;WA39203000 Tafeln, Platten u.a., aus Polymeren des Styrols;39203000;Q4;-13,12482901;2024-Q4
 2025;Einfuhr;t;2221;11250,2;PS;WA39203000 Tafeln, Platten u.a., aus Polymeren des Styrols;39203000;Q1;-5,210387072;2025-Q1
-2025;Einfuhr;t;2221;;PS;WA39203000 Tafeln, Platten u.a., aus Polymeren des Styrols;39203000;;;
 2015;Einfuhr;t;2221;227,7;Regen. Cellulose;WA39207100 Folien, Platten u.a. aus regenerierter Cellulose;39207100;Q1;;2015-Q1
 2015;Einfuhr;t;2221;279,8;Regen. Cellulose;WA39207100 Folien, Platten u.a. aus regenerierter Cellulose;39207100;Q2;;2015-Q2
 2015;Einfuhr;t;2221;215,7;Regen. Cellulose;WA39207100 Folien, Platten u.a. aus regenerierter Cellulose;39207100;Q3;;2015-Q3
@@ -20024,7 +19904,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Einfuhr;t;2221;386,2;Regen. Cellulose;WA39207100 Folien, Platten u.a. aus regenerierter Cellulose;39207100;Q3;36,75637394;2024-Q3
 2024;Einfuhr;t;2221;461,5;Regen. Cellulose;WA39207100 Folien, Platten u.a. aus regenerierter Cellulose;39207100;Q4;39,25769463;2024-Q4
 2025;Einfuhr;t;2221;660,6;Regen. Cellulose;WA39207100 Folien, Platten u.a. aus regenerierter Cellulose;39207100;Q1;75,73822825;2025-Q1
-2025;Einfuhr;t;2221;;Regen. Cellulose;WA39207100 Folien, Platten u.a. aus regenerierter Cellulose;39207100;;;
 2015;Einfuhr;t;2222;79537,9;Tüten, Beutel, Säcke usw. aus PE;WA39232100 Säcke und Beutel, aus Polymeren des Ethylens;39232100;Q1;;2015-Q1
 2015;Einfuhr;t;2222;84925,5;Tüten, Beutel, Säcke usw. aus PE;WA39232100 Säcke und Beutel, aus Polymeren des Ethylens;39232100;Q2;;2015-Q2
 2015;Einfuhr;t;2222;81443,3;Tüten, Beutel, Säcke usw. aus PE;WA39232100 Säcke und Beutel, aus Polymeren des Ethylens;39232100;Q3;;2015-Q3
@@ -20066,7 +19945,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Einfuhr;t;2222;88893,9;Tüten, Beutel, Säcke usw. aus PE;WA39232100 Säcke und Beutel, aus Polymeren des Ethylens;39232100;Q3;18,28437302;2024-Q3
 2024;Einfuhr;t;2222;86340,2;Tüten, Beutel, Säcke usw. aus PE;WA39232100 Säcke und Beutel, aus Polymeren des Ethylens;39232100;Q4;6,682663675;2024-Q4
 2025;Einfuhr;t;2222;92921;Tüten, Beutel, Säcke usw. aus PE;WA39232100 Säcke und Beutel, aus Polymeren des Ethylens;39232100;Q1;8,113422465;2025-Q1
-2025;Einfuhr;t;2222;;Tüten, Beutel, Säcke usw. aus PE;WA39232100 Säcke und Beutel, aus Polymeren des Ethylens;39232100;;;
 2015;Einfuhr;t;2222;233,3;Tüten, Beutel, Säcke usw. aus PVC;WA39232910 Säcke und Beutel, aus Polyvinylchlorid;39232910;Q1;;2015-Q1
 2015;Einfuhr;t;2222;402,7;Tüten, Beutel, Säcke usw. aus PVC;WA39232910 Säcke und Beutel, aus Polyvinylchlorid;39232910;Q2;;2015-Q2
 2015;Einfuhr;t;2222;432;Tüten, Beutel, Säcke usw. aus PVC;WA39232910 Säcke und Beutel, aus Polyvinylchlorid;39232910;Q3;;2015-Q3
@@ -20108,7 +19986,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Einfuhr;t;2222;313,8;Tüten, Beutel, Säcke usw. aus PVC;WA39232910 Säcke und Beutel, aus Polyvinylchlorid;39232910;Q3;26,8904165;2024-Q3
 2024;Einfuhr;t;2222;278,2;Tüten, Beutel, Säcke usw. aus PVC;WA39232910 Säcke und Beutel, aus Polyvinylchlorid;39232910;Q4;20,79895788;2024-Q4
 2025;Einfuhr;t;2222;259,7;Tüten, Beutel, Säcke usw. aus PVC;WA39232910 Säcke und Beutel, aus Polyvinylchlorid;39232910;Q1;14,25428949;2025-Q1
-2025;Einfuhr;t;2222;;Tüten, Beutel, Säcke usw. aus PVC;WA39232910 Säcke und Beutel, aus Polyvinylchlorid;39232910;;;
 2015;Einfuhr;t;2222;10637,5;Tüten, Beutel, Säcke usw. aus andere Kunststoffe;WA39232990 Säcke und Beutel, aus anderen Kunststoffen;39232990;Q1;;2015-Q1
 2015;Einfuhr;t;2222;11735;Tüten, Beutel, Säcke usw. aus andere Kunststoffe;WA39232990 Säcke und Beutel, aus anderen Kunststoffen;39232990;Q2;;2015-Q2
 2015;Einfuhr;t;2222;12649,9;Tüten, Beutel, Säcke usw. aus andere Kunststoffe;WA39232990 Säcke und Beutel, aus anderen Kunststoffen;39232990;Q3;;2015-Q3
@@ -20150,7 +20027,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Einfuhr;t;2222;22361,4;Tüten, Beutel, Säcke usw. aus andere Kunststoffe;WA39232990 Säcke und Beutel, aus anderen Kunststoffen;39232990;Q3;42,2499014;2024-Q3
 2024;Einfuhr;t;2222;17009,9;Tüten, Beutel, Säcke usw. aus andere Kunststoffe;WA39232990 Säcke und Beutel, aus anderen Kunststoffen;39232990;Q4;23,11918239;2024-Q4
 2025;Einfuhr;t;2222;21509,6;Tüten, Beutel, Säcke usw. aus andere Kunststoffe;WA39232990 Säcke und Beutel, aus anderen Kunststoffen;39232990;Q1;-6,631419481;2025-Q1
-2025;Einfuhr;t;2222;;Tüten, Beutel, Säcke usw. aus andere Kunststoffe;WA39232990 Säcke und Beutel, aus anderen Kunststoffen;39232990;;;
 2015;Einfuhr;t;2222;26279,5;Verschlüsse;WA39235010 Verschluß- oder Flaschenkapseln aus Kunststoffen+WA39235090 Stöpsel, Deckel und Verschlüsse aus Kunststoffen;39235010+39235090;Q1;;2015-Q1
 2015;Einfuhr;t;2222;27919;Verschlüsse;WA39235010 Verschluß- oder Flaschenkapseln aus Kunststoffen+WA39235090 Stöpsel, Deckel und Verschlüsse aus Kunststoffen;39235010+39235090;Q2;;2015-Q2
 2015;Einfuhr;t;2222;28980,7;Verschlüsse;WA39235010 Verschluß- oder Flaschenkapseln aus Kunststoffen+WA39235090 Stöpsel, Deckel und Verschlüsse aus Kunststoffen;39235010+39235090;Q3;;2015-Q3
@@ -20192,7 +20068,6 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Einfuhr;t;2222;29852,9;Verschlüsse;WA39235010 Verschluß- oder Flaschenkapseln aus Kunststoffen+WA39235090 Stöpsel, Deckel und Verschlüsse aus Kunststoffen;39235010+39235090;Q3;5,096602031;2024-Q3
 2024;Einfuhr;t;2222;25658,1;Verschlüsse;WA39235010 Verschluß- oder Flaschenkapseln aus Kunststoffen+WA39235090 Stöpsel, Deckel und Verschlüsse aus Kunststoffen;39235010+39235090;Q4;-6,09408854;2024-Q4
 2025;Einfuhr;t;2222;29388,4;Verschlüsse;WA39235010 Verschluß- oder Flaschenkapseln aus Kunststoffen+WA39235090 Stöpsel, Deckel und Verschlüsse aus Kunststoffen;39235010+39235090;Q1;-2,161942619;2025-Q1
-2025;Einfuhr;t;2222;;Verschlüsse;WA39235010 Verschluß- oder Flaschenkapseln aus Kunststoffen+WA39235090 Stöpsel, Deckel und Verschlüsse aus Kunststoffen;39235010+39235090;;;
 2015;Einfuhr;t;2222;32440,2;andere Transportverpackungen;WA39239000 Transport- oder Verpackungsmittel, a.n.g.;39239000;Q1;;2015-Q1
 2015;Einfuhr;t;2222;35563,9;andere Transportverpackungen;WA39239000 Transport- oder Verpackungsmittel, a.n.g.;39239000;Q2;;2015-Q2
 2015;Einfuhr;t;2222;34042,8;andere Transportverpackungen;WA39239000 Transport- oder Verpackungsmittel, a.n.g.;39239000;Q3;;2015-Q3
@@ -20234,4 +20109,3 @@ Jahr;Import/Export;Maßeinheit;WZ;Kennzahl;Polymerart/Packmittel;Warenverzeichnis
 2024;Einfuhr;t;2222;34072,3;andere Transportverpackungen;WA39239000 Transport- oder Verpackungsmittel, a.n.g.;39239000;Q3;-1,563551793;2024-Q3
 2024;Einfuhr;t;2222;30967,1;andere Transportverpackungen;WA39239000 Transport- oder Verpackungsmittel, a.n.g.;39239000;Q4;-24,48559069;2024-Q4
 2025;Einfuhr;t;2222;38091,1;andere Transportverpackungen;WA39239000 Transport- oder Verpackungsmittel, a.n.g.;39239000;Q1;8,107394741;2025-Q1
-2025;Einfuhr;t;2222;;andere Transportverpackungen;WA39239000 Transport- oder Verpackungsmittel, a.n.g.;39239000;;;
