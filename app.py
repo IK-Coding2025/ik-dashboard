@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
+import numpy as np
+import plotly.express as px
 
 def create_dashboard_plot(dashboard_name, selected_indicators, filtered_df):
     if selected_indicators:
@@ -432,14 +434,12 @@ with st.expander("ℹ️ Über dieses Dashboard"):
 
 # Lade CSV-Datei
 #csv_path = r"C:\Users\l.mueller\Documents\FileCloud\Team Folders\IK_Server\Wirtschaft\statistische Daten\ik-dashboard\data\Destatis_Außenhandelsstatstik_Monate_Quartale_Jahre.csv"
-csv_path = pd.read_csv(r'data/Destatis_Außenhandelsstatstik_Monate_Quartale_Jahre.csv')
+csv_path = r'data/Destatis_Außenhandelsstatstik_Monate_Quartale_Jahre.csv'
 
 @st.cache_data
 def load_data(path):
-    # Einlesen der CSV-Datei mit Berücksichtigung des deutschen Dezimaltrennzeichens
-    df = pd.read_csv(path, sep=';', encoding='latin1', decimal=',')  # 'decimal' für deutsches Komma
+    df = pd.read_csv(path, sep=';', encoding='latin1', decimal=',')
     return df
-
 
 # Daten laden und Fehlerbehandlung
 try:
@@ -614,9 +614,9 @@ st.markdown("""
   * Konjunkturstatistik (Tabellencode 42111), Datenmodifikation (insb. der Wirtschaftszweige 2221 und 2222 zur Branchenabgrenzung) anhand eigener Berechnungen
   * Außenhandelsstatistik (Tabellencode 51000), Datenmodifikation anhand eigener Berechnungen
 
-    ### Kontakt bei Fragen:
-    **Referat für Wirtschaft**  
-    IK Industrieverband e.V.  
-    Dr. Laura C. Müller  
-    L.Mueller@Kunststoffverpackungen.de
+### Kontakt bei Fragen:
+**Referat für Wirtschaft**  
+IK Industrieverband e.V.  
+Dr. Laura C. Müller  
+L.Mueller@Kunststoffverpackungen.de
     """)
