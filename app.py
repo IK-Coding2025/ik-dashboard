@@ -512,7 +512,7 @@ zeitraeume = sorted(df["Jahr-Monat"].unique().tolist())
 
 # Default: alle Zeiträume ab 2019 vorauswählen
 # default_zeitraeume = [z for z in zeitraeume if int(z[:4]) >= 2019]
-default_zeitraeume = [z for z in zeitraeume if 2019 <= int(z[:4]) < 2026]
+default_zeitraeume = [z for z in zeitraeume if 2019 <= int(z[:4]) < 2025]
 
 
 # Multiselect-Dropdown für Zeiträume in einem eingeklappten Expander
