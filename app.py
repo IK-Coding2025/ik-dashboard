@@ -471,7 +471,7 @@ df["prozentuale Veränderung zum Vorjahresquartal"] = pd.to_numeric(df["prozentu
 df["Tsd. EUR"] = pd.to_numeric(df["Tsd. EUR"], errors='coerce')
 
 # Filter: Nur Jahre 2015 bis 2024
-df = df[df["Jahr-Monat"].str[:4].astype(int).between(2016, 2024)] #anpassen wenn neue Daten für 2025 vorliegen
+df = df[df["Jahr-Monat"].str[:4].astype(int).between(2016, 2023)] #anpassen wenn neue Daten für 2025 vorliegen
 
 # Dropdown-Menü zur Auswahl der Anzeigeart
 anzeigeart = st.radio(
@@ -512,7 +512,7 @@ zeitraeume = sorted(df["Jahr-Monat"].unique().tolist())
 
 # Default: alle Zeiträume ab 2019 vorauswählen
 # default_zeitraeume = [z for z in zeitraeume if int(z[:4]) >= 2019]
-default_zeitraeume = [z for z in zeitraeume if 2019 <= int(z[:4]) < 2025]
+default_zeitraeume = [z for z in zeitraeume if 2019 <= int(z[:4]) < 2024]
 
 
 # Multiselect-Dropdown für Zeiträume in einem eingeklappten Expander
