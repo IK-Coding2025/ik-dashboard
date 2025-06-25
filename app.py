@@ -470,8 +470,8 @@ df = df.drop(columns=["Maßeinheit"])
 df["prozentuale Veränderung zum Vorjahresquartal"] = pd.to_numeric(df["prozentuale Veränderung zum Vorjahresquartal"], errors='coerce')
 df["Tsd. EUR"] = pd.to_numeric(df["Tsd. EUR"], errors='coerce')
 
-# Filter: Nur Jahre 2015 bis 2024
-df = df[df["Jahr-Monat"].str[:4].astype(int).between(2016, 2024)] #anpassen wenn neue Daten für 2025 vorliegen
+# Filter: Nur Jahre 2015 bis 2025
+df = df[df["Jahr-Monat"].str[:4].astype(int).between(2016, 2025)] #anpassen wenn neue Daten für 2026 vorliegen
 
 # Dropdown-Menü zur Auswahl der Anzeigeart
 anzeigeart = st.radio(
