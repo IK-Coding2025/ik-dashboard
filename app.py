@@ -514,12 +514,15 @@ packmittel = st.selectbox(
     key="polymer_filter"  # Eindeutiger Schlüssel
 )
 
-# Alle verfügbaren Zeiträume (z.B. '2016-Q1', ..., '2025-Q4')
-zeitraeume = sorted(df["Jahr-Monat"].unique().tolist())
+# Nur Zeiträume ab 2019 bis einschließlich 2025-Q1 #anpassen wenn neues Quartal verfügbar
+default_zeitraeume = [
+    z for z in zeitraeume
+    if (
+        (2019 <= int(z[:4]) < 2025)  # Jahre 2019 bis 2024
+        or (z.startswith('2025-Q1')) # Nur 2025-Q1 aus 2025 #anpassen wenn neues Quartal verfügbar
+    )
+]
 
-# Default: alle Zeiträume ab 2019 vorauswählen
-# default_zeitraeume = [z for z in zeitraeume if int(z[:4]) >= 2019]
-default_zeitraeume = [z for z in zeitraeume if 2019 <= int(z[:4]) < 2025]
 
 
 # Multiselect-Dropdown für Zeiträume in einem eingeklappten Expander
