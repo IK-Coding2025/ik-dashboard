@@ -3,6 +3,13 @@ import pandas as pd
 import plotly.graph_objects as go
 import numpy as np
 import plotly.express as px
+import os
+from pathlib import Path
+
+print("Aktuelles Arbeitsverzeichnis:", os.getcwd())
+print("Aktuelles Arbeitsverzeichnis:", Path.cwd())
+
+
 
 def create_dashboard_plot(dashboard_name, selected_indicators, filtered_df):
     if selected_indicators:
