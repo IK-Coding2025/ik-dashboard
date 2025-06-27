@@ -514,7 +514,14 @@ packmittel = st.selectbox(
     key="polymer_filter"  # Eindeutiger Schlüssel
 )
 
-
+# Nur Zeiträume ab 2019 bis einschließlich 2025-Q1 #anpassen wenn neues Quartal verfügbar
+default_zeitraeume = [
+    z for z in zeitraeume
+    if (
+        (2019 <= int(z[:4]) < 2025)  # Jahre 2019 bis 2024
+        or (z.startswith('2025-Q1')) # Nur 2025-Q1 aus 2025 #anpassen wenn neues Quartal verfügbar
+    )
+]
 
 
 # Multiselect-Dropdown für Zeiträume in einem eingeklappten Expander
