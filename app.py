@@ -291,15 +291,6 @@ try:
     # Daten einlesen
     df = pd.read_excel(r'data/IK_Konj+Destatis_HWWI.xlsx')
 
-    # Bedingung definieren: Jahr == 2025 und Monat in ['Q1', 'Q2', 'Q3']
-    mask = ~((df['Jahr'] == 2025) & (df['Monat'].isin(['Q2', 'Q3', 'Q4']))) #ist anzupassen
-
-    # Nur die Zeilen behalten, die die Bedingung NICHT erfüllen
-    df = df[mask]
-
-    # Optional: Index zurücksetzen
-    df = df.reset_index(drop=True)
-
     # Dashboard-Definitionen
     dashboards = {
         "Konjunktur": ["Umsatz", "Auslandsumsatz", "Auslandsumsatz mit der Eurozone",
