@@ -522,7 +522,7 @@ default_zeitraeume = [
     z for z in zeitraeume
     if (
         (2019 <= int(z[:4]) < 2025)  # Jahre 2019 bis 2024
-        or (z.startswith('2025-Q2')) # Nur 2025-Q21 aus 2025
+        or (z.startswith('2025-Q2')) # Nur ausgewählte Quartale bis 2025-Q2
     )
 ]
 
@@ -634,4 +634,5 @@ IK Industrieverband e.V.
 Dr. Laura C. Müller  
 L.Mueller@Kunststoffverpackungen.de
     """)
+
 
