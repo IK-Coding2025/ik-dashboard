@@ -477,7 +477,7 @@ df = df.drop(columns=["Maßeinheit"])
 df["prozentuale Veränderung zum Vorjahresquartal"] = pd.to_numeric(df["prozentuale Veränderung zum Vorjahresquartal"], errors='coerce')
 df["Tsd. EUR"] = pd.to_numeric(df["Tsd. EUR"], errors='coerce')
 
-# Filter: Nur Jahre 2015 bis 2025
+# Filter: Nur Jahre 2016 bis 2025
 df = df[df["Jahr-Monat"].str[:4].astype(int).between(2016, 2025)] #anpassen wenn neue Daten vorliegen
 
 # Dropdown-Menü zur Auswahl der Anzeigeart
@@ -522,7 +522,7 @@ default_zeitraeume = [
     z for z in zeitraeume
     if (
         (2019 <= int(z[:4]) < 2025)  # Jahre 2019 bis 2024
-        or (z.startswith('2025-Q2')) # Nur ausgewählte Quartale bis 2025-Q2
+        or (z in ['2025-Q1', '2025-Q2'])  # Explizit Q1 und Q2 von 2025
     )
 ]
 
@@ -634,5 +634,6 @@ IK Industrieverband e.V.
 Dr. Laura C. Müller  
 L.Mueller@Kunststoffverpackungen.de
     """)
+
 
 
