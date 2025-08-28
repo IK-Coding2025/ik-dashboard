@@ -3,6 +3,13 @@ import pandas as pd
 import plotly.graph_objects as go
 import numpy as np
 import plotly.express as px
+import os
+from pathlib import Path
+
+print("Aktuelles Arbeitsverzeichnis:", os.getcwd())
+print("Aktuelles Arbeitsverzeichnis:", Path.cwd())
+
+
 
 def create_dashboard_plot(dashboard_name, selected_indicators, filtered_df):
     if selected_indicators:
@@ -470,7 +477,7 @@ df = df.drop(columns=["Maßeinheit"])
 df["prozentuale Veränderung zum Vorjahresquartal"] = pd.to_numeric(df["prozentuale Veränderung zum Vorjahresquartal"], errors='coerce')
 df["Tsd. EUR"] = pd.to_numeric(df["Tsd. EUR"], errors='coerce')
 
-# Filter: Nur Jahre 2015 bis 2025
+# Filter: Nur Jahre 2016 bis 2025
 df = df[df["Jahr-Monat"].str[:4].astype(int).between(2016, 2025)] #anpassen wenn neue Daten vorliegen
 
 # Dropdown-Menü zur Auswahl der Anzeigeart
@@ -510,9 +517,14 @@ packmittel = st.selectbox(
 # Alle verfügbaren Zeiträume (z.B. '2016-Q1', ..., '2025-Q4')
 zeitraeume = sorted(df["Jahr-Monat"].unique().tolist())
 
-# Default: alle Zeiträume ab 2019 vorauswählen
-# default_zeitraeume = [z for z in zeitraeume if int(z[:4]) >= 2019]
-default_zeitraeume = [z for z in zeitraeume if 2019 <= int(z[:4]) < 2026]
+# Nur Zeiträume ab 2019 bis einschließlich 2025-Q2 # Zeiträume anpassen
+default_zeitraeume = [
+    z for z in zeitraeume
+    if (
+        (2019 <= int(z[:4]) < 2025)  # Jahre 2019 bis 2024
+        or (z in ['2025-Q1', '2025-Q2'])  # Explizit Q1 und Q2 von 2025
+    )
+]
 
 
 # Multiselect-Dropdown für Zeiträume in einem eingeklappten Expander
@@ -622,3 +634,6 @@ IK Industrieverband e.V.
 Dr. Laura C. Müller  
 L.Mueller@Kunststoffverpackungen.de
     """)
+
+
+
