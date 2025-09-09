@@ -627,6 +627,7 @@ st.markdown("""
 - **Destatis**: [Genesis-Online Datenbank](https://www-genesis.destatis.de/datenbank/online/)  
   * Konjunkturstatistik (Tabellencode 42111), Datenmodifikation (insb. der Wirtschaftszweige 2221 und 2222 zur Branchenabgrenzung) anhand eigener Berechnungen
   * Außenhandelsstatistik (Tabellencode 51000), Datenmodifikation anhand eigener Berechnungen
+- **HWWI**: Hamburgisches WeltWirtschaftsInstitut gemeinnützige GmbH (HWWI) https://www.hwwi.org/datenangebote/rohstoffpreisindex/
 
 ### Kontakt bei Fragen:
 **Referat für Wirtschaft**  
@@ -634,6 +635,7 @@ IK Industrieverband e.V.
 Dr. Laura C. Müller  
 L.Mueller@Kunststoffverpackungen.de
     """)
+
 
 
 
