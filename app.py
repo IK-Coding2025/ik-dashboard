@@ -295,7 +295,7 @@ try:
     dashboards = {
         "Konjunktur": ["Umsatz", "Auslandsumsatz", "Auslandsumsatz mit der Eurozone",
                        "Auslandsumsatz mit dem sonstigen Ausland", "Index_Ertrag",
-                       "Index_Exporte", "Index_Wirtschaftslage"], #"Index_Umsatz", "Index_Verkaufspreise (Branchenprodukte)"
+                       "Index_Exporte", "Index_Wirtschaftslage", "Index_Absatz"], #"Index_Umsatz", "Index_Verkaufspreise (Branchenprodukte)"
         "Arbeitsmarkt": ["Betriebe", "Beschäftigte", "Index_Beschäftigtenzahl",
                          "Index_Wirtschaftslage"],
         "Rohstoffe": ["Index_Rohstoffverfügbarkeit", "Index_Preisentwicklung Energierohstoffe",
@@ -358,6 +358,7 @@ try:
             - Index_Ertrag
             - Index_Exporte
             - Index_Wirtschaftslage
+            - Index_Absatz
     
             ➡️ Alle Daten beziehen sich ausschließlich auf die Kunststoffverpackungs- und Folienindustrie in Deutschland.
             """)
@@ -635,6 +636,7 @@ IK Industrieverband e.V.
 Dr. Laura C. Müller  
 L.Mueller@Kunststoffverpackungen.de
     """)
+
 
 
 
