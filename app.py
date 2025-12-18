@@ -518,12 +518,12 @@ packmittel = st.selectbox(
 # Alle verfügbaren Zeiträume (z.B. '2016-Q1', ..., '2025-Q4')
 zeitraeume = sorted(df["Jahr-Monat"].unique().tolist())
 
-# Nur Zeiträume ab 2019 bis einschließlich 2025-Q2 # Zeiträume anpassen
+# Nur Zeiträume ab 2019 bis einschließlich 2025-Q3 # Zeiträume anpassen
 default_zeitraeume = [
     z for z in zeitraeume
     if (
         (2019 <= int(z[:4]) < 2025)  # Jahre 2019 bis 2024
-        or (z in ['2025-Q1', '2025-Q2'])  # Explizit Q1 und Q2 von 2025
+        or (z in ['2025-Q1', '2025-Q2', '2025-Q3'])  # Explizit Q1, Q2, Q3 von 2025
     )
 ]
 
@@ -636,6 +636,7 @@ IK Industrieverband e.V.
 Dr. Laura C. Müller  
 L.Mueller@Kunststoffverpackungen.de
     """)
+
 
 
 
