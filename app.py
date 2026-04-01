@@ -355,10 +355,10 @@ try:
             - Auslandsumsatz mit dem sonstigen Ausland (in Euro)
 
             **2. IK-Konjunkturumfrage (Quartalsdaten), berichtet über die Geschäftserwartungen:**
-            - Index_Ertrag
-            - Index_Exporte
+            - Index_Ertrag (Erwartung)
+            - Index_Exporte (Erwartung)
             - Index_Wirtschaftslage
-            - Index_Absatz
+            - Index_Absatz (Erwartung)
     
             ➡️ Alle Daten beziehen sich ausschließlich auf die Kunststoffverpackungs- und Folienindustrie in Deutschland.
             """)
@@ -383,7 +383,7 @@ try:
             - Beschäftigte (Anzahl)
 
             **2. IK-Konjunkturumfrage (Quartalsdaten), berichtet über die Geschäftserwartungen:**
-            - Index_Beschäftigtenzahl
+            - Index_Beschäftigtenzahl (Erwartung)
             - Index_Wirtschaftslage
 
             ➡️ Alle Daten beziehen sich ausschließlich auf die Kunststoffverpackungs- und Folienindustrie in Deutschland.
@@ -410,8 +410,8 @@ try:
             - Index_Preisentwicklung Erdgas
 
             **2. IK-Konjunkturumfrage (Quartalsdaten), berichtet über die Geschäftserwartungen:**
-            - Index_Ertrag
-            - Index_Rohstoffverfügbarkeit
+            - Index_Ertrag (Erwartung)
+            - Index_Rohstoffverfügbarkeit (Erwartung)
 
             ➡️ Alle Daten des HWWI beziehen sich auf Deutschland insgesamt, Daten der IK-Konjunkturumfrage beziehen sich auf die Branche der Kunststoffverpackungs- und Folienindustrie in Deutschland.
             """)
