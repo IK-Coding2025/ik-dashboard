@@ -9,8 +9,6 @@ from pathlib import Path
 print("Aktuelles Arbeitsverzeichnis:", os.getcwd())
 print("Aktuelles Arbeitsverzeichnis:", Path.cwd())
 
-
-
 def create_dashboard_plot(dashboard_name, selected_indicators, filtered_df):
 if selected_indicators:
 fig = go.Figure()
