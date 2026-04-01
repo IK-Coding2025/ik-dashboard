@@ -441,7 +441,7 @@ with st.expander("ℹ️ Über dieses Dashboard"):
 
 
 # Lade CSV-Datei
-#csv_path = r"C:\\Users\\l.mueller\\Documents\\FileCloud\\Team Folders\\IK_Server\\Wirtschaft\\statistische Daten\\ik-dashboard\\data\\Destatis_Außenhandelsstatstik_Monate_Quartale_Jahre.csv"
+#csv_path = r"C:\Users\l.mueller\Documents\FileCloud\Team Folders\IK_Server\Wirtschaft\statistische Daten\ik-dashboard\data\Destatis_Außenhandelsstatstik_Monate_Quartale_Jahre.csv"
 csv_path = r'data/Destatis_Außenhandelsstatstik_Monate_Quartale_Jahre.csv'
 
 @st.cache_data
@@ -457,7 +457,7 @@ except FileNotFoundError:
     st.stop()
 
 # Filter auf Quartalsdaten mit Format "YYYY-Qx"
-df = df[df["Jahr-Monat"].str.contains(r"\\d{4}-Q\\d", na=False)]
+df = df[df["Jahr-Monat"].str.contains(r"\d{4}-Q\d", na=False)]
 
 # Nur Maßeinheit "Tsd. EUR"
 df = df[df["Maßeinheit"] == "Tsd. EUR"]
@@ -628,11 +628,17 @@ st.markdown("""
 - **Destatis**: [Genesis-Online Datenbank](https://www-genesis.destatis.de/datenbank/online/)  
   * Konjunkturstatistik (Tabellencode 42111), Datenmodifikation (insb. der Wirtschaftszweige 2221 und 2222 zur Branchenabgrenzung) anhand eigener Berechnungen
   * Außenhandelsstatistik (Tabellencode 51000), Datenmodifikation anhand eigener Berechnungen
-- **HWWI**: Hamburgisches WeltWirtschaftsInstitut gemeinnützige GmbH (HWWI) [https://www.hwwi.org/datenangebote/rohstoffpreisindex/](https://www.hwwi.org/datenangebote/rohstoffpreisindex/)
+- **HWWI**: Hamburgisches WeltWirtschaftsInstitut gemeinnützige GmbH (HWWI) https://www.hwwi.org/datenangebote/rohstoffpreisindex/
 
 ### Kontakt bei Fragen:
 **Referat für Wirtschaft**  
 IK Industrieverband e.V.  
 Dr. Laura C. Müller  
-[L.Mueller@Kunststoffverpackungen.de](mailto:L.Mueller@Kunststoffverpackungen.de)
+L.Mueller@Kunststoffverpackungen.de
     """)
+
+
+
+
+
+
