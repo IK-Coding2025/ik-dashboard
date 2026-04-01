@@ -33,21 +33,22 @@ def create_dashboard_plot(dashboard_name, selected_indicators, filtered_df):
                     line=dict(color=colors[i])
                 ))
 
-            # Layout für Rohstoffe (nur eine Y-Achse auf der linken Seite)
+            #  # Layout für Rohstoffe (nur eine Y-Achse auf der linken Seite)
             fig.update_layout(
                 title=f"Entwicklung ({dashboard_name})",
                 xaxis=dict(
                     title="Zeitraum",
-                    #titlefont=dict(color="#000000"),
                     tickfont=dict(color="#000000"),
                     tickangle=45
                 ),
                 yaxis=dict(
-                    title="Index-Werte",  # Beschriftung der linken Y-Achse
-                    #titlefont=dict(color="#000000"),
+                    # HIER WURDE DER HINWEIS EINGEFÜGT (<br> macht einen Zeilenumbruch, <i> macht es kursiv)
+                    title="Index-Werte<br><i><span style='font-size:12px'>Tipp: Y-Achse lässt sich durch Klicken und Ziehen interaktiv verschieben."</span></i>",  
                     tickfont=dict(color="#000000"),
                     tickformat=',',
                     separatethousands=True,
+                    autorange=True  
+                ),
                     
                     # **HIER WURDE DIE ÄNDERUNG VORGENOMMEN:**
                     autorange=True  # **(Vorher stand hier: rangemode='tozero'. autorange=True sorgt für die dynamische Anpassung)**
