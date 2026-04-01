@@ -48,14 +48,15 @@ def create_dashboard_plot(dashboard_name, selected_indicators, filtered_df):
                     tickfont=dict(color="#000000"),
                     tickformat=',',
                     separatethousands=True,
-                    rangemode='tozero'
+                    
+                    # **HIER WURDE DIE ÄNDERUNG VORGENOMMEN:**
+                    autorange=True  # **(Vorher stand hier: rangemode='tozero'. autorange=True sorgt für die dynamische Anpassung)**
                 ),
                 height=400,
                 template="plotly_white",
                 showlegend=True,
                 margin=dict(l=40, r=40, t=40, b=80)
             )
-
         # Für das Dashboard "Index": Nur die Index-Indikatoren auf der rechten Y-Achse
         elif dashboard_name == "Index":
             for i, indicator in enumerate(selected_index):
