@@ -10,7 +10,6 @@ print("Aktuelles Arbeitsverzeichnis:", os.getcwd())
 print("Aktuelles Arbeitsverzeichnis:", Path.cwd())
 
 
-
 def create_dashboard_plot(dashboard_name, selected_indicators, filtered_df):
     if selected_indicators:
         fig = go.Figure()
@@ -33,27 +32,31 @@ def create_dashboard_plot(dashboard_name, selected_indicators, filtered_df):
                     line=dict(color=colors[i])
                 ))
 
-                    # Layout für Rohstoffe (nur eine Y-Achse auf der linken Seite)
-        fig.update_layout(
-            title=f"Entwicklung ({dashboard_name})",
-            xaxis=dict(
-                title="Zeitraum",
-                tickfont=dict(color="#000000"),
-                tickangle=45
-            ),
-            yaxis=dict(
-                # Das überflüssige Anführungszeichen nach "verschieben." wurde entfernt
-                title="Index-Werte<br><i><span style='font-size:12px'>Tipp: Y-Achse lässt sich durch Klicken und Ziehen interaktiv verschieben.</span></i>",  
-                tickfont=dict(color="#000000"),
-                tickformat=',',
-                separatethousands=True,
-                autorange=True  # Dynamische Anpassung der Y-Achse
-            ),
-            height=400,
-            template="plotly_white",
-            showlegend=True,
-            margin=dict(l=40, r=40, t=40, b=80)
-        )
+            # Layout für Rohstoffe (nur eine Y-Achse auf der linken Seite)
+            fig.update_layout(
+                title=f"Entwicklung ({dashboard_name})",
+                xaxis=dict(
+                    title="Zeitraum",
+                    #titlefont=dict(color="#000000"),
+                    tickfont=dict(color="#000000"),
+                    tickangle=45
+                ),
+                yaxis=dict(
+                    title="Index-Werte",  # Beschriftung der linken Y-Achse
+                    #titlefont=dict(color="#000000"),
+                    tickfont=dict(color="#000000"),
+                    tickformat=',',
+                    separatethousands=True,
+                    
+                    # **HIER WURDE DIE ÄNDERUNG VORGENOMMEN:**
+                    autorange=True  # **(Vorher stand hier: rangemode='tozero'. autorange=True sorgt für die dynamische Anpassung)**
+                ),
+                height=400,
+                template="plotly_white",
+                showlegend=True,
+                margin=dict(l=40, r=40, t=40, b=80)
+            )
+
         # Für das Dashboard "Index": Nur die Index-Indikatoren auf der rechten Y-Achse
         elif dashboard_name == "Index":
             for i, indicator in enumerate(selected_index):
@@ -199,11 +202,6 @@ def create_dashboard_plot(dashboard_name, selected_indicators, filtered_df):
             Im dritten Quartal 2022 erreichte der Index zur Preisentiwcklung der Energierohstoffe mit 718 Punkten einen historischen Höchststand. Diese extreme Preisentwicklung bei den Energierohstoffen spiegelt sich deutlich in den Einschätzungen der Unternehmen wider: Der Index für die Rohstoffverfügbarkeit liegt bei -17,4 Punkten, was auf Schwierigkeiten bei der Beschaffung hinweist. Besonders gravierend wirkt sich dies auf die Ertragslage aus, die mit einem Index von -76 Punkten einen sehr niedrigen Stand erreicht. Die außergewöhnlich hohen Energiepreise belasten die Unternehmen stark, da diese Kostensteigerungen nicht vollständig an die Kunden weitergegeben werden können.
             """)
 
-        # Statistiken als ausklappbares Element
-        #with st.expander(f"Statistiken ({dashboard_name})"):
-            #for indicator in selected_indicators:
-                #st.write(f"Kennzahlen für {indicator}:")
-                #st.write(filtered_df[indicator].describe())
     else:
         st.info(f"Bitte Indikatoren für {dashboard_name} auswählen")
 
@@ -258,8 +256,6 @@ col1, col2, col3, col4, col5 = st.columns([2, 2, 1, 2, 2])
 with col3:
     st.image("assets/IK Logo.jpg", width=200)
 st.markdown('<div class="header-container">', unsafe_allow_html=True)
-#st.image("C:/Users/l.mueller/Documents/FileCloud/Team Folders/IK_Server/Wirtschaft/statistische Daten/ik-dashboard/assets/IK Logo.jpg", width=200)
-#st.image("assets/IK Logo.jpg", width=200)
 st.markdown('''
     <h1 class="main-title">IK Wirtschaftsstatistik</h1>
     <h2 class="subtitle">Kunststoffverpackungen und -folienindustrie</h2>
@@ -293,16 +289,16 @@ try:
     dashboards = {
         "Konjunktur": ["Umsatz", "Auslandsumsatz", "Auslandsumsatz mit der Eurozone",
                        "Auslandsumsatz mit dem sonstigen Ausland", "Index_Ertrag",
-                       "Index_Exporte", "Index_Wirtschaftslage", "Index_Absatz"], #"Index_Umsatz", "Index_Verkaufspreise (Branchenprodukte)"
+                       "Index_Exporte", "Index_Wirtschaftslage", "Index_Absatz"], 
         "Arbeitsmarkt": ["Betriebe", "Beschäftigte", "Index_Beschäftigtenzahl",
                          "Index_Wirtschaftslage"],
         "Rohstoffe": ["Index_Rohstoffverfügbarkeit", "Index_Preisentwicklung Energierohstoffe",
                       "Index_Preisentwicklung Kohle", "Index_Preisentwicklung Rohöl", "Index_Preisentwicklung Erdgas",
-                      "Index_Ertrag"] #"Index_Verkaufspreise (Branchenprodukte)"
+                      "Index_Ertrag"] 
     }
 
     # Zeitraum-Filter als ausklappbares Element im Hauptbereich
-    with st.expander("Zeitraum-Filter", expanded=False):  # Der Zeitraum-Filter ist zu Beginn eingeklappt
+    with st.expander("Zeitraum-Filter", expanded=False):  
         st.header("Zeitraum-Filter")
 
         # Stelle sicher, dass alle Jahre den gleichen Datentyp haben (int)
@@ -317,7 +313,7 @@ try:
         selected_years = st.multiselect(
             "Jahre auswählen:",
             options=years,
-            default=default_years  # Nur Jahre ab 2019 vorausgewählt
+            default=default_years  
         )
 
         quarters = ['Q1', 'Q2', 'Q3', 'Q4']
@@ -338,8 +334,7 @@ try:
     filtered_df['Quartal_Sortierung'] = filtered_df['Monat'].map(quartal_order)
     filtered_df = filtered_df.sort_values(by=['Jahr', 'Quartal_Sortierung'])
     filtered_df['Zeitachse'] = filtered_df['Jahr'].astype(str) + '-' + filtered_df['Monat']
-    #filtered_df = filtered_df[filtered_df['Jahr'] >= 2019]
-
+    
     # Konjunktur Dashboard
     st.header("Konjunktur")
     with st.expander("ℹ️ Über dieses Dashboard"):
@@ -421,7 +416,6 @@ try:
     )
     create_dashboard_plot("Rohstoffe", selected_indicators_roh, filtered_df)
 
-    # Add after the last dashboard section but before the except statement
     st.markdown("---")
 
 except Exception as e:
@@ -437,9 +431,6 @@ with st.expander("ℹ️ Über dieses Dashboard"):
         Wählen Sie unten die Handelsrichtung und Polymerart/Packmittel aus, um die entsprechenden Daten zu visualisieren. Dabei können Sie wählen zwischen der Anzeige absoluter Import- bzw-. Exportzahlen in Tsd. Euro pro Quartal und der prozentualen Veränderung im Vergleich zum Vorjahresquartal. 
     """)
 
-
-# Lade CSV-Datei
-#csv_path = r"C:\Users\l.mueller\Documents\FileCloud\Team Folders\IK_Server\Wirtschaft\statistische Daten\ik-dashboard\data\Destatis_Außenhandelsstatstik_Monate_Quartale_Jahre.csv"
 csv_path = r'data/Destatis_Außenhandelsstatstik_Monate_Quartale_Jahre.csv'
 
 @st.cache_data
@@ -455,7 +446,7 @@ except FileNotFoundError:
     st.stop()
 
 # Filter auf Quartalsdaten mit Format "YYYY-Qx"
-df = df[df["Jahr-Monat"].str.contains(r"\d{4}-Q\d", na=False)]
+df = df[df["Jahr-Monat"].str.contains(r"\\d{4}-Q\\d", na=False)]
 
 # Nur Maßeinheit "Tsd. EUR"
 df = df[df["Maßeinheit"] == "Tsd. EUR"]
@@ -471,60 +462,58 @@ df = df.rename(columns={
 
 df = df.drop(columns=["Maßeinheit"])
 
-
-# Konvertiere die Spalten in numerische Werte (falls noch nicht automatisch geschehen)
+# Konvertiere die Spalten in numerische Werte
 df["prozentuale Veränderung zum Vorjahresquartal"] = pd.to_numeric(df["prozentuale Veränderung zum Vorjahresquartal"], errors='coerce')
 df["Tsd. EUR"] = pd.to_numeric(df["Tsd. EUR"], errors='coerce')
 
 # Filter: Nur Jahre 2016 bis 2025
-df = df[df["Jahr-Monat"].str[:4].astype(int).between(2016, 2025)] #anpassen wenn neue Daten vorliegen
+df = df[df["Jahr-Monat"].str[:4].astype(int).between(2016, 2025)] 
 
 # Dropdown-Menü zur Auswahl der Anzeigeart
 anzeigeart = st.radio(
     "Wähle die Anzeigeart:",
     options=["Prozentuale Veränderung zum Vorjahresquartal", "Absolute Quartalsentwicklung (Tsd. EUR)"],
-    index=1  # Standardmäßig ist die asolute Quartalsentwicklung ausgewählt
+    index=1  
 )
 
 def calculate_dynamic_y_range(max_value):
     # Dynamische Schrittweiten und Obergrenzen für verschiedene Größenordnungen
     if max_value <= 1000:
-        y_max = int(np.ceil(max_value / 100.0)) * 100  # Schritte zu 100
-        y_max = max(y_max, 1000)  # Mindest-y_max für Sichtbarkeit
+        y_max = int(np.ceil(max_value / 100.0)) * 100  
+        y_max = max(y_max, 1000)  
     elif max_value <= 10000:
-        y_max = int(np.ceil(max_value / 1000.0)) * 1000  # Schritte zu 1.000
+        y_max = int(np.ceil(max_value / 1000.0)) * 1000  
     elif max_value <= 100000:
-        y_max = int(np.ceil(max_value / 10000.0)) * 10000  # Schritte zu 10.000
+        y_max = int(np.ceil(max_value / 10000.0)) * 10000  
     else:
-        y_max = int(np.ceil(max_value / 100000.0)) * 100000  # Schritte zu 100.000
+        y_max = int(np.ceil(max_value / 100000.0)) * 100000  
     return y_max
 
 # User-Filter: Handelsrichtung (Einfuhr/Ausfuhr)
 richtung = st.selectbox(
     "Auswahl Handelsrichtung:",
     options=df["Import/Export"].dropna().unique(),
-    key="direction_filter"  # Eindeutiger Schlüssel
+    key="direction_filter"  
 )
 
 # User-Filter: Polymerart / Packmittel
 packmittel = st.selectbox(
     "Auswahl Polymerart / Packmittel:",
     options=df["Polymerart/Packmittel"].dropna().unique(),
-    key="polymer_filter"  # Eindeutiger Schlüssel
+    key="polymer_filter"  
 )
 
 # Alle verfügbaren Zeiträume (z.B. '2016-Q1', ..., '2025-Q4')
 zeitraeume = sorted(df["Jahr-Monat"].unique().tolist())
 
-# Nur Zeiträume ab 2019 bis einschließlich 2025-Q3 # Zeiträume anpassen
+# Nur Zeiträume ab 2019 bis einschließlich 2025-Q3 
 default_zeitraeume = [
     z for z in zeitraeume
     if (
-        (2019 <= int(z[:4]) < 2025)  # Jahre 2019 bis 2024
-        or (z in ['2025-Q1', '2025-Q2', '2025-Q3', '2025-Q4'])  # Explizit Q1, Q2, Q3, Q4 von 2025
+        (2019 <= int(z[:4]) < 2025)  
+        or (z in ['2025-Q1', '2025-Q2', '2025-Q3', '2025-Q4'])  
     )
 ]
-
 
 # Multiselect-Dropdown für Zeiträume in einem eingeklappten Expander
 with st.expander("Zeiträume auswählen", expanded=False):
@@ -578,17 +567,17 @@ fig.update_yaxes(range=y_range)
 (fig.update_layout
     (xaxis=dict(
         title="Zeitraum",
-        tickangle=45,  # Drehrichtung der X-Achsen-Beschriftung anpassen
-        tickfont=dict(color="black")  # Achsenbeschriftung in Schwarz
+        tickangle=45,  
+        tickfont=dict(color="black")  
     ),
     yaxis=dict(
         title=y_label,
         range=y_range,
-        tickformat=",",  # Keine Abkürzungen wie M oder K auf der Y-Achse, sondern absolute Zahlen
-        tickfont=dict(color="black")  # Achsenbeschriftung in Schwarz
+        tickformat=",",  
+        tickfont=dict(color="black")  
     ),
     legend_title="Handelsrichtung",
-    bargap=0.2,  # Abstand zwischen Balken
+    bargap=0.2,  
 ))
 
 # Diagramm anzeigen
@@ -607,17 +596,12 @@ Die X-Achse zeigt die Entwicklung des Außenhandels im Zeitverlauf an. Auf der Y
 """
 
 def add_lesebeispiel():
-    st.markdown("---")  # Trennlinie
+    st.markdown("---")  
     st.subheader("Lesebeispiel")
     st.markdown(lesebeispiel_text)
 
-# ... dein Dashboard-Code ...
-
 # Lesebeispiel unter dem Dashboard einfügen
 add_lesebeispiel()
-
-
-
 
 # Quellen und Kontaktinformationen hinzufügen
 st.markdown("---")
@@ -626,18 +610,11 @@ st.markdown("""
 - **Destatis**: [Genesis-Online Datenbank](https://www-genesis.destatis.de/datenbank/online/)  
   * Konjunkturstatistik (Tabellencode 42111), Datenmodifikation (insb. der Wirtschaftszweige 2221 und 2222 zur Branchenabgrenzung) anhand eigener Berechnungen
   * Außenhandelsstatistik (Tabellencode 51000), Datenmodifikation anhand eigener Berechnungen
-- **HWWI**: Hamburgisches WeltWirtschaftsInstitut gemeinnützige GmbH (HWWI) https://www.hwwi.org/datenangebote/rohstoffpreisindex/
+- **HWWI**: Hamburgisches WeltWirtschaftsInstitut gemeinnützige GmbH (HWWI) [https://www.hwwi.org/datenangebote/rohstoffpreisindex/](https://www.hwwi.org/datenangebote/rohstoffpreisindex/)
 
 ### Kontakt bei Fragen:
 **Referat für Wirtschaft**  
 IK Industrieverband e.V.  
 Dr. Laura C. Müller  
-L.Mueller@Kunststoffverpackungen.de
+[L.Mueller@Kunststoffverpackungen.de](mailto:L.Mueller@Kunststoffverpackungen.de)
     """)
-
-
-
-
-
-
-
