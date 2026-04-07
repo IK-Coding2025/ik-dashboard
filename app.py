@@ -603,7 +603,7 @@ lesebeispiel_text = """
 
 Die X-Achse zeigt die Entwicklung des Außenhandels im Zeitverlauf an. Auf der Y-Achse wird die Entwicklung des Außenhandels in Euro oder im Verhältnis zum Vorjahresquartal abgebildet - abhängig davon welche Filter für die Anzeigeart ausgewählt wurden.
 
-**Auswahl der Polymerart / Packmittel:** Gesamt_Packmittel bzw. Gesamt_Polymere stellen ein Aggregat aus allen im Filter hinterlegten Packmitteln bzw. Polymeren dar. 
+**Auswahl der Polymerart / Packmittel:** Gesamt_Packmittel bzw. Gesamt_Polymere stellen ein Aggregat aus allen im Filter hinterlegten Packmitteln bzw. aus Verpackungen nach Polymeren dar. 
 
 **Interpretation der aktuellen Werte:** Im Zeitverlauf sind deutliche Schwankungen der deutschen Exportwerte erkennbar. Besonders auffällig ist der Anstieg in 2022, mit Höchstwerten von über 1,3 Milliarden Euro. Nach dem Höhepunkt 2022 folgte ein leichter Rückgang, wobei die Werte in 2023 und 2024 weiterhin über dem Niveau von vor 2021 liegen.
 """
