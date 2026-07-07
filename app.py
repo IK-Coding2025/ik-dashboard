@@ -518,11 +518,11 @@ packmittel = st.selectbox(
 # Alle verfügbaren Zeiträume (z.B. '2016-Q1', ..., '2025-Q4')
 zeitraeume = sorted(df["Jahr-Monat"].unique().tolist())
 
-# Nur Zeiträume ab 2019 bis einschließlich 2025-Q3 # Zeiträume anpassen
+# Nur Zeiträume ab 2019 bis einschließlich 2026-Q1 # Zeiträume anpassen
 default_zeitraeume = [
     z for z in zeitraeume
     if (
-        (2019 <= int(z[:4]) < 2026)  # Jahre 2019 bis 2026
+        (2019 <= int(z[:4]) < 2027)  # Jahre 2019 bis 2026
         or (z in ['2026-Q1']) #, 2026-Q2', '2026-Q3', '2026-Q4'])  # Explizit Q1, Q2, Q3, Q4 von 2026
     )
 ]
