@@ -508,10 +508,24 @@ richtung = st.selectbox(
     key="direction_filter"  # Eindeutiger Schlüssel
 )
 
+# Liste der auszuschließenden Polymerarten/Packmittel
+ausgeschlossene_polymerarten = [
+    "Polyacetale, andere Polyether und Epoxidharze, in Primärformen; Polycarbonate, Alkydharze, Allylpolyester und andere Polyester, in Primärformen",
+    "Polymere des Ethylens, in Primärformen",
+    "Polymere des Propylens oder anderer Olefine, in Primärformen",
+    "Polymere des Styrols, in Primärformen",
+    "Gesamt_Polymere_Primärform"
+]
+
 # User-Filter: Polymerart / Packmittel
+packmittel_optionen = [
+    p for p in df["Polymerart/Packmittel"].dropna().unique()
+    if p not in ausgeschlossene_polymerarten
+]
+
 packmittel = st.selectbox(
     "Auswahl Polymerart / Packmittel:",
-    options=df["Polymerart/Packmittel"].dropna().unique(),
+    options=packmittel_optionen,
     key="polymer_filter"  # Eindeutiger Schlüssel
 )
 
@@ -601,7 +615,7 @@ st.plotly_chart(fig, use_container_width=True)
 lesebeispiel_text = """
 **Lesebeispiel:**
 
-Die X-Achse zeigt die Entwicklung des Außenhandels im Zeitverlauf an. Auf der Y-Achse wird die Entwicklung des Außenhandels in Euro oder im Verhältnis zum Vorjahresquartal abgebildet - abhängig davon welche Filter für die Anzeigeart ausgewählt wurden.
+Die X-Achse zeigt die Entwicklung des Außenhandels im Zeitverlauf an. Auf der Y-Achse wird die Entwicklung des Außenhandelswert in Euro oder im Verhältnis zum Vorjahresquartal abgebildet - abhängig davon welche Filter für die Anzeigeart ausgewählt wurden.
 
 **Auswahl der Polymerart / Packmittel:** Gesamt_Packmittel bzw. Gesamt_Polymere stellen ein Aggregat aus allen im Filter hinterlegten Packmitteln bzw. aus Verpackungen nach Polymeren dar. 
 
